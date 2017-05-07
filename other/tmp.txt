@@ -1,0 +1,4 @@
+input(x);
+num = x;
+ res =     "unknown";
+ str = "even"

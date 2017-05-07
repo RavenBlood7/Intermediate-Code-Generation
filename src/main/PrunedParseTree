@@ -1,0 +1,22 @@
+||Node 47	Q	none Parent: nun||
+---||Node 46	P	none Parent: Q||
+------||Node 45	C	none Parent: P||
+---------||Node 34	C	none Parent: C||
+------------||Node 33	I	none Parent: C||
+---------------||Node 32	A	none Parent: I||
+------------------||Node 27	T	none Parent: A||
+---------------------||Node 26	S	none Parent: T||
+------------------------||Node 25	user-defined name	y Parent: S||
+------------------||Node 28	assignment operator	= Parent: A||
+------------------||Node 31	U	none Parent: A||
+---------------------||Node 30	X	none Parent: U||
+------------------------||Node 29	integer	2 Parent: X||
+---------||Node 44	I	none Parent: C||
+------------||Node 43	A	none Parent: I||
+---------------||Node 38	T	none Parent: A||
+------------------||Node 37	S	none Parent: T||
+---------------------||Node 36	user-defined name	x Parent: S||
+---------------||Node 39	assignment operator	= Parent: A||
+---------------||Node 42	U	none Parent: A||
+------------------||Node 41	S	none Parent: U||
+---------------------||Node 40	user-defined name	y Parent: S||
