@@ -164,8 +164,8 @@ public class TypeChecker {
 				visitAST(node.getChild(1), table);
 				visitAST(node.getChild(2), table);
 				if(node.getChild(1).type == validTypes[3] && node.getChild(2).type == validTypes[3]){
-					node.getChild(0).type = validTypes[8]; // number
-					table.setType(findIndex(node.getChild(0), table), validTypes[8]);
+					node.getChild(0).type = validTypes[8]; // default
+					table.setType(findIndex(node.getChild(0), table), validTypes[8]);//default
 					node.type = validTypes[3]; // number
 					table.setType(findIndex(node, table), validTypes[3]);
 				} else {
@@ -191,19 +191,49 @@ public class TypeChecker {
 				} else if (node.childrenSize() == 3) { // eq, and, or, <, >
                     if (node.getChild(0).tokenClass.equals("keyword"))  // eq, and, or
                     {
-                        visitAST(node.getChild(1), table);
-                        visitAST(node.getChild(2), table);
-                        if (node.getChild(0).snippet.equals("eq")) {
-                            if (node.getChild(1).type != '\0' &&
-                                    node.getChild(1).type == node.getChild(2).type) {
+                        if (node.getChild(0).snippet.equals("eq")) {    //eq
+                                //get type of first V
+                                TreeNode tempName = node.getChild(1).getChild(0).getChild(0);
+                                char tempType1 = table.reverseTypeLookup(tempName.tokenNo, tempName.snippet);
+
+                                node.getChild(1).type = tempType1;
+                                table.setType(findIndex(node.getChild(1), table), tempType1);
+                                if (tempType1 == 'n')
+                                    node.getChild(1).getChild(0).tokenClass = "N";
+                                else
+                                    node.getChild(1).getChild(0).tokenClass = "S";
+                                node.getChild(1).getChild(0).type = tempType1;
+                                table.setType(findIndex(node.getChild(1).getChild(0), table), tempType1);
+                                tempName.type = tempType1;
+                                table.setType(findIndex(tempName, table), tempType1);
+
+                                //get type of second V
+                                tempName = node.getChild(2).getChild(0).getChild(0);
+                                char tempType2 = table.reverseTypeLookup(tempName.tokenNo, tempName.snippet);
+
+                                node.getChild(2).type = tempType2;
+                                table.setType(findIndex(node.getChild(2), table), tempType2);
+                                if (tempType1 == 'n')
+                                    node.getChild(2).getChild(0).tokenClass = "N";
+                                else
+                                    node.getChild(2).getChild(0).tokenClass = "S";
+                                node.getChild(2).getChild(0).type = tempType2;
+                                table.setType(findIndex(node.getChild(2).getChild(0), table), tempType2);
+                                tempName.type = tempType2;
+                                table.setType(findIndex(tempName, table), tempType2);
+
+
                                 node.getChild(0).type = validTypes[8]; // default
                                 table.setType(findIndex(node.getChild(0), table), validTypes[8]);
-                                node.type = validTypes[6]; // boolean
-                                table.setType(findIndex(node, table), validTypes[6]);
-                            } else {
-                                reportError(node, "Boolean", getTypeOf(node.getChild(1).type));
-                            }
-                        } else {
+
+                                if (tempType1 == tempType2)
+                                {
+                                    node.type = validTypes[6]; // boolean
+                                    table.setType(findIndex(node, table), validTypes[6]);
+                                }
+                        } else { //and/or
+                            visitAST(node.getChild(1), table);
+                            visitAST(node.getChild(2), table);
                             if (node.getChild(1).type == 'b' && node.getChild(2).type == 'b') {
                                 node.getChild(0).type = validTypes[8]; // default
                                 table.setType(findIndex(node.getChild(0), table), validTypes[8]);
@@ -302,25 +332,33 @@ public class TypeChecker {
 		}
 
 		// Intermediate Syntactic Category, Symbol: T, U
-		if(node.tokenClass.equals("T") || node.tokenClass.equals("U")){
+		//not counting for T
+		if(node.tokenClass.equals("U")){
 			if(node.type == '\0'){
 				visitAST(node.getChild(0), table);
-				if (node.getChild(0).tokenClass.equals("X"))
-                {
-                    if (node.getChild(0).type == 'w') {
-                        node.type = validTypes[1]; // well-typed
-                        table.setType(findIndex(node, table), validTypes[1]);
-                    }
-                }
-				if(node.getChild(0).type == validTypes[5]){ // SVAR
-					node.type = validTypes[1]; // well-typed
-					table.setType(findIndex(node, table), validTypes[1]);
-				} else if(node.getChild(0).type == validTypes[3]){ // NVAR
-					node.type = validTypes[1]; // well-typed
-					table.setType(findIndex(node, table), validTypes[1]);
-				} else {
-					reportError(node, "Well-Typed", getTypeOf(node.getChild(0).type));
+				if (node.getChild(0).type == 'n') {
+					node.type = validTypes[3]; // number
+					table.setType(findIndex(node, table), validTypes[3]);
 				}
+				else if (node.getChild(0).type == 's')
+				{
+					node.type = 's'; // string
+					table.setType(findIndex(node, table), 's');
+				}
+				/*if(node.getChild(0).type == validTypes[5])
+				{ // SVAR
+					node.type = validTypes[1]; // well-typed
+					table.setType(findIndex(node, table), validTypes[1]);
+				}
+				else if(node.getChild(0).type == validTypes[3])
+				{ // NVAR
+					node.type = validTypes[1]; // well-typed
+					table.setType(findIndex(node, table), validTypes[1]);
+				}
+				else
+				{
+					reportError(node, "Well-Typed", getTypeOf(node.getChild(0).type));
+				}*/
 			}
 		}
 
@@ -338,28 +376,79 @@ public class TypeChecker {
 		}
 
 		// Assign Syntactic Category, Symbol: A
-		if(node.tokenClass.equals("A")){
-			if(node.type == '\0'){
-				visitAST(node.getChild(0), table);
-				node.getChild(1).type = validTypes[8];
+		if(node.tokenClass.equals("A"))
+		{
+			if(node.type == '\0')
+			{
+				node.getChild(1).type = validTypes[8];//DEFAULT  for '='
 				table.setType(findIndex(node.getChild(1), table), validTypes[8]);
-				visitAST(node.getChild(2), table);
-				if (node.getChild(2).getChild(0).tokenClass.equals("X")){
+				if (node.getChild(2).getChild(0).tokenClass.equals("S"))
+				{
+					TreeNode varName = 	node.getChild(2).getChild(0).getChild(0);
+					char tempType = table.reverseTypeLookup(varName.tokenNo, varName.snippet);
+					varName.type = tempType;
+					table.setType2(varName.tokenNo, tempType);
+
+					node.getChild(2).type = tempType;
+					table.setType2(node.getChild(2).tokenNo, tempType);
+
+					node.getChild(2).getChild(0).type = tempType;
+					table.setType2(node.getChild(2).getChild(0).tokenNo, tempType);
+				}
+				else
+				{
+					visitAST(node.getChild(2), table);
+				}
+				if (node.getChild(2).type == 'n')
+				{
+					node.getChild(0).type = 'n';//update T
+					table.setType(findIndex(node.getChild(0), table), 'n');
+					node.getChild(0).getChild(0).type = 'n';//update S/N make it N
+					node.getChild(0).getChild(0).tokenClass = "N";//update S/N make it N
+					table.setType(findIndex(node.getChild(0).getChild(0), table), 'n');
+					node.getChild(0).getChild(0).getChild(0).type = 'n';//update u
+					table.setType(findIndex(node.getChild(0).getChild(0).getChild(0), table), 'n');
+
+					node.type = 'w';//update u
+					table.setType(findIndex(node, table), 'w');
+				}
+				else if (node.getChild(2).type == 's')
+				{
+					node.getChild(0).type = 's';//update T
+					table.setType(findIndex(node.getChild(0), table), 's');
+					node.getChild(0).getChild(0).type = 's';//update S/N make it N
+					node.getChild(0).getChild(0).tokenClass = "S";//update S/N make it N
+					table.setType(findIndex(node.getChild(0).getChild(0), table), 's');
+					node.getChild(0).getChild(0).getChild(0).type = 's';//update u
+					table.setType(findIndex(node.getChild(0).getChild(0).getChild(0), table), 's');
+
+					node.type = 'w';//update u
+					table.setType(findIndex(node, table), 'w');
+				}
+				/*
+				if (node.getChild(2).getChild(0).tokenClass.equals("X"))
+				{
 				    if (node.getChild(2).getChild(0).type == 'n')
                     {
                         node.type = validTypes[1];
                         table.setType(findIndex(node, table), validTypes[1]);
                     }
-                }else
-				if(node.getChild(0).getChild(0).type == validTypes[5] && node.getChild(2).getChild(0).type == validTypes[5]){
+                }
+                else if(node.getChild(0).getChild(0).type == validTypes[5] && node.getChild(2).getChild(0).type == validTypes[5])
+				{
 					node.type = validTypes[1];
 					table.setType(findIndex(node, table), validTypes[1]);
-				} else if(node.getChild(0).getChild(0).type == validTypes[3] && node.getChild(0).getChild(2).type == validTypes[3]){
+				}
+				else if(node.getChild(0).getChild(0).type == validTypes[3] && node.getChild(0).getChild(2).type == validTypes[3])
+				{
 					node.type = validTypes[1];
 					table.setType(findIndex(node, table), validTypes[1]);
-				} else {
+				}
+				else
+				{
 					reportError(node, "Well-Typed", getTypeOf(node.getChild(0).type));
 				}
+				*/
 			}
 		}
 
@@ -587,14 +676,47 @@ public class TypeChecker {
 		// O Syntactic Category : IO
 		if(node.tokenClass.equals("O")){
 			if (node.childrenSize() >0){
-				if (node.type == '\0'){
-                    visitAST(node.getChild(1), table);
-					node.getChild(0).type = validTypes[8];
-					table.setType(findIndex(node.getChild(0), table), validTypes[8]);
-					node.getChild(1).type = validTypes[3];
-					table.setType(findIndex(node.getChild(1), table), validTypes[3]);
-					node.type = validTypes[1];
-					table.setType(findIndex(node, table), validTypes[1]);
+				if (node.type == '\0')
+				{
+                    node.getChild(0).type = validTypes[8];
+                    table.setType(findIndex(node.getChild(0), table), validTypes[8]);
+
+				    if (node.getChild(0).snippet.equals("input"))
+                    {
+                        node.getChild(1).type = 'n';
+                        table.setType(findIndex(node.getChild(1), table), 'n');
+                        node.getChild(1).getChild(0).type = 'n';
+                        table.setType(findIndex(node.getChild(1).getChild(0), table), 'n');
+                        node.getChild(1).getChild(0).tokenClass = "N";
+                        node.getChild(1).getChild(0).getChild(0).type = 'n';
+                        table.setType(findIndex(node.getChild(1).getChild(0).getChild(0), table), 'n');
+
+                        node.type = validTypes[1];
+                        table.setType(findIndex(node, table), validTypes[1]);
+                    }
+                    else //output
+                    {
+                        TreeNode tempName = node.getChild(1).getChild(0).getChild(0);
+                        char tempType = table.reverseTypeLookup(tempName.tokenNo, tempName.snippet);
+                        node.getChild(1).type = tempType;
+                        table.setType(findIndex(node.getChild(1), table), tempType);
+                        node.getChild(1).getChild(0).type = tempType;
+                        table.setType(findIndex(node.getChild(1).getChild(0), table), tempType);
+                        if (tempType == 'n')
+                            node.getChild(1).getChild(0).tokenClass = "N";
+                        else
+                            node.getChild(1).getChild(0).tokenClass = "S";
+                        node.getChild(1).getChild(0).getChild(0).type = tempType;
+                        table.setType(findIndex(node.getChild(1).getChild(0).getChild(0), table), tempType);
+
+                        node.type = validTypes[1];
+                        table.setType(findIndex(node, table), validTypes[1]);
+                    }
+                    //visitAST(node.getChild(1), table);
+					//node.getChild(1).type = validTypes[3];
+					//table.setType(findIndex(node.getChild(1), table), validTypes[3]);
+					//node.type = validTypes[1];
+					//table.setType(findIndex(node, table), validTypes[1]);
 				}
 			}
 		}

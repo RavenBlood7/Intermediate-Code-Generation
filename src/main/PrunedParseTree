@@ -1,22 +1,76 @@
-||Node 47	Q	none Parent: nun||
----||Node 46	P	none Parent: Q||
-------||Node 45	C	none Parent: P||
----------||Node 34	C	none Parent: C||
-------------||Node 33	I	none Parent: C||
----------------||Node 32	A	none Parent: I||
-------------------||Node 27	T	none Parent: A||
----------------------||Node 26	S	none Parent: T||
-------------------------||Node 25	user-defined name	y Parent: S||
-------------------||Node 28	assignment operator	= Parent: A||
-------------------||Node 31	U	none Parent: A||
----------------------||Node 30	X	none Parent: U||
-------------------------||Node 29	integer	2 Parent: X||
----------||Node 44	I	none Parent: C||
-------------||Node 43	A	none Parent: I||
----------------||Node 38	T	none Parent: A||
-------------------||Node 37	S	none Parent: T||
----------------------||Node 36	user-defined name	x Parent: S||
----------------||Node 39	assignment operator	= Parent: A||
----------------||Node 42	U	none Parent: A||
-------------------||Node 41	S	none Parent: U||
----------------------||Node 40	user-defined name	y Parent: S||
+||Node 203	Q	none Parent: nun||
+---||Node 202	P	none Parent: Q||
+------||Node 201	C	none Parent: P||
+---------||Node 122	C	none Parent: C||
+------------||Node 112	C	none Parent: C||
+---------------||Node 111	I	none Parent: C||
+------------------||Node 110	A	none Parent: I||
+---------------------||Node 105	T	none Parent: A||
+------------------------||Node 104	S	none Parent: T||
+---------------------------||Node 103	user-defined name	x Parent: S||
+---------------------||Node 106	assignment operator	= Parent: A||
+---------------------||Node 109	U	none Parent: A||
+------------------------||Node 108	X	none Parent: U||
+---------------------------||Node 107	integer	1 Parent: X||
+------------||Node 121	I	none Parent: C||
+---------------||Node 120	O	none Parent: I||
+------------------||Node 114	keyword	input Parent: O||
+------------------||Node 118	V	none Parent: O||
+---------------------||Node 117	S	none Parent: V||
+------------------------||Node 116	user-defined name	y Parent: S||
+---------||Node 200	I	none Parent: C||
+------------||Node 199	W	none Parent: I||
+---------------||Node 124	keyword	if Parent: W||
+---------------||Node 136	B	none Parent: W||
+------------------||Node 126	keyword	eq Parent: B||
+------------------||Node 130	V	none Parent: B||
+---------------------||Node 129	S	none Parent: V||
+------------------------||Node 128	user-defined name	x Parent: S||
+------------------||Node 134	V	none Parent: B||
+---------------------||Node 133	S	none Parent: V||
+------------------------||Node 132	user-defined name	y Parent: S||
+---------------||Node 138	keyword	then Parent: W||
+---------------||Node 158	C	none Parent: W||
+------------------||Node 148	C	none Parent: C||
+---------------------||Node 147	I	none Parent: C||
+------------------------||Node 146	A	none Parent: I||
+---------------------------||Node 142	T	none Parent: A||
+------------------------------||Node 141	S	none Parent: T||
+---------------------------------||Node 140	user-defined name	z Parent: S||
+---------------------------||Node 143	assignment operator	= Parent: A||
+---------------------------||Node 145	U	none Parent: A||
+------------------------------||Node 144	short string	"equal" Parent: U||
+------------------||Node 157	I	none Parent: C||
+---------------------||Node 156	O	none Parent: I||
+------------------------||Node 150	keyword	output Parent: O||
+------------------------||Node 154	V	none Parent: O||
+---------------------------||Node 153	S	none Parent: V||
+------------------------------||Node 152	user-defined name	z Parent: S||
+---------------||Node 160	keyword	else Parent: W||
+---------------||Node 197	C	none Parent: W||
+------------------||Node 196	I	none Parent: C||
+---------------------||Node 195	W	none Parent: I||
+------------------------||Node 162	keyword	if Parent: W||
+------------------------||Node 171	B	none Parent: W||
+---------------------------||Node 166	N	none Parent: B||
+------------------------------||Node 165	user-defined name	x Parent: N||
+---------------------------||Node 167	comparison symbol	< Parent: B||
+---------------------------||Node 169	N	none Parent: B||
+------------------------------||Node 168	user-defined name	y Parent: N||
+------------------------||Node 173	keyword	then Parent: W||
+------------------------||Node 193	C	none Parent: W||
+---------------------------||Node 183	C	none Parent: C||
+------------------------------||Node 182	I	none Parent: C||
+---------------------------------||Node 181	A	none Parent: I||
+------------------------------------||Node 177	T	none Parent: A||
+---------------------------------------||Node 176	S	none Parent: T||
+------------------------------------------||Node 175	user-defined name	a Parent: S||
+------------------------------------||Node 178	assignment operator	= Parent: A||
+------------------------------------||Node 180	U	none Parent: A||
+---------------------------------------||Node 179	short string	"unequal" Parent: U||
+---------------------------||Node 192	I	none Parent: C||
+------------------------------||Node 191	O	none Parent: I||
+---------------------------------||Node 185	keyword	output Parent: O||
+---------------------------------||Node 189	V	none Parent: O||
+------------------------------------||Node 188	S	none Parent: V||
+---------------------------------------||Node 187	user-defined name	a Parent: S||

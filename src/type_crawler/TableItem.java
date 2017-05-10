@@ -23,6 +23,6 @@ public class TableItem extends TreeNode {
 
     @Override
     public String toString() {
-        return tokenNo + "\t" + tokenClass + "\t" + snippet + "\t" + type + "\t" + scope + "\t" + defined;
+        return tokenNo + "\t" + tokenClass + "\t" + snippet + "\t" + type + "\t" + scope + "\t" + defined + "\t" + newName;
     }
 }

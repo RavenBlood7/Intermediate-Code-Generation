@@ -48,7 +48,7 @@ public class ValueAnalyser {
             tempItem = table.getItemAt(i);
             if (tempItem.tokenClass.equals("user-defined name"))
             {
-                tempItem.newName = vt.getNewName(tempItem.snippet, tempItem.type, tempItem.scope);
+                table.getItemAt(i).newName = vt.getNewName(tempItem.snippet, tempItem.type, tempItem.scope);
             }
         }
     }
@@ -62,12 +62,13 @@ public class ValueAnalyser {
         {
             System.out.println("\nStarting value analysis process: ");
             System.out.println("--------------------------------------------------- ");
-            convertAllNames(table);
+            //convertAllNames(table);
             preprocessing();
             recursiveValue(node);
             postprocessing();
             System.out.println("\nSuccessfully completed value analysis process: ");
             System.out.println("\t writing symbol table to file... ");
+            toFile();
             System.out.println("--------------------------------------------------- ");
         }
         catch (StringException e)
@@ -117,7 +118,7 @@ public class ValueAnalyser {
         {
             recursiveValue(node.getChild(2));
             //right hand side is defined
-                myTable.setDefined(node.getChild(0).getChild(0).getChild(0).newName);
+            myTable.setDefined(myTable.getNewName(node.getChild(0).getChild(0).getChild(0).tokenNo));
         }
 
         // O
@@ -126,11 +127,11 @@ public class ValueAnalyser {
             TreeNode tempNode = node.getChild(1).getChild(0).getChild(0);
             if (node.getChild(0).snippet.equals("input"))
             {
-                myTable.setDefined(tempNode.newName);
+                myTable.setDefined(myTable.getNewName(tempNode.tokenNo));
             }
             else//is output
             {
-                if (myTable.getDefined(tempNode.newName) == 'u')
+                if (myTable.getDefined(myTable.getNewName(tempNode.tokenNo)) == 'u')
                 {
                     throw new StringException("undefined variable in output: " + tempNode.snippet);
                 }
@@ -147,14 +148,14 @@ public class ValueAnalyser {
         // S
         if (node.tokenClass.equals("S"))
         {
-            if (myTable.getDefined(node.getChild(0).newName) == 'u')
+            if (myTable.getDefined(myTable.getNewName(node.getChild(0).tokenNo)) == 'u')
                 throw new StringException("undefined variable: " + node.getChild(0).snippet);
         }
 
         // N
         if (node.tokenClass.equals("N"))
         {
-            if (myTable.getDefined(node.getChild(0).newName) == 'u')
+            if (myTable.getDefined(myTable.getNewName(node.getChild(0).tokenNo)) == 'u')
                 throw new StringException("undefined variable: " + node.getChild(0).snippet);
         }
 
@@ -217,7 +218,7 @@ public class ValueAnalyser {
     {
         try
         {
-            String file = "SymbolTable";
+            String file = "SymbolTableAfterValue";
 
             FileWriter fw = new FileWriter(file);
             fw.write(myTable.toString());

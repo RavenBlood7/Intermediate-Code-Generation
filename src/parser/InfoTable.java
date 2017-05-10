@@ -74,7 +74,8 @@ public class InfoTable
         String ret = "";
         for (int i = 0; i < symbols.size(); i++)
         {
-            ret += symbols.get(i).toString() + "\n";
+            if (symbols.get(i).tokenClass.equals("user-defined name"))
+                ret += symbols.get(i).toString() + "\n";
         }
 
         return ret;
@@ -98,7 +99,7 @@ public class InfoTable
             for (int i = 0 ; i < symbols.size(); i++)
             {
                 item = symbols.get(i);
-                if (item.snippet.equals(varName))
+                if (item.newName != null && item.newName.equals(varName))
                     item.defined = 'd';
             }
         } catch (IndexOutOfBoundsException e){
@@ -113,7 +114,7 @@ public class InfoTable
 			for (int i = 0 ; i < symbols.size(); i++)
 			{
 				item = symbols.get(i);
-				if (item.snippet.equals(varName))
+				if (item.newName != null && item.newName.equals(varName))
 					return item.defined;
 			}
 		} catch (IndexOutOfBoundsException e){
@@ -148,6 +149,47 @@ public class InfoTable
 
         } catch (IndexOutOfBoundsException e) {
             System.out.println("Error: Ooops..failed to set type.\nReason: IndexOutOfBoundsException");
+        }
+    }
+
+    public String getNewName(int tokenNo)
+	{
+		try {
+			for (int i = 0; i < symbols.size(); i++) {
+				if (symbols.get(i).tokenNo == tokenNo)
+					return symbols.get(i).newName;
+			}
+
+		} catch (IndexOutOfBoundsException e) {
+			System.out.println("Error: Ooops..failed to set type.\nReason: IndexOutOfBoundsException");
+		}
+		return "";
+	}
+
+    public char reverseTypeLookup(int tokenNo, String snippet)
+    {
+        int i;
+        for (i = 0; i < symbols.size(); i++)
+        {
+            if (symbols.get(i).tokenNo == tokenNo)
+                break;
+        }
+
+        for (i = i - 1; i >= 0 ; i--)
+        {
+            if (symbols.get(i).tokenClass.equals("user-defined name")
+                    && symbols.get(i).snippet.equals(snippet)
+                    && symbols.get(i).type != '\0')
+                return symbols.get(i).type;
+        }
+        return 's';
+    }
+
+    public void setAllUndefined()
+    {
+        for (int i = 0; i < size(); i++)
+        {
+            symbols.get(i).defined = 'u';
         }
     }
 }

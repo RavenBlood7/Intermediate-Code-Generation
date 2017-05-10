@@ -1,5 +1,6 @@
 
 
+import imc_generator.BasicGenerator;
 import parser.InfoTable;
 import scope_crawler.ScopeAnalyser;
 import type_crawler.TypeChecker;
@@ -55,7 +56,11 @@ public class Main
 					//value analyser
 					ValueAnalyser va = new ValueAnalyser();
 					va.doValueAnalysis(prsr.getRoot(), prsr.getTable());
-					//System.out.println("\n\nThe symbol table after scope analyser: \n" + prsr.getTable());
+                    System.out.println("\n\nThe symbol table after value analyser: \n" + prsr.getTable());
+
+					//intermediate code generation
+                    BasicGenerator bg = new BasicGenerator();
+                    bg.generateBasicCode(prsr.getRoot(), prsr.getTable());
 				}
 
 				//System.out.println("\n\nThe symbol table after scope analysis: \n" + prsr.getTable());

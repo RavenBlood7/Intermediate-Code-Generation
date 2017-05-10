@@ -1,7 +1,51 @@
-0	user-defined name	y
+0	user-defined name	x
 1	assignment operator	=
-2	integer	2
+2	integer	1
 3	grouping symbol	;
-4	user-defined name	x
-5	assignment operator	=
+4	keyword	input
+5	grouping symbol	(
 6	user-defined name	y
+7	grouping symbol	)
+8	grouping symbol	;
+9	keyword	if
+10	grouping symbol	(
+11	keyword	eq
+12	grouping symbol	(
+13	user-defined name	x
+14	grouping symbol	,
+15	user-defined name	y
+16	grouping symbol	)
+17	grouping symbol	)
+18	keyword	then
+19	grouping symbol	{
+20	user-defined name	z
+21	assignment operator	=
+22	short string	"equal"
+23	grouping symbol	;
+24	keyword	output
+25	grouping symbol	(
+26	user-defined name	z
+27	grouping symbol	)
+28	grouping symbol	}
+29	keyword	else
+30	grouping symbol	{
+31	keyword	if
+32	grouping symbol	(
+33	grouping symbol	(
+34	user-defined name	x
+35	comparison symbol	<
+36	user-defined name	y
+37	grouping symbol	)
+38	grouping symbol	)
+39	keyword	then
+40	grouping symbol	{
+41	user-defined name	a
+42	assignment operator	=
+43	short string	"unequal"
+44	grouping symbol	;
+45	keyword	output
+46	grouping symbol	(
+47	user-defined name	a
+48	grouping symbol	)
+49	grouping symbol	}
+50	grouping symbol	}
