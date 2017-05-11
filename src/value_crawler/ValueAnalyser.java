@@ -3,6 +3,7 @@ package value_crawler;
 import parser.InfoTable;
 import parser.TableItem;
 import parser.TreeNode;
+import sun.reflect.generics.tree.Tree;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -171,16 +172,21 @@ public class ValueAnalyser {
             }
             else //for loop
             {
-                myTable.setDefined(node.getChild(1).newName);
+                TreeNode tempName = node.getChild(1).getChild(0);
+                myTable.setDefined(myTable.getNewName(tempName.tokenNo));
 
-                if (myTable.getDefined(node.getChild(4).newName) == 'u')
-                    throw new StringException("undefined variable: " + node.getChild(4).snippet);
-                if (myTable.getDefined(node.getChild(6).newName) == 'u')
-                    throw new StringException("undefined variable: " + node.getChild(6).snippet);
-                if (myTable.getDefined(node.getChild(7).newName) == 'u')
-                    throw new StringException("undefined variable: " + node.getChild(7).snippet);
-                if (myTable.getDefined(node.getChild(10).newName) == 'u')
-                    throw new StringException("undefined variable: " + node.getChild(10).snippet);
+                tempName = node.getChild(4).getChild(0);
+                if (myTable.getDefined(myTable.getNewName(tempName.tokenNo)) == 'u')
+                    throw new StringException("undefined variable: " + tempName.snippet);
+                tempName = node.getChild(6).getChild(0);
+                if (myTable.getDefined(myTable.getNewName(tempName.tokenNo)) == 'u')
+                    throw new StringException("undefined variable: " + tempName.snippet);
+                tempName = node.getChild(7).getChild(0);
+                if (myTable.getDefined(myTable.getNewName(tempName.tokenNo)) == 'u')
+                    throw new StringException("undefined variable: " + tempName.snippet);
+                tempName = node.getChild(10).getChild(0);
+                if (myTable.getDefined(myTable.getNewName(tempName.tokenNo)) == 'u')
+                    throw new StringException("undefined variable: " + tempName.snippet);
                 recursiveValue(node.getChild(12));
             }
 

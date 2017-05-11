@@ -47,9 +47,9 @@ public class ScopeAnalyser {
         for (int i = 0; i < procCalls.size(); i++)
         {
             for (int j = 0; j < table.size(); j++) {
-                if (table.getItemAt(j).tokenNo != procCalls.get(j).tokenNo && table.getItemAt(j).type == 'p')
+                if (table.getItemAt(j).tokenNo != procCalls.get(i).tokenNo && table.getItemAt(j).type == 'p')
                 {
-                    if (table.getItemAt(j).snippet == procCalls.get(i).snippet)
+                    if (table.getItemAt(j).snippet.equals(procCalls.get(i).snippet))
                     {
                         table.setScope(procCalls.get(i).tokenNo, table.getItemAt(j).scope);
                     }
@@ -109,7 +109,7 @@ public class ScopeAnalyser {
         }
         */
 
-        // Z
+        // Z loops
         else if (node.tokenClass.equals("Z"))
         {
             if (node.getChildren().size() == 3)
@@ -123,18 +123,22 @@ public class ScopeAnalyser {
             {
                 stable.enter();
                 newScope++;
-                stable.bind(node.getChild(1).getChild(0).snippet, table.getType2(node.getChild(1).getChild(0).tokenNo));
+                stable.bind(node.getChild(1).getChild(0).snippet, table.getType2(node.getChild(1).getChild(0).tokenNo), newScope);
                 table.setScope(node.getChild(1).getChild(0).tokenNo, newScope);
-                stable.bind(node.getChild(4).getChild(0).snippet, table.getType2(node.getChild(4).getChild(0).tokenNo));
+                stable.bind(node.getChild(4).getChild(0).snippet, table.getType2(node.getChild(4).getChild(0).tokenNo), newScope);
                 table.setScope(node.getChild(4).getChild(0).tokenNo, newScope);
-                if (!stable.lookup(node.getChild(6).snippet, table.getType2(node.getChild(6).tokenNo)))
+                if (!stable.lookup(node.getChild(6).getChild(0).snippet, table.getType2(node.getChild(6).getChild(0).tokenNo)))
                 {
-                    stable.bind(node.getChild(6).getChild(0).snippet, table.getType2(node.getChild(6).getChild(0).tokenNo));
+                    stable.bind(node.getChild(6).getChild(0).snippet, table.getType2(node.getChild(6).getChild(0).tokenNo), newScope);
                     table.setScope(node.getChild(6).getChild(0).tokenNo, newScope);
                 }
-                stable.bind(node.getChild(7).getChild(0).snippet, table.getType2(node.getChild(7).getChild(0).tokenNo));
+                else
+                {
+                    table.setScope(node.getChild(6).getChild(0).tokenNo, curScope);
+                }
+                stable.bind(node.getChild(7).getChild(0).snippet, table.getType2(node.getChild(7).getChild(0).tokenNo), newScope);
                 table.setScope(node.getChild(7).getChild(0).tokenNo, newScope);
-                stable.bind(node.getChild(10).getChild(0).snippet, table.getType2(node.getChild(7).getChild(0).tokenNo));
+                stable.bind(node.getChild(10).getChild(0).snippet, table.getType2(node.getChild(7).getChild(0).tokenNo), newScope);
                 table.setScope(node.getChild(10).getChild(0).tokenNo, newScope);
                 stable.exit();
                // newScope++;
@@ -150,8 +154,15 @@ public class ScopeAnalyser {
   //          {
     //            throw new StringException("undeclared variable: " + node.getChild(0).snippet);
       //      }
-            stable.bind(node.getChild(0).snippet, table.getType2(node.getChild(0).tokenNo));
-            table.setScope(node.getChild(0).tokenNo, curScope);
+            if (!stable.lookup(node.getChild(0).snippet, table.getType2(node.getChild(0).tokenNo)))
+            {
+                stable.bind(node.getChild(0).snippet, table.getType2(node.getChild(0).tokenNo), curScope);
+                table.setScope(node.getChild(0).tokenNo, curScope);
+            }
+            else
+            {
+                table.setScope(node.getChild(0).tokenNo, stable.findScope(node.getChild(0).snippet, table.getType2(node.getChild(0).tokenNo)));
+            }
         }
 
         // R
@@ -163,7 +174,7 @@ public class ScopeAnalyser {
             }
             else
             {
-                stable.bind(node.getChild(1).snippet, table.getType2(node.getChild(1).tokenNo));
+                stable.bind(node.getChild(1).snippet, table.getType2(node.getChild(1).tokenNo), curScope);
                 table.setScope(node.getChild(1).tokenNo, curScope);
                 stable.enter();
                 newScope++;
@@ -175,7 +186,7 @@ public class ScopeAnalyser {
         // O
         else if (node.tokenClass.equals("0"))
         {
-                stable.bind(node.getChild(1).getChild(0).getChild(0).snippet, table.getType2(node.getChild(1).getChild(0).getChild(0).tokenNo));
+                stable.bind(node.getChild(1).getChild(0).getChild(0).snippet, table.getType2(node.getChild(1).getChild(0).getChild(0).tokenNo), curScope);
                 table.setScope(node.getChild(1).getChild(0).getChild(0).tokenNo, curScope);
         }
 

@@ -73,12 +73,14 @@ public class BasicGenerator {
                 if (node.childrenSize() == 1)
                 {
                     recursiveCodeToFile(node.getChild(0), table, fw, 0);
-                    fw.write("End");
+                    fw.write("End\n");
+                    System.out.print("End\n");
                 }
                 else
                 {
                     recursiveCodeToFile(node.getChild(0), table, fw, 0);
                     fw.write("End\n\n");
+                    System.out.print("End\n\n");
                     recursiveCodeToFile(node.getChild(1), table, fw, 0);
                 }
             }
@@ -88,11 +90,13 @@ public class BasicGenerator {
                 {
                     recursiveCodeToFile(node.getChild(0), table, fw, numTabs + 1);
                     fw.write(getSetTabs(numTabs) + "Return\n\n");
+                    System.out.print(getSetTabs(numTabs) + "Return\n\n");
                 }
                 else
                 {
                     recursiveCodeToFile(node.getChild(0), table, fw, numTabs + 1);
                     fw.write(getSetTabs(numTabs) + "Return\n");
+                    System.out.print(getSetTabs(numTabs) + "Return\n");
                     recursiveCodeToFile(node.getChild(1), table, fw,numTabs + 1);
                     //fw.write("\n\n");
                 }
@@ -102,9 +106,10 @@ public class BasicGenerator {
         // R
         if (node.tokenClass.equals("R"))
         {
-            String writeString = "\'proc def for " + node.getChild(1).newName + " aka " + node.getChild(1).snippet + "\n";
-            writeString += node.getChild(1).newName + ":\n";    //set label
+            String writeString = getSetTabs(numTabs) + "/\'proc def for " + table.getNewName(node.getChild(1).tokenNo) + " aka " + node.getChild(1).snippet + "\'/\n";
+            writeString += getSetTabs(numTabs) + table.getNewName(node.getChild(1).tokenNo) + ":\n";    //set label
             fw.write(writeString);
+            System.out.print(writeString);
             recursiveCodeToFile(node.getChild(2),table, fw, numTabs);
             //fw.write("Return\n\n"); //return to original statement
         }
@@ -113,6 +118,7 @@ public class BasicGenerator {
         // I->halt
         if (node.tokenClass.equals("keyword") && node.snippet.equals("halt"))
         {
+            System.out.print(getSetTabs(numTabs) + "End\n");
             fw.write(getSetTabs(numTabs) + "End\n");
             //fw.write("Return\n\n"); //return to original statement
         }
@@ -122,6 +128,24 @@ public class BasicGenerator {
         {
             if (node.getChild(0).snippet.equals("input"))
             {
+            //Removed because input can only be an integer
+            /*    String tempNewName = table.getNewName(node.getChild(1).getChild(0).getChild(0).tokenNo);
+                char tempType = table.getType2(node.getChild(1).getChild(0).getChild(0).tokenNo);
+                if (table.getDefined(tempNewName) == 'u')
+                {
+                    if (tempType == 'n')
+                    {
+                        fw.write(getSetTabs(numTabs) + "Dim " + tempNewName + " As Integer\n");
+                        System.out.print(getSetTabs(numTabs) + "Dim " + tempNewName + " As Integer\n");
+                    }
+                    else
+                    {
+                        fw.write(getSetTabs(numTabs) + "Dim " + tempNewName + " As String\n");
+                        System.out.print(getSetTabs(numTabs) + "Dim " + tempNewName + " As String\n");
+                    }
+                    table.setDefined(tempNewName);
+                }
+                */
                 //must first define the variable. first check if already defined
                 fw.write(getSetTabs(numTabs) + "Input \"Input: \", "
                         + table.getNewName(node.getChild(1).getChild(0).getChild(0).tokenNo) + "\n");
@@ -138,6 +162,11 @@ public class BasicGenerator {
         }
 
         // Y
+        if (node.tokenClass.equals("Y"))
+        {
+            fw.write(getSetTabs(numTabs) + "Gosub " + table.getNewName(node.getChild(0).tokenNo) + "\n");
+            System.out.print(getSetTabs(numTabs) + "Gosub " + table.getNewName(node.getChild(0).tokenNo) + "\n");
+        }
 
         // A
         if (node.tokenClass.equals("A"))
@@ -167,11 +196,11 @@ public class BasicGenerator {
             if (node.childrenSize() == 4) //without else
             {
                 int currentIfCount = ifCount++;
-                fw.write(getSetTabs(numTabs) + "On ");
-                System.out.print(getSetTabs(numTabs) + "On ");
+                fw.write(getSetTabs(numTabs) + "On 1 - (");
+                System.out.print(getSetTabs(numTabs) + "On 1 - (");
                 recursiveCodeToFile(node.getChild(1), table, fw, numTabs);
-                fw.write(" Goto endif" + currentIfCount + "\n");
-                System.out.print("Goto endif" + currentIfCount + "\n");
+                fw.write(") Goto endif" + currentIfCount + "\n");
+                System.out.print(") Goto endif" + currentIfCount + "\n");
                 recursiveCodeToFile(node.getChild(3), table, fw, numTabs + 1);
                 fw.write(getSetTabs(numTabs) + "endif" + currentIfCount + ":\n");
                 System.out.print(getSetTabs(numTabs) + "endif" + currentIfCount + ":\n");
@@ -179,11 +208,11 @@ public class BasicGenerator {
             else //with else
             {
                 int currentIfCount = ifCount++;
-                fw.write(getSetTabs(numTabs) + "On ");
-                System.out.print(getSetTabs(numTabs) + "On ");
+                fw.write(getSetTabs(numTabs) + "On 1 - (");
+                System.out.print(getSetTabs(numTabs) + "On 1 - (");
                 recursiveCodeToFile(node.getChild(1), table, fw, numTabs);
-                fw.write(" Goto notCondition" + currentIfCount + "\n");
-                System.out.print("Goto notCondition" + currentIfCount + "\n");
+                fw.write(") Goto notCondition" + currentIfCount + "\n");
+                System.out.print(") Goto notCondition" + currentIfCount + "\n");
                 recursiveCodeToFile(node.getChild(3), table, fw, numTabs + 1);
                 fw.write(getSetTabs(numTabs) + "Goto endif" + currentIfCount + "\n");
                 System.out.print(getSetTabs(numTabs) + "Goto endif" + currentIfCount + "\n");
@@ -195,7 +224,129 @@ public class BasicGenerator {
             }
         }
 
+        // B
+        if (node.tokenClass.equals("B"))
+        {
+            if (node.childrenSize() == 2) //not B
+            {
+                fw.write("1 - ");
+                System.out.print("1 - ");
+                recursiveCodeToFile(node.getChild(1), table, fw, numTabs);
+                //fw.write(")");
+                //System.out.print(")");
+            }
+            else if (node.getChild(0).snippet.equals("eq")) //eq
+            {
+                TreeNode tempName = node.getChild(1).getChild(0).getChild(0);
+                fw.write("(1 - ((" + table.getNewName(tempName.tokenNo) + " = ");
+                System.out.print("(1 - ((" + table.getNewName(tempName.tokenNo) + " = ");
+                tempName = node.getChild(2).getChild(0).getChild(0);
+                fw.write(table.getNewName(tempName.tokenNo) + ") + 1))");
+                System.out.print(table.getNewName(tempName.tokenNo) + ") + 1))");
+            }
+            else if (node.getChild(0).tokenClass.equals("keyword")) // and or
+            {
+                fw.write("(");
+                System.out.print("(");
+                recursiveCodeToFile(node.getChild(1), table, fw, numTabs);
+                if (node.getChild(0).snippet.equals("and"))
+                {
+                    fw.write(" AND ");
+                    System.out.print(" AND ");
+                }
+                else
+                {
+                    fw.write(" OR ");
+                    System.out.print(" OR ");
+                }
+                recursiveCodeToFile(node.getChild(2), table, fw, numTabs);
+                fw.write(")");
+                System.out.print(")");
+            }
+            else //< >
+            {
+                TreeNode tempName = node.getChild(0).getChild(0);
+                if (node.getChild(1).snippet.equals("<"))
+                {
+                    fw.write("(1 - ((" + table.getNewName(tempName.tokenNo) + " < ");
+                    System.out.print("(1 - ((" + table.getNewName(tempName.tokenNo) + " < ");
+                }
+                else
+                {
+                    fw.write("(1 - ((" + table.getNewName(tempName.tokenNo) + " > ");
+                    System.out.print("(1 - ((" + table.getNewName(tempName.tokenNo) + " > ");
+                }
+                tempName = node.getChild(2).getChild(0);
+                fw.write(table.getNewName(tempName.tokenNo) + ") + 1))");
+                System.out.print(table.getNewName(tempName.tokenNo) + ") + 1))");
+            }
+        }
+
         // Z
+        if (node.tokenClass.equals("Z"))
+        {
+            fw.write(getSetTabs(numTabs) + "/\'loop\'/\n");
+            System.out.print(getSetTabs(numTabs) + "/\'loop\'/\n");
+            if (node.childrenSize() == 3) //while loop
+            {
+                int currentWhileCount = whileCount++;
+                fw.write(getSetTabs(numTabs) + "while" + currentWhileCount+ ":\n");
+                System.out.print(getSetTabs(numTabs) + "while" + currentWhileCount + ":\n");
+                fw.write("On (1 - (");
+                System.out.print("On (1 - (");
+
+                recursiveCodeToFile(node.getChild(1), table, fw, numTabs);
+
+                fw.write(getSetTabs(numTabs) + ")) Goto endwhile" + currentWhileCount + "\n");
+                System.out.print(getSetTabs(numTabs) + ")) Goto endwhile" + currentWhileCount + "\n");
+
+                recursiveCodeToFile(node.getChild(2), table, fw, numTabs + 1);
+
+                fw.write(getSetTabs(numTabs) + "Goto while" + currentWhileCount + "\n");
+                System.out.print(getSetTabs(numTabs) + "Goto while" + currentWhileCount + "\n");
+                fw.write(getSetTabs(numTabs) + "endwhile" + currentWhileCount + ":\n");
+                System.out.print(getSetTabs(numTabs) + "endwhile" + currentWhileCount + ":\n");
+
+            }
+            else //for loop
+            {
+                int currentForCount = forCount++;
+                TreeNode tempName = node. getChild(1).getChild(0);
+                System.out.print(getSetTabs(numTabs) + "Dim "
+                            + table.getNewName(tempName.tokenNo) + " As Integer\n"
+                        + getSetTabs(numTabs) + table.getNewName(tempName.tokenNo)
+                            + " = " + node.getChild(3).snippet + "\n"
+                        + getSetTabs(numTabs) + "for" + currentForCount + ":\n"
+                        + getSetTabs(numTabs) + "On (");
+                fw.write(getSetTabs(numTabs) + "Dim "
+                        + table.getNewName(tempName.tokenNo) + " As Integer\n"
+                        + getSetTabs(numTabs) + table.getNewName(tempName.tokenNo)
+                        + " = " + node.getChild(3).snippet + "\n"
+                        + getSetTabs(numTabs) + "for" + currentForCount + ":\n"
+                        + getSetTabs(numTabs) + "On (");
+
+
+                tempName = node.getChild(4).getChild(0);
+                System.out.print(table.getNewName(tempName.tokenNo) + " < ");
+                fw.write(table.getNewName(tempName.tokenNo) + " < " );
+                tempName = node.getChild(6).getChild(0);
+                System.out.print(table.getNewName(tempName.tokenNo) + ") + 1 Goto endfor" + currentForCount + "\n");
+                fw.write(table.getNewName(tempName.tokenNo) + ") + 1 Goto endfor" + currentForCount + "\n");
+
+                recursiveCodeToFile(node.getChild(12), table, fw, numTabs + 1);
+
+                tempName = node.getChild(7).getChild(0);
+                System.out.print(getSetTabs(numTabs) + table.getNewName(tempName.tokenNo) + " = "
+                        + table.getNewName(tempName.tokenNo) + " + " + node.getChild(11).snippet + "\n"
+                    + getSetTabs(numTabs) + "Goto for" + currentForCount + "\n"
+                    + getSetTabs(numTabs) + "endfor" + currentForCount + ":\n");
+                fw.write(getSetTabs(numTabs) + table.getNewName(tempName.tokenNo) + " = "
+                        + table.getNewName(tempName.tokenNo) + " + " + node.getChild(11).snippet + "\n"
+                        + getSetTabs(numTabs) + "Goto for" + currentForCount + "\n"
+                        + getSetTabs(numTabs) + "endfor" + currentForCount + ":\n");
+
+            }
+        }
         // V
         // S
         // N
