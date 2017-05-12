@@ -13,7 +13,7 @@ public class ScopeAnalyser {
     int newScope = 0;
     ArrayList<TreeNode> procCalls = new ArrayList<TreeNode>();
 
-    private class StringException extends Throwable
+    public static class StringException extends Throwable
     {
         public String e;
         public StringException(String s)
@@ -22,7 +22,7 @@ public class ScopeAnalyser {
         }
     }
 
-    public void doScopeAnalysis(TreeNode node, InfoTable table)
+    public void doScopeAnalysis(TreeNode node, InfoTable table) throws StringException
     {
         System.out.println("\nStarting scope analysis process: ");
         System.out.println("--------------------------------------------------- ");
@@ -39,6 +39,7 @@ public class ScopeAnalyser {
         {
             System.out.println("Scope Analysis Error: " + e.e);
             System.out.println("Exiting scope checker...\n");
+            throw e;
         }
     }
 

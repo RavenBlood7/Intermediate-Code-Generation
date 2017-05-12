@@ -15,7 +15,8 @@ public class Main
 {
 	public static void main(String[] args) throws IOException
 	{
-			if(args.length == 0) {
+		try {
+			if (args.length == 0) {
 				System.out.println("Please put in the name of the file you would like to Lexically Analyse.");
 			} else {
 				//A Lexer takes in a fileName of the file that needs to be processed.
@@ -40,7 +41,7 @@ public class Main
 					//The resulting tree and table is then passed to the typechecker
 					//which does the algorithm and displays appropriate messages
 
-					System.out.println("\n\nThe symbol table before typechecker: \n" + prsr.getTable());
+					//System.out.println("\n\nThe symbol table before typechecker: \n" + prsr.getTable());
 					InfoTable it = prsr.getTable();
 					TypeChecker tc = new TypeChecker();
 					tc.toFile(it);
@@ -56,15 +57,19 @@ public class Main
 					//value analyser
 					ValueAnalyser va = new ValueAnalyser();
 					va.doValueAnalysis(prsr.getRoot(), prsr.getTable());
-                    System.out.println("\n\nThe symbol table after value analyser: \n" + prsr.getTable());
+					System.out.println("\n\nThe symbol table after value analyser: \n" + prsr.getTable());
 
 					//intermediate code generation
-                    BasicGenerator bg = new BasicGenerator();
-                    bg.generateBasicCode(prsr.getRoot(), prsr.getTable());
+					BasicGenerator bg = new BasicGenerator();
+					bg.generateBasicCode(prsr.getRoot(), prsr.getTable());
 				}
 
 				//System.out.println("\n\nThe symbol table after scope analysis: \n" + prsr.getTable());
 			}
-
+		}
+		catch (ScopeAnalyser.StringException e)
+		{
+			System.out.println("exiting now");
+		}
 	}
 }

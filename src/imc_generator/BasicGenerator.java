@@ -2,6 +2,7 @@ package imc_generator;
 
 import parser.InfoTable;
 import parser.TreeNode;
+import scope_crawler.ScopeAnalyser;
 
 import java.io.FileWriter;
 import java.io.IOException;

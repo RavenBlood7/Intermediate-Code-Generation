@@ -1,6 +1,7 @@
 package type_crawler;
 
 import parser.*;
+import scope_crawler.ScopeAnalyser;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,7 +21,8 @@ public class TypeChecker {
         'z'  // 'z'---default
 	};
 
-	public void doTypeChecking(TreeNode node, InfoTable table){
+	public void doTypeChecking(TreeNode node, InfoTable table) throws ScopeAnalyser.StringException
+	{
 
 		System.out.println("\nStarting Type Checking process: ");
 		System.out.println("--------------------------------------------------- ");
@@ -34,7 +36,8 @@ public class TypeChecker {
 		System.out.println("--------------------------------------------------- ");
 	}
 
-	private void checkTree(InfoTable table) {
+	private void checkTree(InfoTable table)
+	{
 		if(table != null){
 			int i = 0;
 			while(i < table.size()){
@@ -74,7 +77,8 @@ public class TypeChecker {
 	 * @param node
 	 * @param table
 	 */
-	private void visitAST(TreeNode node, InfoTable table){
+	private void visitAST(TreeNode node, InfoTable table) throws ScopeAnalyser.StringException
+	{
 		//TableItem node = new TableItem(node1.tokenNo, node1.tokenClass, node1.snippet);
 
 		// trivial case
@@ -754,7 +758,8 @@ public class TypeChecker {
 		}
 	}
 
-	private void reportError(TreeNode node, String guess, String actual){
+	private void reportError(TreeNode node, String guess, String actual) throws ScopeAnalyser.StringException
+	{
 		System.out.println("Type Error Occurred at:");
 		System.out.println("Node ["+node.tokenNo+"]");
 		System.out.println("|\tClass: "+node.tokenClass);
@@ -764,6 +769,7 @@ public class TypeChecker {
 			System.out.println("Received a type of " + actual);
 		}
 		System.exit(0);
+		throw new ScopeAnalyser.StringException("");
 	}
 
 	private int findIndex(TreeNode node, InfoTable table){

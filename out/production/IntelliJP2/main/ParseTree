@@ -1,1239 +1,1249 @@
-||Node 2479	Q	none Parent: nun||
----||Node 2478	P	none Parent: Q||
-------||Node 1611	C	none Parent: P||
----------||Node 1420	C	none Parent: C||
-------------||Node 1409	C	none Parent: C||
----------------||Node 1399	C	none Parent: C||
-------------------||Node 1388	C	none Parent: C||
----------------------||Node 1378	C	none Parent: C||
-------------------------||Node 1367	C	none Parent: C||
----------------------------||Node 1357	C	none Parent: C||
-------------------------------||Node 1346	C	none Parent: C||
----------------------------------||Node 1336	C	none Parent: C||
-------------------------------------||Node 1326	C	none Parent: C||
----------------------------------------||Node 1315	C	none Parent: C||
-------------------------------------------||Node 1305	C	none Parent: C||
----------------------------------------------||Node 1294	C	none Parent: C||
-------------------------------------------------||Node 1283	C	none Parent: C||
----------------------------------------------------||Node 1272	C	none Parent: C||
-------------------------------------------------------||Node 1261	C	none Parent: C||
----------------------------------------------------------||Node 1250	C	none Parent: C||
-------------------------------------------------------------||Node 1249	I	none Parent: C||
----------------------------------------------------------------||Node 1248	A	none Parent: I||
-------------------------------------------------------------------||Node 1243	T	none Parent: A||
----------------------------------------------------------------------||Node 1242	S	none Parent: T||
-------------------------------------------------------------------------||Node 1241	user-defined name	one Parent: S||
-------------------------------------------------------------------||Node 1244	assignment operator	= Parent: A||
-------------------------------------------------------------------||Node 1247	U	none Parent: A||
----------------------------------------------------------------------||Node 1246	X	none Parent: U||
-------------------------------------------------------------------------||Node 1245	integer	1 Parent: X||
----------------------------------------------------------||Node 1251	grouping symbol	; Parent: C||
----------------------------------------------------------||Node 1260	I	none Parent: C||
-------------------------------------------------------------||Node 1259	A	none Parent: I||
----------------------------------------------------------------||Node 1254	T	none Parent: A||
-------------------------------------------------------------------||Node 1253	S	none Parent: T||
----------------------------------------------------------------------||Node 1252	user-defined name	null Parent: S||
----------------------------------------------------------------||Node 1255	assignment operator	= Parent: A||
----------------------------------------------------------------||Node 1258	U	none Parent: A||
-------------------------------------------------------------------||Node 1257	X	none Parent: U||
----------------------------------------------------------------------||Node 1256	integer	0 Parent: X||
-------------------------------------------------------||Node 1262	grouping symbol	; Parent: C||
-------------------------------------------------------||Node 1271	I	none Parent: C||
----------------------------------------------------------||Node 1270	A	none Parent: I||
-------------------------------------------------------------||Node 1265	T	none Parent: A||
----------------------------------------------------------------||Node 1264	S	none Parent: T||
-------------------------------------------------------------------||Node 1263	user-defined name	always Parent: S||
-------------------------------------------------------------||Node 1266	assignment operator	= Parent: A||
-------------------------------------------------------------||Node 1269	U	none Parent: A||
----------------------------------------------------------------||Node 1268	S	none Parent: U||
-------------------------------------------------------------------||Node 1267	user-defined name	one Parent: S||
----------------------------------------------------||Node 1273	grouping symbol	; Parent: C||
----------------------------------------------------||Node 1282	I	none Parent: C||
-------------------------------------------------------||Node 1281	A	none Parent: I||
----------------------------------------------------------||Node 1276	T	none Parent: A||
-------------------------------------------------------------||Node 1275	S	none Parent: T||
----------------------------------------------------------------||Node 1274	user-defined name	exists Parent: S||
----------------------------------------------------------||Node 1277	assignment operator	= Parent: A||
----------------------------------------------------------||Node 1280	U	none Parent: A||
-------------------------------------------------------------||Node 1279	S	none Parent: U||
----------------------------------------------------------------||Node 1278	user-defined name	null Parent: S||
-------------------------------------------------||Node 1284	grouping symbol	; Parent: C||
-------------------------------------------------||Node 1293	I	none Parent: C||
----------------------------------------------------||Node 1292	A	none Parent: I||
-------------------------------------------------------||Node 1287	T	none Parent: A||
----------------------------------------------------------||Node 1286	S	none Parent: T||
-------------------------------------------------------------||Node 1285	user-defined name	amount Parent: S||
-------------------------------------------------------||Node 1288	assignment operator	= Parent: A||
-------------------------------------------------------||Node 1291	U	none Parent: A||
----------------------------------------------------------||Node 1290	S	none Parent: U||
-------------------------------------------------------------||Node 1289	user-defined name	null Parent: S||
----------------------------------------------||Node 1295	grouping symbol	; Parent: C||
----------------------------------------------||Node 1304	I	none Parent: C||
-------------------------------------------------||Node 1303	A	none Parent: I||
----------------------------------------------------||Node 1298	T	none Parent: A||
-------------------------------------------------------||Node 1297	S	none Parent: T||
----------------------------------------------------------||Node 1296	user-defined name	passwd Parent: S||
----------------------------------------------------||Node 1299	assignment operator	= Parent: A||
----------------------------------------------------||Node 1302	U	none Parent: A||
-------------------------------------------------------||Node 1301	S	none Parent: U||
----------------------------------------------------------||Node 1300	user-defined name	null Parent: S||
-------------------------------------------||Node 1306	grouping symbol	; Parent: C||
-------------------------------------------||Node 1314	I	none Parent: C||
----------------------------------------------||Node 1313	A	none Parent: I||
-------------------------------------------------||Node 1309	T	none Parent: A||
----------------------------------------------------||Node 1308	S	none Parent: T||
-------------------------------------------------------||Node 1307	user-defined name	show Parent: S||
-------------------------------------------------||Node 1310	assignment operator	= Parent: A||
-------------------------------------------------||Node 1312	U	none Parent: A||
----------------------------------------------------||Node 1311	short string	"show" Parent: U||
----------------------------------------||Node 1316	grouping symbol	; Parent: C||
----------------------------------------||Node 1325	I	none Parent: C||
-------------------------------------------||Node 1324	A	none Parent: I||
----------------------------------------------||Node 1319	T	none Parent: A||
-------------------------------------------------||Node 1318	S	none Parent: T||
----------------------------------------------------||Node 1317	user-defined name	shownum Parent: S||
----------------------------------------------||Node 1320	assignment operator	= Parent: A||
----------------------------------------------||Node 1323	U	none Parent: A||
-------------------------------------------------||Node 1322	X	none Parent: U||
----------------------------------------------------||Node 1321	integer	3 Parent: X||
-------------------------------------||Node 1327	grouping symbol	; Parent: C||
-------------------------------------||Node 1335	I	none Parent: C||
----------------------------------------||Node 1334	A	none Parent: I||
-------------------------------------------||Node 1330	T	none Parent: A||
----------------------------------------------||Node 1329	S	none Parent: T||
-------------------------------------------------||Node 1328	user-defined name	error Parent: S||
-------------------------------------------||Node 1331	assignment operator	= Parent: A||
-------------------------------------------||Node 1333	U	none Parent: A||
----------------------------------------------||Node 1332	short string	"error" Parent: U||
----------------------------------||Node 1337	grouping symbol	; Parent: C||
----------------------------------||Node 1345	I	none Parent: C||
-------------------------------------||Node 1344	A	none Parent: I||
----------------------------------------||Node 1340	T	none Parent: A||
-------------------------------------------||Node 1339	S	none Parent: T||
----------------------------------------------||Node 1338	user-defined name	create Parent: S||
----------------------------------------||Node 1341	assignment operator	= Parent: A||
----------------------------------------||Node 1343	U	none Parent: A||
-------------------------------------------||Node 1342	short string	"create" Parent: U||
-------------------------------||Node 1347	grouping symbol	; Parent: C||
-------------------------------||Node 1356	I	none Parent: C||
----------------------------------||Node 1355	A	none Parent: I||
-------------------------------------||Node 1350	T	none Parent: A||
----------------------------------------||Node 1349	S	none Parent: T||
-------------------------------------------||Node 1348	user-defined name	createnum Parent: S||
-------------------------------------||Node 1351	assignment operator	= Parent: A||
-------------------------------------||Node 1354	U	none Parent: A||
----------------------------------------||Node 1353	X	none Parent: U||
-------------------------------------------||Node 1352	integer	1 Parent: X||
----------------------------||Node 1358	grouping symbol	; Parent: C||
----------------------------||Node 1366	I	none Parent: C||
-------------------------------||Node 1365	A	none Parent: I||
----------------------------------||Node 1361	T	none Parent: A||
-------------------------------------||Node 1360	S	none Parent: T||
----------------------------------------||Node 1359	user-defined name	close Parent: S||
----------------------------------||Node 1362	assignment operator	= Parent: A||
----------------------------------||Node 1364	U	none Parent: A||
-------------------------------------||Node 1363	short string	"close" Parent: U||
-------------------------||Node 1368	grouping symbol	; Parent: C||
-------------------------||Node 1377	I	none Parent: C||
----------------------------||Node 1376	A	none Parent: I||
-------------------------------||Node 1371	T	none Parent: A||
----------------------------------||Node 1370	S	none Parent: T||
-------------------------------------||Node 1369	user-defined name	closenum Parent: S||
-------------------------------||Node 1372	assignment operator	= Parent: A||
-------------------------------||Node 1375	U	none Parent: A||
----------------------------------||Node 1374	X	none Parent: U||
-------------------------------------||Node 1373	integer	2 Parent: X||
----------------------||Node 1379	grouping symbol	; Parent: C||
----------------------||Node 1387	I	none Parent: C||
-------------------------||Node 1386	A	none Parent: I||
----------------------------||Node 1382	T	none Parent: A||
-------------------------------||Node 1381	S	none Parent: T||
----------------------------------||Node 1380	user-defined name	depos Parent: S||
----------------------------||Node 1383	assignment operator	= Parent: A||
----------------------------||Node 1385	U	none Parent: A||
-------------------------------||Node 1384	short string	"pay in" Parent: U||
-------------------||Node 1389	grouping symbol	; Parent: C||
-------------------||Node 1398	I	none Parent: C||
----------------------||Node 1397	A	none Parent: I||
-------------------------||Node 1392	T	none Parent: A||
----------------------------||Node 1391	S	none Parent: T||
-------------------------------||Node 1390	user-defined name	deposnum Parent: S||
-------------------------||Node 1393	assignment operator	= Parent: A||
-------------------------||Node 1396	U	none Parent: A||
----------------------------||Node 1395	X	none Parent: U||
-------------------------------||Node 1394	integer	4 Parent: X||
----------------||Node 1400	grouping symbol	; Parent: C||
----------------||Node 1408	I	none Parent: C||
-------------------||Node 1407	A	none Parent: I||
----------------------||Node 1403	T	none Parent: A||
-------------------------||Node 1402	S	none Parent: T||
----------------------------||Node 1401	user-defined name	withdr Parent: S||
----------------------||Node 1404	assignment operator	= Parent: A||
----------------------||Node 1406	U	none Parent: A||
-------------------------||Node 1405	short string	"take out" Parent: U||
-------------||Node 1410	grouping symbol	; Parent: C||
-------------||Node 1419	I	none Parent: C||
----------------||Node 1418	A	none Parent: I||
-------------------||Node 1413	T	none Parent: A||
----------------------||Node 1412	S	none Parent: T||
-------------------------||Node 1411	user-defined name	withdrnum Parent: S||
-------------------||Node 1414	assignment operator	= Parent: A||
-------------------||Node 1417	U	none Parent: A||
----------------------||Node 1416	X	none Parent: U||
-------------------------||Node 1415	integer	5 Parent: X||
----------||Node 1421	grouping symbol	; Parent: C||
----------||Node 1610	I	none Parent: C||
-------------||Node 1609	Z	none Parent: I||
----------------||Node 1422	keyword	while Parent: Z||
----------------||Node 1423	grouping symbol	( Parent: Z||
----------------||Node 1434	B	none Parent: Z||
-------------------||Node 1424	keyword	eq Parent: B||
-------------------||Node 1425	grouping symbol	( Parent: B||
-------------------||Node 1428	V	none Parent: B||
----------------------||Node 1427	S	none Parent: V||
-------------------------||Node 1426	user-defined name	always Parent: S||
-------------------||Node 1429	grouping symbol	, Parent: B||
-------------------||Node 1432	V	none Parent: B||
----------------------||Node 1431	S	none Parent: V||
-------------------------||Node 1430	user-defined name	always Parent: S||
-------------------||Node 1433	grouping symbol	) Parent: B||
----------------||Node 1435	grouping symbol	) Parent: Z||
----------------||Node 1436	grouping symbol	{ Parent: Z||
----------------||Node 1607	C	none Parent: Z||
-------------------||Node 1565	C	none Parent: C||
----------------------||Node 1535	C	none Parent: C||
-------------------------||Node 1505	C	none Parent: C||
----------------------------||Node 1475	C	none Parent: C||
-------------------------------||Node 1445	C	none Parent: C||
----------------------------------||Node 1444	I	none Parent: C||
-------------------------------------||Node 1443	O	none Parent: I||
----------------------------------------||Node 1437	keyword	input Parent: O||
----------------------------------------||Node 1438	grouping symbol	( Parent: O||
----------------------------------------||Node 1441	V	none Parent: O||
-------------------------------------------||Node 1440	S	none Parent: V||
----------------------------------------------||Node 1439	user-defined name	instruction Parent: S||
----------------------------------------||Node 1442	grouping symbol	) Parent: O||
-------------------------------||Node 1446	grouping symbol	; Parent: C||
-------------------------------||Node 1474	I	none Parent: C||
----------------------------------||Node 1473	W	none Parent: I||
-------------------------------------||Node 1447	keyword	if Parent: W||
-------------------------------------||Node 1448	grouping symbol	( Parent: W||
-------------------------------------||Node 1459	B	none Parent: W||
----------------------------------------||Node 1449	keyword	eq Parent: B||
----------------------------------------||Node 1450	grouping symbol	( Parent: B||
----------------------------------------||Node 1453	V	none Parent: B||
-------------------------------------------||Node 1452	S	none Parent: V||
----------------------------------------------||Node 1451	user-defined name	instruction Parent: S||
----------------------------------------||Node 1454	grouping symbol	, Parent: B||
----------------------------------------||Node 1457	V	none Parent: B||
-------------------------------------------||Node 1456	S	none Parent: V||
----------------------------------------------||Node 1455	user-defined name	createnum Parent: S||
----------------------------------------||Node 1458	grouping symbol	) Parent: B||
-------------------------------------||Node 1460	grouping symbol	) Parent: W||
-------------------------------------||Node 1461	keyword	then Parent: W||
-------------------------------------||Node 1462	grouping symbol	{ Parent: W||
-------------------------------------||Node 1471	C	none Parent: W||
----------------------------------------||Node 1466	C	none Parent: C||
-------------------------------------------||Node 1465	I	none Parent: C||
----------------------------------------------||Node 1464	Y	none Parent: I||
-------------------------------------------------||Node 1463	user-defined name	setpw Parent: Y||
----------------------------------------||Node 1467	grouping symbol	; Parent: C||
----------------------------------------||Node 1470	I	none Parent: C||
-------------------------------------------||Node 1469	Y	none Parent: I||
----------------------------------------------||Node 1468	user-defined name	create Parent: Y||
-------------------------------------||Node 1472	grouping symbol	} Parent: W||
----------------------------||Node 1476	grouping symbol	; Parent: C||
----------------------------||Node 1504	I	none Parent: C||
-------------------------------||Node 1503	W	none Parent: I||
----------------------------------||Node 1477	keyword	if Parent: W||
----------------------------------||Node 1478	grouping symbol	( Parent: W||
----------------------------------||Node 1489	B	none Parent: W||
-------------------------------------||Node 1479	keyword	eq Parent: B||
-------------------------------------||Node 1480	grouping symbol	( Parent: B||
-------------------------------------||Node 1483	V	none Parent: B||
----------------------------------------||Node 1482	S	none Parent: V||
-------------------------------------------||Node 1481	user-defined name	instruction Parent: S||
-------------------------------------||Node 1484	grouping symbol	, Parent: B||
-------------------------------------||Node 1487	V	none Parent: B||
----------------------------------------||Node 1486	S	none Parent: V||
-------------------------------------------||Node 1485	user-defined name	closenum Parent: S||
-------------------------------------||Node 1488	grouping symbol	) Parent: B||
----------------------------------||Node 1490	grouping symbol	) Parent: W||
----------------------------------||Node 1491	keyword	then Parent: W||
----------------------------------||Node 1492	grouping symbol	{ Parent: W||
----------------------------------||Node 1501	C	none Parent: W||
-------------------------------------||Node 1496	C	none Parent: C||
----------------------------------------||Node 1495	I	none Parent: C||
-------------------------------------------||Node 1494	Y	none Parent: I||
----------------------------------------------||Node 1493	user-defined name	askpw Parent: Y||
-------------------------------------||Node 1497	grouping symbol	; Parent: C||
-------------------------------------||Node 1500	I	none Parent: C||
----------------------------------------||Node 1499	Y	none Parent: I||
-------------------------------------------||Node 1498	user-defined name	close Parent: Y||
----------------------------------||Node 1502	grouping symbol	} Parent: W||
-------------------------||Node 1506	grouping symbol	; Parent: C||
-------------------------||Node 1534	I	none Parent: C||
----------------------------||Node 1533	W	none Parent: I||
-------------------------------||Node 1507	keyword	if Parent: W||
-------------------------------||Node 1508	grouping symbol	( Parent: W||
-------------------------------||Node 1519	B	none Parent: W||
----------------------------------||Node 1509	keyword	eq Parent: B||
----------------------------------||Node 1510	grouping symbol	( Parent: B||
----------------------------------||Node 1513	V	none Parent: B||
-------------------------------------||Node 1512	S	none Parent: V||
----------------------------------------||Node 1511	user-defined name	instruction Parent: S||
----------------------------------||Node 1514	grouping symbol	, Parent: B||
----------------------------------||Node 1517	V	none Parent: B||
-------------------------------------||Node 1516	S	none Parent: V||
----------------------------------------||Node 1515	user-defined name	shownum Parent: S||
----------------------------------||Node 1518	grouping symbol	) Parent: B||
-------------------------------||Node 1520	grouping symbol	) Parent: W||
-------------------------------||Node 1521	keyword	then Parent: W||
-------------------------------||Node 1522	grouping symbol	{ Parent: W||
-------------------------------||Node 1531	C	none Parent: W||
----------------------------------||Node 1526	C	none Parent: C||
-------------------------------------||Node 1525	I	none Parent: C||
----------------------------------------||Node 1524	Y	none Parent: I||
-------------------------------------------||Node 1523	user-defined name	askpw Parent: Y||
----------------------------------||Node 1527	grouping symbol	; Parent: C||
----------------------------------||Node 1530	I	none Parent: C||
-------------------------------------||Node 1529	Y	none Parent: I||
----------------------------------------||Node 1528	user-defined name	show Parent: Y||
-------------------------------||Node 1532	grouping symbol	} Parent: W||
----------------------||Node 1536	grouping symbol	; Parent: C||
----------------------||Node 1564	I	none Parent: C||
-------------------------||Node 1563	W	none Parent: I||
----------------------------||Node 1537	keyword	if Parent: W||
----------------------------||Node 1538	grouping symbol	( Parent: W||
----------------------------||Node 1549	B	none Parent: W||
-------------------------------||Node 1539	keyword	eq Parent: B||
-------------------------------||Node 1540	grouping symbol	( Parent: B||
-------------------------------||Node 1543	V	none Parent: B||
----------------------------------||Node 1542	S	none Parent: V||
-------------------------------------||Node 1541	user-defined name	instruction Parent: S||
-------------------------------||Node 1544	grouping symbol	, Parent: B||
-------------------------------||Node 1547	V	none Parent: B||
----------------------------------||Node 1546	S	none Parent: V||
-------------------------------------||Node 1545	user-defined name	deposnum Parent: S||
-------------------------------||Node 1548	grouping symbol	) Parent: B||
----------------------------||Node 1550	grouping symbol	) Parent: W||
----------------------------||Node 1551	keyword	then Parent: W||
----------------------------||Node 1552	grouping symbol	{ Parent: W||
----------------------------||Node 1561	C	none Parent: W||
-------------------------------||Node 1556	C	none Parent: C||
----------------------------------||Node 1555	I	none Parent: C||
-------------------------------------||Node 1554	Y	none Parent: I||
----------------------------------------||Node 1553	user-defined name	askpw Parent: Y||
-------------------------------||Node 1557	grouping symbol	; Parent: C||
-------------------------------||Node 1560	I	none Parent: C||
----------------------------------||Node 1559	Y	none Parent: I||
-------------------------------------||Node 1558	user-defined name	in Parent: Y||
----------------------------||Node 1562	grouping symbol	} Parent: W||
-------------------||Node 1566	grouping symbol	; Parent: C||
-------------------||Node 1606	I	none Parent: C||
----------------------||Node 1605	W	none Parent: I||
-------------------------||Node 1567	keyword	if Parent: W||
-------------------------||Node 1568	grouping symbol	( Parent: W||
-------------------------||Node 1579	B	none Parent: W||
----------------------------||Node 1569	keyword	eq Parent: B||
----------------------------||Node 1570	grouping symbol	( Parent: B||
----------------------------||Node 1573	V	none Parent: B||
-------------------------------||Node 1572	S	none Parent: V||
----------------------------------||Node 1571	user-defined name	instruction Parent: S||
----------------------------||Node 1574	grouping symbol	, Parent: B||
----------------------------||Node 1577	V	none Parent: B||
-------------------------------||Node 1576	S	none Parent: V||
----------------------------------||Node 1575	user-defined name	withdrnum Parent: S||
----------------------------||Node 1578	grouping symbol	) Parent: B||
-------------------------||Node 1580	grouping symbol	) Parent: W||
-------------------------||Node 1581	keyword	then Parent: W||
-------------------------||Node 1582	grouping symbol	{ Parent: W||
-------------------------||Node 1591	C	none Parent: W||
----------------------------||Node 1586	C	none Parent: C||
-------------------------------||Node 1585	I	none Parent: C||
----------------------------------||Node 1584	Y	none Parent: I||
-------------------------------------||Node 1583	user-defined name	askpw Parent: Y||
----------------------------||Node 1587	grouping symbol	; Parent: C||
----------------------------||Node 1590	I	none Parent: C||
-------------------------------||Node 1589	Y	none Parent: I||
----------------------------------||Node 1588	user-defined name	out Parent: Y||
-------------------------||Node 1592	grouping symbol	} Parent: W||
-------------------------||Node 1593	keyword	else Parent: W||
-------------------------||Node 1594	grouping symbol	{ Parent: W||
-------------------------||Node 1603	C	none Parent: W||
----------------------------||Node 1602	I	none Parent: C||
-------------------------------||Node 1601	O	none Parent: I||
----------------------------------||Node 1595	keyword	output Parent: O||
----------------------------------||Node 1596	grouping symbol	( Parent: O||
----------------------------------||Node 1599	V	none Parent: O||
-------------------------------------||Node 1598	S	none Parent: V||
----------------------------------------||Node 1597	user-defined name	error Parent: S||
----------------------------------||Node 1600	grouping symbol	) Parent: O||
-------------------------||Node 1604	grouping symbol	} Parent: W||
----------------||Node 1608	grouping symbol	} Parent: Z||
-------||Node 1612	grouping symbol	; Parent: P||
-------||Node 2477	D	none Parent: P||
----------||Node 1730	R	none Parent: D||
-------------||Node 1613	keyword	proc Parent: R||
-------------||Node 1614	user-defined name	create Parent: R||
-------------||Node 1615	grouping symbol	{ Parent: R||
-------------||Node 1728	P	none Parent: R||
----------------||Node 1727	C	none Parent: P||
-------------------||Node 1726	I	none Parent: C||
----------------------||Node 1725	W	none Parent: I||
-------------------------||Node 1616	keyword	if Parent: W||
-------------------------||Node 1617	grouping symbol	( Parent: W||
-------------------------||Node 1628	B	none Parent: W||
----------------------------||Node 1618	keyword	eq Parent: B||
----------------------------||Node 1619	grouping symbol	( Parent: B||
----------------------------||Node 1622	V	none Parent: B||
-------------------------------||Node 1621	S	none Parent: V||
----------------------------------||Node 1620	user-defined name	exists Parent: S||
----------------------------||Node 1623	grouping symbol	, Parent: B||
----------------------------||Node 1626	V	none Parent: B||
-------------------------------||Node 1625	S	none Parent: V||
----------------------------------||Node 1624	user-defined name	null Parent: S||
----------------------------||Node 1627	grouping symbol	) Parent: B||
-------------------------||Node 1629	grouping symbol	) Parent: W||
-------------------------||Node 1630	keyword	then Parent: W||
-------------------------||Node 1631	grouping symbol	{ Parent: W||
-------------------------||Node 1661	C	none Parent: W||
----------------------------||Node 1651	C	none Parent: C||
-------------------------------||Node 1641	C	none Parent: C||
----------------------------------||Node 1640	I	none Parent: C||
-------------------------------------||Node 1639	A	none Parent: I||
----------------------------------------||Node 1634	T	none Parent: A||
-------------------------------------------||Node 1633	S	none Parent: T||
----------------------------------------------||Node 1632	user-defined name	exists Parent: S||
----------------------------------------||Node 1635	assignment operator	= Parent: A||
----------------------------------------||Node 1638	U	none Parent: A||
-------------------------------------------||Node 1637	S	none Parent: U||
----------------------------------------------||Node 1636	user-defined name	one Parent: S||
-------------------------------||Node 1642	grouping symbol	; Parent: C||
-------------------------------||Node 1650	I	none Parent: C||
----------------------------------||Node 1649	A	none Parent: I||
-------------------------------------||Node 1645	T	none Parent: A||
----------------------------------------||Node 1644	S	none Parent: T||
-------------------------------------------||Node 1643	user-defined name	mes Parent: S||
-------------------------------------||Node 1646	assignment operator	= Parent: A||
-------------------------------------||Node 1648	U	none Parent: A||
----------------------------------------||Node 1647	short string	"welcome" Parent: U||
----------------------------||Node 1652	grouping symbol	; Parent: C||
----------------------------||Node 1660	I	none Parent: C||
-------------------------------||Node 1659	O	none Parent: I||
----------------------------------||Node 1653	keyword	output Parent: O||
----------------------------------||Node 1654	grouping symbol	( Parent: O||
----------------------------------||Node 1657	V	none Parent: O||
-------------------------------------||Node 1656	S	none Parent: V||
----------------------------------------||Node 1655	user-defined name	mes Parent: S||
----------------------------------||Node 1658	grouping symbol	) Parent: O||
-------------------------||Node 1662	grouping symbol	} Parent: W||
-------------------------||Node 1663	keyword	else Parent: W||
-------------------------||Node 1664	grouping symbol	{ Parent: W||
-------------------------||Node 1723	C	none Parent: W||
----------------------------||Node 1713	C	none Parent: C||
-------------------------------||Node 1703	C	none Parent: C||
----------------------------------||Node 1693	C	none Parent: C||
-------------------------------------||Node 1683	C	none Parent: C||
----------------------------------------||Node 1673	C	none Parent: C||
-------------------------------------------||Node 1672	I	none Parent: C||
----------------------------------------------||Node 1671	A	none Parent: I||
-------------------------------------------------||Node 1667	T	none Parent: A||
----------------------------------------------------||Node 1666	S	none Parent: T||
-------------------------------------------------------||Node 1665	user-defined name	mes Parent: S||
-------------------------------------------------||Node 1668	assignment operator	= Parent: A||
-------------------------------------------------||Node 1670	U	none Parent: A||
----------------------------------------------------||Node 1669	short string	"account" Parent: U||
----------------------------------------||Node 1674	grouping symbol	; Parent: C||
----------------------------------------||Node 1682	I	none Parent: C||
-------------------------------------------||Node 1681	O	none Parent: I||
----------------------------------------------||Node 1675	keyword	output Parent: O||
----------------------------------------------||Node 1676	grouping symbol	( Parent: O||
----------------------------------------------||Node 1679	V	none Parent: O||
-------------------------------------------------||Node 1678	S	none Parent: V||
----------------------------------------------------||Node 1677	user-defined name	mes Parent: S||
----------------------------------------------||Node 1680	grouping symbol	) Parent: O||
-------------------------------------||Node 1684	grouping symbol	; Parent: C||
-------------------------------------||Node 1692	I	none Parent: C||
----------------------------------------||Node 1691	A	none Parent: I||
-------------------------------------------||Node 1687	T	none Parent: A||
----------------------------------------------||Node 1686	S	none Parent: T||
-------------------------------------------------||Node 1685	user-defined name	mes Parent: S||
-------------------------------------------||Node 1688	assignment operator	= Parent: A||
-------------------------------------------||Node 1690	U	none Parent: A||
----------------------------------------------||Node 1689	short string	"already" Parent: U||
----------------------------------||Node 1694	grouping symbol	; Parent: C||
----------------------------------||Node 1702	I	none Parent: C||
-------------------------------------||Node 1701	O	none Parent: I||
----------------------------------------||Node 1695	keyword	output Parent: O||
----------------------------------------||Node 1696	grouping symbol	( Parent: O||
----------------------------------------||Node 1699	V	none Parent: O||
-------------------------------------------||Node 1698	S	none Parent: V||
----------------------------------------------||Node 1697	user-defined name	mes Parent: S||
----------------------------------------||Node 1700	grouping symbol	) Parent: O||
-------------------------------||Node 1704	grouping symbol	; Parent: C||
-------------------------------||Node 1712	I	none Parent: C||
----------------------------------||Node 1711	A	none Parent: I||
-------------------------------------||Node 1707	T	none Parent: A||
----------------------------------------||Node 1706	S	none Parent: T||
-------------------------------------------||Node 1705	user-defined name	mes Parent: S||
-------------------------------------||Node 1708	assignment operator	= Parent: A||
-------------------------------------||Node 1710	U	none Parent: A||
----------------------------------------||Node 1709	short string	"exists" Parent: U||
----------------------------||Node 1714	grouping symbol	; Parent: C||
----------------------------||Node 1722	I	none Parent: C||
-------------------------------||Node 1721	O	none Parent: I||
----------------------------------||Node 1715	keyword	output Parent: O||
----------------------------------||Node 1716	grouping symbol	( Parent: O||
----------------------------------||Node 1719	V	none Parent: O||
-------------------------------------||Node 1718	S	none Parent: V||
----------------------------------------||Node 1717	user-defined name	mes Parent: S||
----------------------------------||Node 1720	grouping symbol	) Parent: O||
-------------------------||Node 1724	grouping symbol	} Parent: W||
-------------||Node 1729	grouping symbol	} Parent: R||
----------||Node 2476	D	none Parent: D||
-------------||Node 1829	R	none Parent: D||
----------------||Node 1731	keyword	proc Parent: R||
----------------||Node 1732	user-defined name	close Parent: R||
----------------||Node 1733	grouping symbol	{ Parent: R||
----------------||Node 1827	P	none Parent: R||
-------------------||Node 1826	C	none Parent: P||
----------------------||Node 1825	I	none Parent: C||
-------------------------||Node 1824	W	none Parent: I||
----------------------------||Node 1734	keyword	if Parent: W||
----------------------------||Node 1735	grouping symbol	( Parent: W||
----------------------------||Node 1762	B	none Parent: W||
-------------------------------||Node 1736	keyword	and Parent: B||
-------------------------------||Node 1737	grouping symbol	( Parent: B||
-------------------------------||Node 1748	B	none Parent: B||
----------------------------------||Node 1738	keyword	eq Parent: B||
----------------------------------||Node 1739	grouping symbol	( Parent: B||
----------------------------------||Node 1742	V	none Parent: B||
-------------------------------------||Node 1741	S	none Parent: V||
----------------------------------------||Node 1740	user-defined name	exists Parent: S||
----------------------------------||Node 1743	grouping symbol	, Parent: B||
----------------------------------||Node 1746	V	none Parent: B||
-------------------------------------||Node 1745	S	none Parent: V||
----------------------------------------||Node 1744	user-defined name	one Parent: S||
----------------------------------||Node 1747	grouping symbol	) Parent: B||
-------------------------------||Node 1749	grouping symbol	, Parent: B||
-------------------------------||Node 1760	B	none Parent: B||
----------------------------------||Node 1750	keyword	eq Parent: B||
----------------------------------||Node 1751	grouping symbol	( Parent: B||
----------------------------------||Node 1754	V	none Parent: B||
-------------------------------------||Node 1753	S	none Parent: V||
----------------------------------------||Node 1752	user-defined name	amount Parent: S||
----------------------------------||Node 1755	grouping symbol	, Parent: B||
----------------------------------||Node 1758	V	none Parent: B||
-------------------------------------||Node 1757	S	none Parent: V||
----------------------------------------||Node 1756	user-defined name	null Parent: S||
----------------------------------||Node 1759	grouping symbol	) Parent: B||
-------------------------------||Node 1761	grouping symbol	) Parent: B||
----------------------------||Node 1763	grouping symbol	) Parent: W||
----------------------------||Node 1764	keyword	then Parent: W||
----------------------------||Node 1765	grouping symbol	{ Parent: W||
----------------------------||Node 1810	C	none Parent: W||
-------------------------------||Node 1806	C	none Parent: C||
----------------------------------||Node 1796	C	none Parent: C||
-------------------------------------||Node 1786	C	none Parent: C||
----------------------------------------||Node 1775	C	none Parent: C||
-------------------------------------------||Node 1774	I	none Parent: C||
----------------------------------------------||Node 1773	A	none Parent: I||
-------------------------------------------------||Node 1768	T	none Parent: A||
----------------------------------------------------||Node 1767	S	none Parent: T||
-------------------------------------------------------||Node 1766	user-defined name	passwd Parent: S||
-------------------------------------------------||Node 1769	assignment operator	= Parent: A||
-------------------------------------------------||Node 1772	U	none Parent: A||
----------------------------------------------------||Node 1771	S	none Parent: U||
-------------------------------------------------------||Node 1770	user-defined name	null Parent: S||
----------------------------------------||Node 1776	grouping symbol	; Parent: C||
----------------------------------------||Node 1785	I	none Parent: C||
-------------------------------------------||Node 1784	A	none Parent: I||
----------------------------------------------||Node 1779	T	none Parent: A||
-------------------------------------------------||Node 1778	S	none Parent: T||
----------------------------------------------------||Node 1777	user-defined name	exists Parent: S||
----------------------------------------------||Node 1780	assignment operator	= Parent: A||
----------------------------------------------||Node 1783	U	none Parent: A||
-------------------------------------------------||Node 1782	S	none Parent: U||
----------------------------------------------------||Node 1781	user-defined name	null Parent: S||
-------------------------------------||Node 1787	grouping symbol	; Parent: C||
-------------------------------------||Node 1795	I	none Parent: C||
----------------------------------------||Node 1794	A	none Parent: I||
-------------------------------------------||Node 1790	T	none Parent: A||
----------------------------------------------||Node 1789	S	none Parent: T||
-------------------------------------------------||Node 1788	user-defined name	mes Parent: S||
-------------------------------------------||Node 1791	assignment operator	= Parent: A||
-------------------------------------------||Node 1793	U	none Parent: A||
----------------------------------------------||Node 1792	short string	"good bye" Parent: U||
----------------------------------||Node 1797	grouping symbol	; Parent: C||
----------------------------------||Node 1805	I	none Parent: C||
-------------------------------------||Node 1804	O	none Parent: I||
----------------------------------------||Node 1798	keyword	output Parent: O||
----------------------------------------||Node 1799	grouping symbol	( Parent: O||
----------------------------------------||Node 1802	V	none Parent: O||
-------------------------------------------||Node 1801	S	none Parent: V||
----------------------------------------------||Node 1800	user-defined name	mes Parent: S||
----------------------------------------||Node 1803	grouping symbol	) Parent: O||
-------------------------------||Node 1807	grouping symbol	; Parent: C||
-------------------------------||Node 1809	I	none Parent: C||
----------------------------------||Node 1808	keyword	halt Parent: I||
----------------------------||Node 1811	grouping symbol	} Parent: W||
----------------------------||Node 1812	keyword	else Parent: W||
----------------------------||Node 1813	grouping symbol	{ Parent: W||
----------------------------||Node 1822	C	none Parent: W||
-------------------------------||Node 1821	I	none Parent: C||
----------------------------------||Node 1820	O	none Parent: I||
-------------------------------------||Node 1814	keyword	output Parent: O||
-------------------------------------||Node 1815	grouping symbol	( Parent: O||
-------------------------------------||Node 1818	V	none Parent: O||
----------------------------------------||Node 1817	S	none Parent: V||
-------------------------------------------||Node 1816	user-defined name	error Parent: S||
-------------------------------------||Node 1819	grouping symbol	) Parent: O||
----------------------------||Node 1823	grouping symbol	} Parent: W||
----------------||Node 1828	grouping symbol	} Parent: R||
-------------||Node 2475	D	none Parent: D||
----------------||Node 1876	R	none Parent: D||
-------------------||Node 1830	keyword	proc Parent: R||
-------------------||Node 1831	user-defined name	show Parent: R||
-------------------||Node 1832	grouping symbol	{ Parent: R||
-------------------||Node 1874	P	none Parent: R||
----------------------||Node 1873	C	none Parent: P||
-------------------------||Node 1872	I	none Parent: C||
----------------------------||Node 1871	W	none Parent: I||
-------------------------------||Node 1833	keyword	if Parent: W||
-------------------------------||Node 1834	grouping symbol	( Parent: W||
-------------------------------||Node 1845	B	none Parent: W||
----------------------------------||Node 1835	keyword	eq Parent: B||
----------------------------------||Node 1836	grouping symbol	( Parent: B||
----------------------------------||Node 1839	V	none Parent: B||
-------------------------------------||Node 1838	S	none Parent: V||
----------------------------------------||Node 1837	user-defined name	exists Parent: S||
----------------------------------||Node 1840	grouping symbol	, Parent: B||
----------------------------------||Node 1843	V	none Parent: B||
-------------------------------------||Node 1842	S	none Parent: V||
----------------------------------------||Node 1841	user-defined name	one Parent: S||
----------------------------------||Node 1844	grouping symbol	) Parent: B||
-------------------------------||Node 1846	grouping symbol	) Parent: W||
-------------------------------||Node 1847	keyword	then Parent: W||
-------------------------------||Node 1848	grouping symbol	{ Parent: W||
-------------------------------||Node 1857	C	none Parent: W||
----------------------------------||Node 1856	I	none Parent: C||
-------------------------------------||Node 1855	O	none Parent: I||
----------------------------------------||Node 1849	keyword	output Parent: O||
----------------------------------------||Node 1850	grouping symbol	( Parent: O||
----------------------------------------||Node 1853	V	none Parent: O||
-------------------------------------------||Node 1852	S	none Parent: V||
----------------------------------------------||Node 1851	user-defined name	amount Parent: S||
----------------------------------------||Node 1854	grouping symbol	) Parent: O||
-------------------------------||Node 1858	grouping symbol	} Parent: W||
-------------------------------||Node 1859	keyword	else Parent: W||
-------------------------------||Node 1860	grouping symbol	{ Parent: W||
-------------------------------||Node 1869	C	none Parent: W||
----------------------------------||Node 1868	I	none Parent: C||
-------------------------------------||Node 1867	O	none Parent: I||
----------------------------------------||Node 1861	keyword	output Parent: O||
----------------------------------------||Node 1862	grouping symbol	( Parent: O||
----------------------------------------||Node 1865	V	none Parent: O||
-------------------------------------------||Node 1864	S	none Parent: V||
----------------------------------------------||Node 1863	user-defined name	error Parent: S||
----------------------------------------||Node 1866	grouping symbol	) Parent: O||
-------------------------------||Node 1870	grouping symbol	} Parent: W||
-------------------||Node 1875	grouping symbol	} Parent: R||
----------------||Node 2474	D	none Parent: D||
-------------------||Node 1977	R	none Parent: D||
----------------------||Node 1877	keyword	proc Parent: R||
----------------------||Node 1878	user-defined name	in Parent: R||
----------------------||Node 1879	grouping symbol	{ Parent: R||
----------------------||Node 1975	P	none Parent: R||
-------------------------||Node 1974	C	none Parent: P||
----------------------------||Node 1888	C	none Parent: C||
-------------------------------||Node 1887	I	none Parent: C||
----------------------------------||Node 1886	O	none Parent: I||
-------------------------------------||Node 1880	keyword	input Parent: O||
-------------------------------------||Node 1881	grouping symbol	( Parent: O||
-------------------------------------||Node 1884	V	none Parent: O||
----------------------------------------||Node 1883	S	none Parent: V||
-------------------------------------------||Node 1882	user-defined name	i Parent: S||
-------------------------------------||Node 1885	grouping symbol	) Parent: O||
----------------------------||Node 1889	grouping symbol	; Parent: C||
----------------------------||Node 1973	I	none Parent: C||
-------------------------------||Node 1972	W	none Parent: I||
----------------------------------||Node 1890	keyword	if Parent: W||
----------------------------------||Node 1891	grouping symbol	( Parent: W||
----------------------------------||Node 1915	B	none Parent: W||
-------------------------------------||Node 1892	keyword	and Parent: B||
-------------------------------------||Node 1893	grouping symbol	( Parent: B||
-------------------------------------||Node 1904	B	none Parent: B||
----------------------------------------||Node 1894	keyword	eq Parent: B||
----------------------------------------||Node 1895	grouping symbol	( Parent: B||
----------------------------------------||Node 1898	V	none Parent: B||
-------------------------------------------||Node 1897	S	none Parent: V||
----------------------------------------------||Node 1896	user-defined name	exists Parent: S||
----------------------------------------||Node 1899	grouping symbol	, Parent: B||
----------------------------------------||Node 1902	V	none Parent: B||
-------------------------------------------||Node 1901	S	none Parent: V||
----------------------------------------------||Node 1900	user-defined name	one Parent: S||
----------------------------------------||Node 1903	grouping symbol	) Parent: B||
-------------------------------------||Node 1905	grouping symbol	, Parent: B||
-------------------------------------||Node 1913	B	none Parent: B||
----------------------------------------||Node 1906	grouping symbol	( Parent: B||
----------------------------------------||Node 1908	N	none Parent: B||
-------------------------------------------||Node 1907	user-defined name	i Parent: N||
----------------------------------------||Node 1909	comparison symbol	> Parent: B||
----------------------------------------||Node 1911	N	none Parent: B||
-------------------------------------------||Node 1910	user-defined name	null Parent: N||
----------------------------------------||Node 1912	grouping symbol	) Parent: B||
-------------------------------------||Node 1914	grouping symbol	) Parent: B||
----------------------------------||Node 1916	grouping symbol	) Parent: W||
----------------------------------||Node 1917	keyword	then Parent: W||
----------------------------------||Node 1918	grouping symbol	{ Parent: W||
----------------------------------||Node 1958	C	none Parent: W||
-------------------------------------||Node 1948	C	none Parent: C||
----------------------------------------||Node 1938	C	none Parent: C||
-------------------------------------------||Node 1937	I	none Parent: C||
----------------------------------------------||Node 1936	A	none Parent: I||
-------------------------------------------------||Node 1921	T	none Parent: A||
----------------------------------------------------||Node 1920	S	none Parent: T||
-------------------------------------------------------||Node 1919	user-defined name	amount Parent: S||
-------------------------------------------------||Node 1922	assignment operator	= Parent: A||
-------------------------------------------------||Node 1935	U	none Parent: A||
----------------------------------------------------||Node 1934	X	none Parent: U||
-------------------------------------------------------||Node 1933	L	none Parent: X||
----------------------------------------------------------||Node 1923	keyword	add Parent: L||
----------------------------------------------------------||Node 1924	grouping symbol	( Parent: L||
----------------------------------------------------------||Node 1927	X	none Parent: L||
-------------------------------------------------------------||Node 1926	N	none Parent: X||
----------------------------------------------------------------||Node 1925	user-defined name	amount Parent: N||
----------------------------------------------------------||Node 1928	grouping symbol	, Parent: L||
----------------------------------------------------------||Node 1931	X	none Parent: L||
-------------------------------------------------------------||Node 1930	N	none Parent: X||
----------------------------------------------------------------||Node 1929	user-defined name	i Parent: N||
----------------------------------------------------------||Node 1932	grouping symbol	) Parent: L||
----------------------------------------||Node 1939	grouping symbol	; Parent: C||
----------------------------------------||Node 1947	I	none Parent: C||
-------------------------------------------||Node 1946	A	none Parent: I||
----------------------------------------------||Node 1942	T	none Parent: A||
-------------------------------------------------||Node 1941	S	none Parent: T||
----------------------------------------------------||Node 1940	user-defined name	mes Parent: S||
----------------------------------------------||Node 1943	assignment operator	= Parent: A||
----------------------------------------------||Node 1945	U	none Parent: A||
-------------------------------------------------||Node 1944	short string	"thanks" Parent: U||
-------------------------------------||Node 1949	grouping symbol	; Parent: C||
-------------------------------------||Node 1957	I	none Parent: C||
----------------------------------------||Node 1956	O	none Parent: I||
-------------------------------------------||Node 1950	keyword	output Parent: O||
-------------------------------------------||Node 1951	grouping symbol	( Parent: O||
-------------------------------------------||Node 1954	V	none Parent: O||
----------------------------------------------||Node 1953	S	none Parent: V||
-------------------------------------------------||Node 1952	user-defined name	mes Parent: S||
-------------------------------------------||Node 1955	grouping symbol	) Parent: O||
----------------------------------||Node 1959	grouping symbol	} Parent: W||
----------------------------------||Node 1960	keyword	else Parent: W||
----------------------------------||Node 1961	grouping symbol	{ Parent: W||
----------------------------------||Node 1970	C	none Parent: W||
-------------------------------------||Node 1969	I	none Parent: C||
----------------------------------------||Node 1968	O	none Parent: I||
-------------------------------------------||Node 1962	keyword	output Parent: O||
-------------------------------------------||Node 1963	grouping symbol	( Parent: O||
-------------------------------------------||Node 1966	V	none Parent: O||
----------------------------------------------||Node 1965	S	none Parent: V||
-------------------------------------------------||Node 1964	user-defined name	error Parent: S||
-------------------------------------------||Node 1967	grouping symbol	) Parent: O||
----------------------------------||Node 1971	grouping symbol	} Parent: W||
----------------------||Node 1976	grouping symbol	} Parent: R||
-------------------||Node 2473	D	none Parent: D||
----------------------||Node 2093	R	none Parent: D||
-------------------------||Node 1978	keyword	proc Parent: R||
-------------------------||Node 1979	user-defined name	out Parent: R||
-------------------------||Node 1980	grouping symbol	{ Parent: R||
-------------------------||Node 2091	P	none Parent: R||
----------------------------||Node 2090	C	none Parent: P||
-------------------------------||Node 1989	C	none Parent: C||
----------------------------------||Node 1988	I	none Parent: C||
-------------------------------------||Node 1987	O	none Parent: I||
----------------------------------------||Node 1981	keyword	input Parent: O||
----------------------------------------||Node 1982	grouping symbol	( Parent: O||
----------------------------------------||Node 1985	V	none Parent: O||
-------------------------------------------||Node 1984	S	none Parent: V||
----------------------------------------------||Node 1983	user-defined name	i Parent: S||
----------------------------------------||Node 1986	grouping symbol	) Parent: O||
-------------------------------||Node 1990	grouping symbol	; Parent: C||
-------------------------------||Node 2089	I	none Parent: C||
----------------------------------||Node 2088	W	none Parent: I||
-------------------------------------||Node 1991	keyword	if Parent: W||
-------------------------------------||Node 1992	grouping symbol	( Parent: W||
-------------------------------------||Node 2031	B	none Parent: W||
----------------------------------------||Node 1993	keyword	and Parent: B||
----------------------------------------||Node 1994	grouping symbol	( Parent: B||
----------------------------------------||Node 2002	B	none Parent: B||
-------------------------------------------||Node 1995	grouping symbol	( Parent: B||
-------------------------------------------||Node 1997	N	none Parent: B||
----------------------------------------------||Node 1996	user-defined name	i Parent: N||
-------------------------------------------||Node 1998	comparison symbol	> Parent: B||
-------------------------------------------||Node 2000	N	none Parent: B||
----------------------------------------------||Node 1999	user-defined name	null Parent: N||
-------------------------------------------||Node 2001	grouping symbol	) Parent: B||
----------------------------------------||Node 2003	grouping symbol	, Parent: B||
----------------------------------------||Node 2029	B	none Parent: B||
-------------------------------------------||Node 2004	keyword	and Parent: B||
-------------------------------------------||Node 2005	grouping symbol	( Parent: B||
-------------------------------------------||Node 2016	B	none Parent: B||
----------------------------------------------||Node 2006	keyword	eq Parent: B||
----------------------------------------------||Node 2007	grouping symbol	( Parent: B||
----------------------------------------------||Node 2010	V	none Parent: B||
-------------------------------------------------||Node 2009	S	none Parent: V||
----------------------------------------------------||Node 2008	user-defined name	exists Parent: S||
----------------------------------------------||Node 2011	grouping symbol	, Parent: B||
----------------------------------------------||Node 2014	V	none Parent: B||
-------------------------------------------------||Node 2013	S	none Parent: V||
----------------------------------------------------||Node 2012	user-defined name	one Parent: S||
----------------------------------------------||Node 2015	grouping symbol	) Parent: B||
-------------------------------------------||Node 2017	grouping symbol	, Parent: B||
-------------------------------------------||Node 2027	B	none Parent: B||
----------------------------------------------||Node 2018	keyword	not Parent: B||
----------------------------------------------||Node 2026	B	none Parent: B||
-------------------------------------------------||Node 2019	grouping symbol	( Parent: B||
-------------------------------------------------||Node 2021	N	none Parent: B||
----------------------------------------------------||Node 2020	user-defined name	amount Parent: N||
-------------------------------------------------||Node 2022	comparison symbol	< Parent: B||
-------------------------------------------------||Node 2024	N	none Parent: B||
----------------------------------------------------||Node 2023	user-defined name	i Parent: N||
-------------------------------------------------||Node 2025	grouping symbol	) Parent: B||
-------------------------------------------||Node 2028	grouping symbol	) Parent: B||
----------------------------------------||Node 2030	grouping symbol	) Parent: B||
-------------------------------------||Node 2032	grouping symbol	) Parent: W||
-------------------------------------||Node 2033	keyword	then Parent: W||
-------------------------------------||Node 2034	grouping symbol	{ Parent: W||
-------------------------------------||Node 2074	C	none Parent: W||
----------------------------------------||Node 2064	C	none Parent: C||
-------------------------------------------||Node 2054	C	none Parent: C||
----------------------------------------------||Node 2053	I	none Parent: C||
-------------------------------------------------||Node 2052	A	none Parent: I||
----------------------------------------------------||Node 2037	T	none Parent: A||
-------------------------------------------------------||Node 2036	S	none Parent: T||
----------------------------------------------------------||Node 2035	user-defined name	amount Parent: S||
----------------------------------------------------||Node 2038	assignment operator	= Parent: A||
----------------------------------------------------||Node 2051	U	none Parent: A||
-------------------------------------------------------||Node 2050	X	none Parent: U||
----------------------------------------------------------||Node 2049	L	none Parent: X||
-------------------------------------------------------------||Node 2039	keyword	sub Parent: L||
-------------------------------------------------------------||Node 2040	grouping symbol	( Parent: L||
-------------------------------------------------------------||Node 2043	X	none Parent: L||
----------------------------------------------------------------||Node 2042	N	none Parent: X||
-------------------------------------------------------------------||Node 2041	user-defined name	amount Parent: N||
-------------------------------------------------------------||Node 2044	grouping symbol	, Parent: L||
-------------------------------------------------------------||Node 2047	X	none Parent: L||
----------------------------------------------------------------||Node 2046	N	none Parent: X||
-------------------------------------------------------------------||Node 2045	user-defined name	i Parent: N||
-------------------------------------------------------------||Node 2048	grouping symbol	) Parent: L||
-------------------------------------------||Node 2055	grouping symbol	; Parent: C||
-------------------------------------------||Node 2063	I	none Parent: C||
----------------------------------------------||Node 2062	A	none Parent: I||
-------------------------------------------------||Node 2058	T	none Parent: A||
----------------------------------------------------||Node 2057	S	none Parent: T||
-------------------------------------------------------||Node 2056	user-defined name	mes Parent: S||
-------------------------------------------------||Node 2059	assignment operator	= Parent: A||
-------------------------------------------------||Node 2061	U	none Parent: A||
----------------------------------------------------||Node 2060	short string	"done" Parent: U||
----------------------------------------||Node 2065	grouping symbol	; Parent: C||
----------------------------------------||Node 2073	I	none Parent: C||
-------------------------------------------||Node 2072	O	none Parent: I||
----------------------------------------------||Node 2066	keyword	output Parent: O||
----------------------------------------------||Node 2067	grouping symbol	( Parent: O||
----------------------------------------------||Node 2070	V	none Parent: O||
-------------------------------------------------||Node 2069	S	none Parent: V||
----------------------------------------------------||Node 2068	user-defined name	mes Parent: S||
----------------------------------------------||Node 2071	grouping symbol	) Parent: O||
-------------------------------------||Node 2075	grouping symbol	} Parent: W||
-------------------------------------||Node 2076	keyword	else Parent: W||
-------------------------------------||Node 2077	grouping symbol	{ Parent: W||
-------------------------------------||Node 2086	C	none Parent: W||
----------------------------------------||Node 2085	I	none Parent: C||
-------------------------------------------||Node 2084	O	none Parent: I||
----------------------------------------------||Node 2078	keyword	output Parent: O||
----------------------------------------------||Node 2079	grouping symbol	( Parent: O||
----------------------------------------------||Node 2082	V	none Parent: O||
-------------------------------------------------||Node 2081	S	none Parent: V||
----------------------------------------------------||Node 2080	user-defined name	error Parent: S||
----------------------------------------------||Node 2083	grouping symbol	) Parent: O||
-------------------------------------||Node 2087	grouping symbol	} Parent: W||
-------------------------||Node 2092	grouping symbol	} Parent: R||
----------------------||Node 2472	D	none Parent: D||
-------------------------||Node 2196	R	none Parent: D||
----------------------------||Node 2094	keyword	proc Parent: R||
----------------------------||Node 2095	user-defined name	setpw Parent: R||
----------------------------||Node 2096	grouping symbol	{ Parent: R||
----------------------------||Node 2194	P	none Parent: R||
-------------------------------||Node 2193	C	none Parent: P||
----------------------------------||Node 2183	C	none Parent: C||
-------------------------------------||Node 2173	C	none Parent: C||
----------------------------------------||Node 2162	C	none Parent: C||
-------------------------------------------||Node 2116	C	none Parent: C||
----------------------------------------------||Node 2106	C	none Parent: C||
-------------------------------------------------||Node 2105	I	none Parent: C||
----------------------------------------------------||Node 2104	A	none Parent: I||
-------------------------------------------------------||Node 2099	T	none Parent: A||
----------------------------------------------------------||Node 2098	S	none Parent: T||
-------------------------------------------------------------||Node 2097	user-defined name	kilo Parent: S||
-------------------------------------------------------||Node 2100	assignment operator	= Parent: A||
-------------------------------------------------------||Node 2103	U	none Parent: A||
----------------------------------------------------------||Node 2102	X	none Parent: U||
-------------------------------------------------------------||Node 2101	integer	1000 Parent: X||
----------------------------------------------||Node 2107	grouping symbol	; Parent: C||
----------------------------------------------||Node 2115	I	none Parent: C||
-------------------------------------------------||Node 2114	O	none Parent: I||
----------------------------------------------------||Node 2108	keyword	input Parent: O||
----------------------------------------------------||Node 2109	grouping symbol	( Parent: O||
----------------------------------------------------||Node 2112	V	none Parent: O||
-------------------------------------------------------||Node 2111	S	none Parent: V||
----------------------------------------------------------||Node 2110	user-defined name	code Parent: S||
----------------------------------------------------||Node 2113	grouping symbol	) Parent: O||
-------------------------------------------||Node 2117	grouping symbol	; Parent: C||
-------------------------------------------||Node 2161	I	none Parent: C||
----------------------------------------------||Node 2160	Z	none Parent: I||
-------------------------------------------------||Node 2118	keyword	while Parent: Z||
-------------------------------------------------||Node 2119	grouping symbol	( Parent: Z||
-------------------------------------------------||Node 2127	B	none Parent: Z||
----------------------------------------------------||Node 2120	grouping symbol	( Parent: B||
----------------------------------------------------||Node 2122	N	none Parent: B||
-------------------------------------------------------||Node 2121	user-defined name	code Parent: N||
----------------------------------------------------||Node 2123	comparison symbol	< Parent: B||
----------------------------------------------------||Node 2125	N	none Parent: B||
-------------------------------------------------------||Node 2124	user-defined name	kilo Parent: N||
----------------------------------------------------||Node 2126	grouping symbol	) Parent: B||
-------------------------------------------------||Node 2128	grouping symbol	) Parent: Z||
-------------------------------------------------||Node 2129	grouping symbol	{ Parent: Z||
-------------------------------------------------||Node 2158	C	none Parent: Z||
----------------------------------------------------||Node 2148	C	none Parent: C||
-------------------------------------------------------||Node 2138	C	none Parent: C||
----------------------------------------------------------||Node 2137	I	none Parent: C||
-------------------------------------------------------------||Node 2136	A	none Parent: I||
----------------------------------------------------------------||Node 2132	T	none Parent: A||
-------------------------------------------------------------------||Node 2131	S	none Parent: T||
----------------------------------------------------------------------||Node 2130	user-defined name	mes Parent: S||
----------------------------------------------------------------||Node 2133	assignment operator	= Parent: A||
----------------------------------------------------------------||Node 2135	U	none Parent: A||
-------------------------------------------------------------------||Node 2134	short string	"not good" Parent: U||
-------------------------------------------------------||Node 2139	grouping symbol	; Parent: C||
-------------------------------------------------------||Node 2147	I	none Parent: C||
----------------------------------------------------------||Node 2146	O	none Parent: I||
-------------------------------------------------------------||Node 2140	keyword	output Parent: O||
-------------------------------------------------------------||Node 2141	grouping symbol	( Parent: O||
-------------------------------------------------------------||Node 2144	V	none Parent: O||
----------------------------------------------------------------||Node 2143	S	none Parent: V||
-------------------------------------------------------------------||Node 2142	user-defined name	mes Parent: S||
-------------------------------------------------------------||Node 2145	grouping symbol	) Parent: O||
----------------------------------------------------||Node 2149	grouping symbol	; Parent: C||
----------------------------------------------------||Node 2157	I	none Parent: C||
-------------------------------------------------------||Node 2156	O	none Parent: I||
----------------------------------------------------------||Node 2150	keyword	input Parent: O||
----------------------------------------------------------||Node 2151	grouping symbol	( Parent: O||
----------------------------------------------------------||Node 2154	V	none Parent: O||
-------------------------------------------------------------||Node 2153	S	none Parent: V||
----------------------------------------------------------------||Node 2152	user-defined name	code Parent: S||
----------------------------------------------------------||Node 2155	grouping symbol	) Parent: O||
-------------------------------------------------||Node 2159	grouping symbol	} Parent: Z||
----------------------------------------||Node 2163	grouping symbol	; Parent: C||
----------------------------------------||Node 2172	I	none Parent: C||
-------------------------------------------||Node 2171	A	none Parent: I||
----------------------------------------------||Node 2166	T	none Parent: A||
-------------------------------------------------||Node 2165	S	none Parent: T||
----------------------------------------------------||Node 2164	user-defined name	passwd Parent: S||
----------------------------------------------||Node 2167	assignment operator	= Parent: A||
----------------------------------------------||Node 2170	U	none Parent: A||
-------------------------------------------------||Node 2169	S	none Parent: U||
----------------------------------------------------||Node 2168	user-defined name	code Parent: S||
-------------------------------------||Node 2174	grouping symbol	; Parent: C||
-------------------------------------||Node 2182	I	none Parent: C||
----------------------------------------||Node 2181	A	none Parent: I||
-------------------------------------------||Node 2177	T	none Parent: A||
----------------------------------------------||Node 2176	S	none Parent: T||
-------------------------------------------------||Node 2175	user-defined name	mes Parent: S||
-------------------------------------------||Node 2178	assignment operator	= Parent: A||
-------------------------------------------||Node 2180	U	none Parent: A||
----------------------------------------------||Node 2179	short string	"noted" Parent: U||
----------------------------------||Node 2184	grouping symbol	; Parent: C||
----------------------------------||Node 2192	I	none Parent: C||
-------------------------------------||Node 2191	O	none Parent: I||
----------------------------------------||Node 2185	keyword	output Parent: O||
----------------------------------------||Node 2186	grouping symbol	( Parent: O||
----------------------------------------||Node 2189	V	none Parent: O||
-------------------------------------------||Node 2188	S	none Parent: V||
----------------------------------------------||Node 2187	user-defined name	mes Parent: S||
----------------------------------------||Node 2190	grouping symbol	) Parent: O||
----------------------------||Node 2195	grouping symbol	} Parent: R||
-------------------------||Node 2471	D	none Parent: D||
----------------------------||Node 2470	R	none Parent: D||
-------------------------------||Node 2197	keyword	proc Parent: R||
-------------------------------||Node 2198	user-defined name	askpw Parent: R||
-------------------------------||Node 2199	grouping symbol	{ Parent: R||
-------------------------------||Node 2468	P	none Parent: R||
----------------------------------||Node 2467	C	none Parent: P||
-------------------------------------||Node 2228	C	none Parent: C||
----------------------------------------||Node 2218	C	none Parent: C||
-------------------------------------------||Node 2208	C	none Parent: C||
----------------------------------------------||Node 2207	I	none Parent: C||
-------------------------------------------------||Node 2206	A	none Parent: I||
----------------------------------------------------||Node 2202	T	none Parent: A||
-------------------------------------------------------||Node 2201	S	none Parent: T||
----------------------------------------------------------||Node 2200	user-defined name	mes Parent: S||
----------------------------------------------------||Node 2203	assignment operator	= Parent: A||
----------------------------------------------------||Node 2205	U	none Parent: A||
-------------------------------------------------------||Node 2204	short string	"1st try" Parent: U||
-------------------------------------------||Node 2209	grouping symbol	; Parent: C||
-------------------------------------------||Node 2217	I	none Parent: C||
----------------------------------------------||Node 2216	O	none Parent: I||
-------------------------------------------------||Node 2210	keyword	output Parent: O||
-------------------------------------------------||Node 2211	grouping symbol	( Parent: O||
-------------------------------------------------||Node 2214	V	none Parent: O||
----------------------------------------------------||Node 2213	S	none Parent: V||
-------------------------------------------------------||Node 2212	user-defined name	mes Parent: S||
-------------------------------------------------||Node 2215	grouping symbol	) Parent: O||
----------------------------------------||Node 2219	grouping symbol	; Parent: C||
----------------------------------------||Node 2227	I	none Parent: C||
-------------------------------------------||Node 2226	O	none Parent: I||
----------------------------------------------||Node 2220	keyword	input Parent: O||
----------------------------------------------||Node 2221	grouping symbol	( Parent: O||
----------------------------------------------||Node 2224	V	none Parent: O||
-------------------------------------------------||Node 2223	S	none Parent: V||
----------------------------------------------------||Node 2222	user-defined name	code Parent: S||
----------------------------------------------||Node 2225	grouping symbol	) Parent: O||
-------------------------------------||Node 2229	grouping symbol	; Parent: C||
-------------------------------------||Node 2466	I	none Parent: C||
----------------------------------------||Node 2465	W	none Parent: I||
-------------------------------------------||Node 2230	keyword	if Parent: W||
-------------------------------------------||Node 2231	grouping symbol	( Parent: W||
-------------------------------------------||Node 2255	B	none Parent: W||
----------------------------------------------||Node 2232	keyword	and Parent: B||
----------------------------------------------||Node 2233	grouping symbol	( Parent: B||
----------------------------------------------||Node 2241	B	none Parent: B||
-------------------------------------------------||Node 2234	grouping symbol	( Parent: B||
-------------------------------------------------||Node 2236	N	none Parent: B||
----------------------------------------------------||Node 2235	user-defined name	code Parent: N||
-------------------------------------------------||Node 2237	comparison symbol	> Parent: B||
-------------------------------------------------||Node 2239	N	none Parent: B||
----------------------------------------------------||Node 2238	user-defined name	null Parent: N||
-------------------------------------------------||Node 2240	grouping symbol	) Parent: B||
----------------------------------------------||Node 2242	grouping symbol	, Parent: B||
----------------------------------------------||Node 2253	B	none Parent: B||
-------------------------------------------------||Node 2243	keyword	eq Parent: B||
-------------------------------------------------||Node 2244	grouping symbol	( Parent: B||
-------------------------------------------------||Node 2247	V	none Parent: B||
----------------------------------------------------||Node 2246	S	none Parent: V||
-------------------------------------------------------||Node 2245	user-defined name	code Parent: S||
-------------------------------------------------||Node 2248	grouping symbol	, Parent: B||
-------------------------------------------------||Node 2251	V	none Parent: B||
----------------------------------------------------||Node 2250	S	none Parent: V||
-------------------------------------------------------||Node 2249	user-defined name	passwd Parent: S||
-------------------------------------------------||Node 2252	grouping symbol	) Parent: B||
----------------------------------------------||Node 2254	grouping symbol	) Parent: B||
-------------------------------------------||Node 2256	grouping symbol	) Parent: W||
-------------------------------------------||Node 2257	keyword	then Parent: W||
-------------------------------------------||Node 2258	grouping symbol	{ Parent: W||
-------------------------------------------||Node 2277	C	none Parent: W||
----------------------------------------------||Node 2267	C	none Parent: C||
-------------------------------------------------||Node 2266	I	none Parent: C||
----------------------------------------------------||Node 2265	A	none Parent: I||
-------------------------------------------------------||Node 2261	T	none Parent: A||
----------------------------------------------------------||Node 2260	S	none Parent: T||
-------------------------------------------------------------||Node 2259	user-defined name	mes Parent: S||
-------------------------------------------------------||Node 2262	assignment operator	= Parent: A||
-------------------------------------------------------||Node 2264	U	none Parent: A||
----------------------------------------------------------||Node 2263	short string	"ok" Parent: U||
----------------------------------------------||Node 2268	grouping symbol	; Parent: C||
----------------------------------------------||Node 2276	I	none Parent: C||
-------------------------------------------------||Node 2275	O	none Parent: I||
----------------------------------------------------||Node 2269	keyword	output Parent: O||
----------------------------------------------------||Node 2270	grouping symbol	( Parent: O||
----------------------------------------------------||Node 2273	V	none Parent: O||
-------------------------------------------------------||Node 2272	S	none Parent: V||
----------------------------------------------------------||Node 2271	user-defined name	mes Parent: S||
----------------------------------------------------||Node 2274	grouping symbol	) Parent: O||
-------------------------------------------||Node 2278	grouping symbol	} Parent: W||
-------------------------------------------||Node 2279	keyword	else Parent: W||
-------------------------------------------||Node 2280	grouping symbol	{ Parent: W||
-------------------------------------------||Node 2463	C	none Parent: W||
----------------------------------------------||Node 2309	C	none Parent: C||
-------------------------------------------------||Node 2299	C	none Parent: C||
----------------------------------------------------||Node 2289	C	none Parent: C||
-------------------------------------------------------||Node 2288	I	none Parent: C||
----------------------------------------------------------||Node 2287	A	none Parent: I||
-------------------------------------------------------------||Node 2283	T	none Parent: A||
----------------------------------------------------------------||Node 2282	S	none Parent: T||
-------------------------------------------------------------------||Node 2281	user-defined name	mes Parent: S||
-------------------------------------------------------------||Node 2284	assignment operator	= Parent: A||
-------------------------------------------------------------||Node 2286	U	none Parent: A||
----------------------------------------------------------------||Node 2285	short string	"2nd try" Parent: U||
----------------------------------------------------||Node 2290	grouping symbol	; Parent: C||
----------------------------------------------------||Node 2298	I	none Parent: C||
-------------------------------------------------------||Node 2297	O	none Parent: I||
----------------------------------------------------------||Node 2291	keyword	output Parent: O||
----------------------------------------------------------||Node 2292	grouping symbol	( Parent: O||
----------------------------------------------------------||Node 2295	V	none Parent: O||
-------------------------------------------------------------||Node 2294	S	none Parent: V||
----------------------------------------------------------------||Node 2293	user-defined name	mes Parent: S||
----------------------------------------------------------||Node 2296	grouping symbol	) Parent: O||
-------------------------------------------------||Node 2300	grouping symbol	; Parent: C||
-------------------------------------------------||Node 2308	I	none Parent: C||
----------------------------------------------------||Node 2307	O	none Parent: I||
-------------------------------------------------------||Node 2301	keyword	input Parent: O||
-------------------------------------------------------||Node 2302	grouping symbol	( Parent: O||
-------------------------------------------------------||Node 2305	V	none Parent: O||
----------------------------------------------------------||Node 2304	S	none Parent: V||
-------------------------------------------------------------||Node 2303	user-defined name	code Parent: S||
-------------------------------------------------------||Node 2306	grouping symbol	) Parent: O||
----------------------------------------------||Node 2310	grouping symbol	; Parent: C||
----------------------------------------------||Node 2462	I	none Parent: C||
-------------------------------------------------||Node 2461	W	none Parent: I||
----------------------------------------------------||Node 2311	keyword	if Parent: W||
----------------------------------------------------||Node 2312	grouping symbol	( Parent: W||
----------------------------------------------------||Node 2336	B	none Parent: W||
-------------------------------------------------------||Node 2313	keyword	and Parent: B||
-------------------------------------------------------||Node 2314	grouping symbol	( Parent: B||
-------------------------------------------------------||Node 2322	B	none Parent: B||
----------------------------------------------------------||Node 2315	grouping symbol	( Parent: B||
----------------------------------------------------------||Node 2317	N	none Parent: B||
-------------------------------------------------------------||Node 2316	user-defined name	code Parent: N||
----------------------------------------------------------||Node 2318	comparison symbol	> Parent: B||
----------------------------------------------------------||Node 2320	N	none Parent: B||
-------------------------------------------------------------||Node 2319	user-defined name	null Parent: N||
----------------------------------------------------------||Node 2321	grouping symbol	) Parent: B||
-------------------------------------------------------||Node 2323	grouping symbol	, Parent: B||
-------------------------------------------------------||Node 2334	B	none Parent: B||
----------------------------------------------------------||Node 2324	keyword	eq Parent: B||
----------------------------------------------------------||Node 2325	grouping symbol	( Parent: B||
----------------------------------------------------------||Node 2328	V	none Parent: B||
-------------------------------------------------------------||Node 2327	S	none Parent: V||
----------------------------------------------------------------||Node 2326	user-defined name	code Parent: S||
----------------------------------------------------------||Node 2329	grouping symbol	, Parent: B||
----------------------------------------------------------||Node 2332	V	none Parent: B||
-------------------------------------------------------------||Node 2331	S	none Parent: V||
----------------------------------------------------------------||Node 2330	user-defined name	passwd Parent: S||
----------------------------------------------------------||Node 2333	grouping symbol	) Parent: B||
-------------------------------------------------------||Node 2335	grouping symbol	) Parent: B||
----------------------------------------------------||Node 2337	grouping symbol	) Parent: W||
----------------------------------------------------||Node 2338	keyword	then Parent: W||
----------------------------------------------------||Node 2339	grouping symbol	{ Parent: W||
----------------------------------------------------||Node 2358	C	none Parent: W||
-------------------------------------------------------||Node 2348	C	none Parent: C||
----------------------------------------------------------||Node 2347	I	none Parent: C||
-------------------------------------------------------------||Node 2346	A	none Parent: I||
----------------------------------------------------------------||Node 2342	T	none Parent: A||
-------------------------------------------------------------------||Node 2341	S	none Parent: T||
----------------------------------------------------------------------||Node 2340	user-defined name	mes Parent: S||
----------------------------------------------------------------||Node 2343	assignment operator	= Parent: A||
----------------------------------------------------------------||Node 2345	U	none Parent: A||
-------------------------------------------------------------------||Node 2344	short string	"ok" Parent: U||
-------------------------------------------------------||Node 2349	grouping symbol	; Parent: C||
-------------------------------------------------------||Node 2357	I	none Parent: C||
----------------------------------------------------------||Node 2356	O	none Parent: I||
-------------------------------------------------------------||Node 2350	keyword	output Parent: O||
-------------------------------------------------------------||Node 2351	grouping symbol	( Parent: O||
-------------------------------------------------------------||Node 2354	V	none Parent: O||
----------------------------------------------------------------||Node 2353	S	none Parent: V||
-------------------------------------------------------------------||Node 2352	user-defined name	mes Parent: S||
-------------------------------------------------------------||Node 2355	grouping symbol	) Parent: O||
----------------------------------------------------||Node 2359	grouping symbol	} Parent: W||
----------------------------------------------------||Node 2360	keyword	else Parent: W||
----------------------------------------------------||Node 2361	grouping symbol	{ Parent: W||
----------------------------------------------------||Node 2459	C	none Parent: W||
-------------------------------------------------------||Node 2390	C	none Parent: C||
----------------------------------------------------------||Node 2380	C	none Parent: C||
-------------------------------------------------------------||Node 2370	C	none Parent: C||
----------------------------------------------------------------||Node 2369	I	none Parent: C||
-------------------------------------------------------------------||Node 2368	A	none Parent: I||
----------------------------------------------------------------------||Node 2364	T	none Parent: A||
-------------------------------------------------------------------------||Node 2363	S	none Parent: T||
----------------------------------------------------------------------------||Node 2362	user-defined name	mes Parent: S||
----------------------------------------------------------------------||Node 2365	assignment operator	= Parent: A||
----------------------------------------------------------------------||Node 2367	U	none Parent: A||
-------------------------------------------------------------------------||Node 2366	short string	"3rd try" Parent: U||
-------------------------------------------------------------||Node 2371	grouping symbol	; Parent: C||
-------------------------------------------------------------||Node 2379	I	none Parent: C||
----------------------------------------------------------------||Node 2378	O	none Parent: I||
-------------------------------------------------------------------||Node 2372	keyword	output Parent: O||
-------------------------------------------------------------------||Node 2373	grouping symbol	( Parent: O||
-------------------------------------------------------------------||Node 2376	V	none Parent: O||
----------------------------------------------------------------------||Node 2375	S	none Parent: V||
-------------------------------------------------------------------------||Node 2374	user-defined name	mes Parent: S||
-------------------------------------------------------------------||Node 2377	grouping symbol	) Parent: O||
----------------------------------------------------------||Node 2381	grouping symbol	; Parent: C||
----------------------------------------------------------||Node 2389	I	none Parent: C||
-------------------------------------------------------------||Node 2388	O	none Parent: I||
----------------------------------------------------------------||Node 2382	keyword	input Parent: O||
----------------------------------------------------------------||Node 2383	grouping symbol	( Parent: O||
----------------------------------------------------------------||Node 2386	V	none Parent: O||
-------------------------------------------------------------------||Node 2385	S	none Parent: V||
----------------------------------------------------------------------||Node 2384	user-defined name	code Parent: S||
----------------------------------------------------------------||Node 2387	grouping symbol	) Parent: O||
-------------------------------------------------------||Node 2391	grouping symbol	; Parent: C||
-------------------------------------------------------||Node 2458	I	none Parent: C||
----------------------------------------------------------||Node 2457	W	none Parent: I||
-------------------------------------------------------------||Node 2392	keyword	if Parent: W||
-------------------------------------------------------------||Node 2393	grouping symbol	( Parent: W||
-------------------------------------------------------------||Node 2417	B	none Parent: W||
----------------------------------------------------------------||Node 2394	keyword	and Parent: B||
----------------------------------------------------------------||Node 2395	grouping symbol	( Parent: B||
----------------------------------------------------------------||Node 2403	B	none Parent: B||
-------------------------------------------------------------------||Node 2396	grouping symbol	( Parent: B||
-------------------------------------------------------------------||Node 2398	N	none Parent: B||
----------------------------------------------------------------------||Node 2397	user-defined name	code Parent: N||
-------------------------------------------------------------------||Node 2399	comparison symbol	> Parent: B||
-------------------------------------------------------------------||Node 2401	N	none Parent: B||
----------------------------------------------------------------------||Node 2400	user-defined name	null Parent: N||
-------------------------------------------------------------------||Node 2402	grouping symbol	) Parent: B||
----------------------------------------------------------------||Node 2404	grouping symbol	, Parent: B||
----------------------------------------------------------------||Node 2415	B	none Parent: B||
-------------------------------------------------------------------||Node 2405	keyword	eq Parent: B||
-------------------------------------------------------------------||Node 2406	grouping symbol	( Parent: B||
-------------------------------------------------------------------||Node 2409	V	none Parent: B||
----------------------------------------------------------------------||Node 2408	S	none Parent: V||
-------------------------------------------------------------------------||Node 2407	user-defined name	code Parent: S||
-------------------------------------------------------------------||Node 2410	grouping symbol	, Parent: B||
-------------------------------------------------------------------||Node 2413	V	none Parent: B||
----------------------------------------------------------------------||Node 2412	S	none Parent: V||
-------------------------------------------------------------------------||Node 2411	user-defined name	passwd Parent: S||
-------------------------------------------------------------------||Node 2414	grouping symbol	) Parent: B||
----------------------------------------------------------------||Node 2416	grouping symbol	) Parent: B||
-------------------------------------------------------------||Node 2418	grouping symbol	) Parent: W||
-------------------------------------------------------------||Node 2419	keyword	then Parent: W||
-------------------------------------------------------------||Node 2420	grouping symbol	{ Parent: W||
-------------------------------------------------------------||Node 2439	C	none Parent: W||
----------------------------------------------------------------||Node 2429	C	none Parent: C||
-------------------------------------------------------------------||Node 2428	I	none Parent: C||
----------------------------------------------------------------------||Node 2427	A	none Parent: I||
-------------------------------------------------------------------------||Node 2423	T	none Parent: A||
----------------------------------------------------------------------------||Node 2422	S	none Parent: T||
-------------------------------------------------------------------------------||Node 2421	user-defined name	mes Parent: S||
-------------------------------------------------------------------------||Node 2424	assignment operator	= Parent: A||
-------------------------------------------------------------------------||Node 2426	U	none Parent: A||
----------------------------------------------------------------------------||Node 2425	short string	"ok" Parent: U||
----------------------------------------------------------------||Node 2430	grouping symbol	; Parent: C||
----------------------------------------------------------------||Node 2438	I	none Parent: C||
-------------------------------------------------------------------||Node 2437	O	none Parent: I||
----------------------------------------------------------------------||Node 2431	keyword	output Parent: O||
----------------------------------------------------------------------||Node 2432	grouping symbol	( Parent: O||
----------------------------------------------------------------------||Node 2435	V	none Parent: O||
-------------------------------------------------------------------------||Node 2434	S	none Parent: V||
----------------------------------------------------------------------------||Node 2433	user-defined name	mes Parent: S||
----------------------------------------------------------------------||Node 2436	grouping symbol	) Parent: O||
-------------------------------------------------------------||Node 2440	grouping symbol	} Parent: W||
-------------------------------------------------------------||Node 2441	keyword	else Parent: W||
-------------------------------------------------------------||Node 2442	grouping symbol	{ Parent: W||
-------------------------------------------------------------||Node 2455	C	none Parent: W||
----------------------------------------------------------------||Node 2451	C	none Parent: C||
-------------------------------------------------------------------||Node 2450	I	none Parent: C||
----------------------------------------------------------------------||Node 2449	O	none Parent: I||
-------------------------------------------------------------------------||Node 2443	keyword	output Parent: O||
-------------------------------------------------------------------------||Node 2444	grouping symbol	( Parent: O||
-------------------------------------------------------------------------||Node 2447	V	none Parent: O||
----------------------------------------------------------------------------||Node 2446	S	none Parent: V||
-------------------------------------------------------------------------------||Node 2445	user-defined name	error Parent: S||
-------------------------------------------------------------------------||Node 2448	grouping symbol	) Parent: O||
----------------------------------------------------------------||Node 2452	grouping symbol	; Parent: C||
----------------------------------------------------------------||Node 2454	I	none Parent: C||
-------------------------------------------------------------------||Node 2453	keyword	halt Parent: I||
-------------------------------------------------------------||Node 2456	grouping symbol	} Parent: W||
----------------------------------------------------||Node 2460	grouping symbol	} Parent: W||
-------------------------------------------||Node 2464	grouping symbol	} Parent: W||
-------------------------------||Node 2469	grouping symbol	} Parent: R||
+||Node 2499	Q	none Parent: nun||
+---||Node 2498	P	none Parent: Q||
+------||Node 1631	C	none Parent: P||
+---------||Node 1430	C	none Parent: C||
+------------||Node 1419	C	none Parent: C||
+---------------||Node 1409	C	none Parent: C||
+------------------||Node 1398	C	none Parent: C||
+---------------------||Node 1388	C	none Parent: C||
+------------------------||Node 1377	C	none Parent: C||
+---------------------------||Node 1367	C	none Parent: C||
+------------------------------||Node 1356	C	none Parent: C||
+---------------------------------||Node 1346	C	none Parent: C||
+------------------------------------||Node 1336	C	none Parent: C||
+---------------------------------------||Node 1325	C	none Parent: C||
+------------------------------------------||Node 1315	C	none Parent: C||
+---------------------------------------------||Node 1304	C	none Parent: C||
+------------------------------------------------||Node 1293	C	none Parent: C||
+---------------------------------------------------||Node 1282	C	none Parent: C||
+------------------------------------------------------||Node 1271	C	none Parent: C||
+---------------------------------------------------------||Node 1260	C	none Parent: C||
+------------------------------------------------------------||Node 1259	I	none Parent: C||
+---------------------------------------------------------------||Node 1258	A	none Parent: I||
+------------------------------------------------------------------||Node 1253	T	none Parent: A||
+---------------------------------------------------------------------||Node 1252	S	none Parent: T||
+------------------------------------------------------------------------||Node 1251	user-defined name	one Parent: S||
+------------------------------------------------------------------||Node 1254	assignment operator	= Parent: A||
+------------------------------------------------------------------||Node 1257	U	none Parent: A||
+---------------------------------------------------------------------||Node 1256	X	none Parent: U||
+------------------------------------------------------------------------||Node 1255	integer	1 Parent: X||
+---------------------------------------------------------||Node 1261	grouping symbol	; Parent: C||
+---------------------------------------------------------||Node 1270	I	none Parent: C||
+------------------------------------------------------------||Node 1269	A	none Parent: I||
+---------------------------------------------------------------||Node 1264	T	none Parent: A||
+------------------------------------------------------------------||Node 1263	S	none Parent: T||
+---------------------------------------------------------------------||Node 1262	user-defined name	null Parent: S||
+---------------------------------------------------------------||Node 1265	assignment operator	= Parent: A||
+---------------------------------------------------------------||Node 1268	U	none Parent: A||
+------------------------------------------------------------------||Node 1267	X	none Parent: U||
+---------------------------------------------------------------------||Node 1266	integer	0 Parent: X||
+------------------------------------------------------||Node 1272	grouping symbol	; Parent: C||
+------------------------------------------------------||Node 1281	I	none Parent: C||
+---------------------------------------------------------||Node 1280	A	none Parent: I||
+------------------------------------------------------------||Node 1275	T	none Parent: A||
+---------------------------------------------------------------||Node 1274	S	none Parent: T||
+------------------------------------------------------------------||Node 1273	user-defined name	always Parent: S||
+------------------------------------------------------------||Node 1276	assignment operator	= Parent: A||
+------------------------------------------------------------||Node 1279	U	none Parent: A||
+---------------------------------------------------------------||Node 1278	S	none Parent: U||
+------------------------------------------------------------------||Node 1277	user-defined name	one Parent: S||
+---------------------------------------------------||Node 1283	grouping symbol	; Parent: C||
+---------------------------------------------------||Node 1292	I	none Parent: C||
+------------------------------------------------------||Node 1291	A	none Parent: I||
+---------------------------------------------------------||Node 1286	T	none Parent: A||
+------------------------------------------------------------||Node 1285	S	none Parent: T||
+---------------------------------------------------------------||Node 1284	user-defined name	exists Parent: S||
+---------------------------------------------------------||Node 1287	assignment operator	= Parent: A||
+---------------------------------------------------------||Node 1290	U	none Parent: A||
+------------------------------------------------------------||Node 1289	S	none Parent: U||
+---------------------------------------------------------------||Node 1288	user-defined name	null Parent: S||
+------------------------------------------------||Node 1294	grouping symbol	; Parent: C||
+------------------------------------------------||Node 1303	I	none Parent: C||
+---------------------------------------------------||Node 1302	A	none Parent: I||
+------------------------------------------------------||Node 1297	T	none Parent: A||
+---------------------------------------------------------||Node 1296	S	none Parent: T||
+------------------------------------------------------------||Node 1295	user-defined name	amount Parent: S||
+------------------------------------------------------||Node 1298	assignment operator	= Parent: A||
+------------------------------------------------------||Node 1301	U	none Parent: A||
+---------------------------------------------------------||Node 1300	S	none Parent: U||
+------------------------------------------------------------||Node 1299	user-defined name	null Parent: S||
+---------------------------------------------||Node 1305	grouping symbol	; Parent: C||
+---------------------------------------------||Node 1314	I	none Parent: C||
+------------------------------------------------||Node 1313	A	none Parent: I||
+---------------------------------------------------||Node 1308	T	none Parent: A||
+------------------------------------------------------||Node 1307	S	none Parent: T||
+---------------------------------------------------------||Node 1306	user-defined name	passwd Parent: S||
+---------------------------------------------------||Node 1309	assignment operator	= Parent: A||
+---------------------------------------------------||Node 1312	U	none Parent: A||
+------------------------------------------------------||Node 1311	S	none Parent: U||
+---------------------------------------------------------||Node 1310	user-defined name	null Parent: S||
+------------------------------------------||Node 1316	grouping symbol	; Parent: C||
+------------------------------------------||Node 1324	I	none Parent: C||
+---------------------------------------------||Node 1323	A	none Parent: I||
+------------------------------------------------||Node 1319	T	none Parent: A||
+---------------------------------------------------||Node 1318	S	none Parent: T||
+------------------------------------------------------||Node 1317	user-defined name	show Parent: S||
+------------------------------------------------||Node 1320	assignment operator	= Parent: A||
+------------------------------------------------||Node 1322	U	none Parent: A||
+---------------------------------------------------||Node 1321	short string	"show" Parent: U||
+---------------------------------------||Node 1326	grouping symbol	; Parent: C||
+---------------------------------------||Node 1335	I	none Parent: C||
+------------------------------------------||Node 1334	A	none Parent: I||
+---------------------------------------------||Node 1329	T	none Parent: A||
+------------------------------------------------||Node 1328	S	none Parent: T||
+---------------------------------------------------||Node 1327	user-defined name	shownum Parent: S||
+---------------------------------------------||Node 1330	assignment operator	= Parent: A||
+---------------------------------------------||Node 1333	U	none Parent: A||
+------------------------------------------------||Node 1332	X	none Parent: U||
+---------------------------------------------------||Node 1331	integer	3 Parent: X||
+------------------------------------||Node 1337	grouping symbol	; Parent: C||
+------------------------------------||Node 1345	I	none Parent: C||
+---------------------------------------||Node 1344	A	none Parent: I||
+------------------------------------------||Node 1340	T	none Parent: A||
+---------------------------------------------||Node 1339	S	none Parent: T||
+------------------------------------------------||Node 1338	user-defined name	error Parent: S||
+------------------------------------------||Node 1341	assignment operator	= Parent: A||
+------------------------------------------||Node 1343	U	none Parent: A||
+---------------------------------------------||Node 1342	short string	"error" Parent: U||
+---------------------------------||Node 1347	grouping symbol	; Parent: C||
+---------------------------------||Node 1355	I	none Parent: C||
+------------------------------------||Node 1354	A	none Parent: I||
+---------------------------------------||Node 1350	T	none Parent: A||
+------------------------------------------||Node 1349	S	none Parent: T||
+---------------------------------------------||Node 1348	user-defined name	create Parent: S||
+---------------------------------------||Node 1351	assignment operator	= Parent: A||
+---------------------------------------||Node 1353	U	none Parent: A||
+------------------------------------------||Node 1352	short string	"create" Parent: U||
+------------------------------||Node 1357	grouping symbol	; Parent: C||
+------------------------------||Node 1366	I	none Parent: C||
+---------------------------------||Node 1365	A	none Parent: I||
+------------------------------------||Node 1360	T	none Parent: A||
+---------------------------------------||Node 1359	S	none Parent: T||
+------------------------------------------||Node 1358	user-defined name	createnum Parent: S||
+------------------------------------||Node 1361	assignment operator	= Parent: A||
+------------------------------------||Node 1364	U	none Parent: A||
+---------------------------------------||Node 1363	X	none Parent: U||
+------------------------------------------||Node 1362	integer	1 Parent: X||
+---------------------------||Node 1368	grouping symbol	; Parent: C||
+---------------------------||Node 1376	I	none Parent: C||
+------------------------------||Node 1375	A	none Parent: I||
+---------------------------------||Node 1371	T	none Parent: A||
+------------------------------------||Node 1370	S	none Parent: T||
+---------------------------------------||Node 1369	user-defined name	close Parent: S||
+---------------------------------||Node 1372	assignment operator	= Parent: A||
+---------------------------------||Node 1374	U	none Parent: A||
+------------------------------------||Node 1373	short string	"close" Parent: U||
+------------------------||Node 1378	grouping symbol	; Parent: C||
+------------------------||Node 1387	I	none Parent: C||
+---------------------------||Node 1386	A	none Parent: I||
+------------------------------||Node 1381	T	none Parent: A||
+---------------------------------||Node 1380	S	none Parent: T||
+------------------------------------||Node 1379	user-defined name	closenum Parent: S||
+------------------------------||Node 1382	assignment operator	= Parent: A||
+------------------------------||Node 1385	U	none Parent: A||
+---------------------------------||Node 1384	X	none Parent: U||
+------------------------------------||Node 1383	integer	2 Parent: X||
+---------------------||Node 1389	grouping symbol	; Parent: C||
+---------------------||Node 1397	I	none Parent: C||
+------------------------||Node 1396	A	none Parent: I||
+---------------------------||Node 1392	T	none Parent: A||
+------------------------------||Node 1391	S	none Parent: T||
+---------------------------------||Node 1390	user-defined name	depos Parent: S||
+---------------------------||Node 1393	assignment operator	= Parent: A||
+---------------------------||Node 1395	U	none Parent: A||
+------------------------------||Node 1394	short string	"pay in" Parent: U||
+------------------||Node 1399	grouping symbol	; Parent: C||
+------------------||Node 1408	I	none Parent: C||
+---------------------||Node 1407	A	none Parent: I||
+------------------------||Node 1402	T	none Parent: A||
+---------------------------||Node 1401	S	none Parent: T||
+------------------------------||Node 1400	user-defined name	deposnum Parent: S||
+------------------------||Node 1403	assignment operator	= Parent: A||
+------------------------||Node 1406	U	none Parent: A||
+---------------------------||Node 1405	X	none Parent: U||
+------------------------------||Node 1404	integer	4 Parent: X||
+---------------||Node 1410	grouping symbol	; Parent: C||
+---------------||Node 1418	I	none Parent: C||
+------------------||Node 1417	A	none Parent: I||
+---------------------||Node 1413	T	none Parent: A||
+------------------------||Node 1412	S	none Parent: T||
+---------------------------||Node 1411	user-defined name	withdr Parent: S||
+---------------------||Node 1414	assignment operator	= Parent: A||
+---------------------||Node 1416	U	none Parent: A||
+------------------------||Node 1415	short string	"take out" Parent: U||
+------------||Node 1420	grouping symbol	; Parent: C||
+------------||Node 1429	I	none Parent: C||
+---------------||Node 1428	A	none Parent: I||
+------------------||Node 1423	T	none Parent: A||
+---------------------||Node 1422	S	none Parent: T||
+------------------------||Node 1421	user-defined name	withdrnum Parent: S||
+------------------||Node 1424	assignment operator	= Parent: A||
+------------------||Node 1427	U	none Parent: A||
+---------------------||Node 1426	X	none Parent: U||
+------------------------||Node 1425	integer	5 Parent: X||
+---------||Node 1431	grouping symbol	; Parent: C||
+---------||Node 1630	I	none Parent: C||
+------------||Node 1629	Z	none Parent: I||
+---------------||Node 1432	keyword	while Parent: Z||
+---------------||Node 1433	grouping symbol	( Parent: Z||
+---------------||Node 1444	B	none Parent: Z||
+------------------||Node 1434	keyword	eq Parent: B||
+------------------||Node 1435	grouping symbol	( Parent: B||
+------------------||Node 1438	V	none Parent: B||
+---------------------||Node 1437	S	none Parent: V||
+------------------------||Node 1436	user-defined name	always Parent: S||
+------------------||Node 1439	grouping symbol	, Parent: B||
+------------------||Node 1442	V	none Parent: B||
+---------------------||Node 1441	S	none Parent: V||
+------------------------||Node 1440	user-defined name	always Parent: S||
+------------------||Node 1443	grouping symbol	) Parent: B||
+---------------||Node 1445	grouping symbol	) Parent: Z||
+---------------||Node 1446	grouping symbol	{ Parent: Z||
+---------------||Node 1627	C	none Parent: Z||
+------------------||Node 1585	C	none Parent: C||
+---------------------||Node 1555	C	none Parent: C||
+------------------------||Node 1525	C	none Parent: C||
+---------------------------||Node 1495	C	none Parent: C||
+------------------------------||Node 1465	C	none Parent: C||
+---------------------------------||Node 1455	C	none Parent: C||
+------------------------------------||Node 1454	I	none Parent: C||
+---------------------------------------||Node 1453	O	none Parent: I||
+------------------------------------------||Node 1447	keyword	output Parent: O||
+------------------------------------------||Node 1448	grouping symbol	( Parent: O||
+------------------------------------------||Node 1451	V	none Parent: O||
+---------------------------------------------||Node 1450	S	none Parent: V||
+------------------------------------------------||Node 1449	user-defined name	title Parent: S||
+------------------------------------------||Node 1452	grouping symbol	) Parent: O||
+---------------------------------||Node 1456	grouping symbol	; Parent: C||
+---------------------------------||Node 1464	I	none Parent: C||
+------------------------------------||Node 1463	O	none Parent: I||
+---------------------------------------||Node 1457	keyword	input Parent: O||
+---------------------------------------||Node 1458	grouping symbol	( Parent: O||
+---------------------------------------||Node 1461	V	none Parent: O||
+------------------------------------------||Node 1460	S	none Parent: V||
+---------------------------------------------||Node 1459	user-defined name	instruction Parent: S||
+---------------------------------------||Node 1462	grouping symbol	) Parent: O||
+------------------------------||Node 1466	grouping symbol	; Parent: C||
+------------------------------||Node 1494	I	none Parent: C||
+---------------------------------||Node 1493	W	none Parent: I||
+------------------------------------||Node 1467	keyword	if Parent: W||
+------------------------------------||Node 1468	grouping symbol	( Parent: W||
+------------------------------------||Node 1479	B	none Parent: W||
+---------------------------------------||Node 1469	keyword	eq Parent: B||
+---------------------------------------||Node 1470	grouping symbol	( Parent: B||
+---------------------------------------||Node 1473	V	none Parent: B||
+------------------------------------------||Node 1472	S	none Parent: V||
+---------------------------------------------||Node 1471	user-defined name	instruction Parent: S||
+---------------------------------------||Node 1474	grouping symbol	, Parent: B||
+---------------------------------------||Node 1477	V	none Parent: B||
+------------------------------------------||Node 1476	S	none Parent: V||
+---------------------------------------------||Node 1475	user-defined name	createnum Parent: S||
+---------------------------------------||Node 1478	grouping symbol	) Parent: B||
+------------------------------------||Node 1480	grouping symbol	) Parent: W||
+------------------------------------||Node 1481	keyword	then Parent: W||
+------------------------------------||Node 1482	grouping symbol	{ Parent: W||
+------------------------------------||Node 1491	C	none Parent: W||
+---------------------------------------||Node 1486	C	none Parent: C||
+------------------------------------------||Node 1485	I	none Parent: C||
+---------------------------------------------||Node 1484	Y	none Parent: I||
+------------------------------------------------||Node 1483	user-defined name	setpw Parent: Y||
+---------------------------------------||Node 1487	grouping symbol	; Parent: C||
+---------------------------------------||Node 1490	I	none Parent: C||
+------------------------------------------||Node 1489	Y	none Parent: I||
+---------------------------------------------||Node 1488	user-defined name	create Parent: Y||
+------------------------------------||Node 1492	grouping symbol	} Parent: W||
+---------------------------||Node 1496	grouping symbol	; Parent: C||
+---------------------------||Node 1524	I	none Parent: C||
+------------------------------||Node 1523	W	none Parent: I||
+---------------------------------||Node 1497	keyword	if Parent: W||
+---------------------------------||Node 1498	grouping symbol	( Parent: W||
+---------------------------------||Node 1509	B	none Parent: W||
+------------------------------------||Node 1499	keyword	eq Parent: B||
+------------------------------------||Node 1500	grouping symbol	( Parent: B||
+------------------------------------||Node 1503	V	none Parent: B||
+---------------------------------------||Node 1502	S	none Parent: V||
+------------------------------------------||Node 1501	user-defined name	instruction Parent: S||
+------------------------------------||Node 1504	grouping symbol	, Parent: B||
+------------------------------------||Node 1507	V	none Parent: B||
+---------------------------------------||Node 1506	S	none Parent: V||
+------------------------------------------||Node 1505	user-defined name	closenum Parent: S||
+------------------------------------||Node 1508	grouping symbol	) Parent: B||
+---------------------------------||Node 1510	grouping symbol	) Parent: W||
+---------------------------------||Node 1511	keyword	then Parent: W||
+---------------------------------||Node 1512	grouping symbol	{ Parent: W||
+---------------------------------||Node 1521	C	none Parent: W||
+------------------------------------||Node 1516	C	none Parent: C||
+---------------------------------------||Node 1515	I	none Parent: C||
+------------------------------------------||Node 1514	Y	none Parent: I||
+---------------------------------------------||Node 1513	user-defined name	askpw Parent: Y||
+------------------------------------||Node 1517	grouping symbol	; Parent: C||
+------------------------------------||Node 1520	I	none Parent: C||
+---------------------------------------||Node 1519	Y	none Parent: I||
+------------------------------------------||Node 1518	user-defined name	close Parent: Y||
+---------------------------------||Node 1522	grouping symbol	} Parent: W||
+------------------------||Node 1526	grouping symbol	; Parent: C||
+------------------------||Node 1554	I	none Parent: C||
+---------------------------||Node 1553	W	none Parent: I||
+------------------------------||Node 1527	keyword	if Parent: W||
+------------------------------||Node 1528	grouping symbol	( Parent: W||
+------------------------------||Node 1539	B	none Parent: W||
+---------------------------------||Node 1529	keyword	eq Parent: B||
+---------------------------------||Node 1530	grouping symbol	( Parent: B||
+---------------------------------||Node 1533	V	none Parent: B||
+------------------------------------||Node 1532	S	none Parent: V||
+---------------------------------------||Node 1531	user-defined name	instruction Parent: S||
+---------------------------------||Node 1534	grouping symbol	, Parent: B||
+---------------------------------||Node 1537	V	none Parent: B||
+------------------------------------||Node 1536	S	none Parent: V||
+---------------------------------------||Node 1535	user-defined name	shownum Parent: S||
+---------------------------------||Node 1538	grouping symbol	) Parent: B||
+------------------------------||Node 1540	grouping symbol	) Parent: W||
+------------------------------||Node 1541	keyword	then Parent: W||
+------------------------------||Node 1542	grouping symbol	{ Parent: W||
+------------------------------||Node 1551	C	none Parent: W||
+---------------------------------||Node 1546	C	none Parent: C||
+------------------------------------||Node 1545	I	none Parent: C||
+---------------------------------------||Node 1544	Y	none Parent: I||
+------------------------------------------||Node 1543	user-defined name	askpw Parent: Y||
+---------------------------------||Node 1547	grouping symbol	; Parent: C||
+---------------------------------||Node 1550	I	none Parent: C||
+------------------------------------||Node 1549	Y	none Parent: I||
+---------------------------------------||Node 1548	user-defined name	show Parent: Y||
+------------------------------||Node 1552	grouping symbol	} Parent: W||
+---------------------||Node 1556	grouping symbol	; Parent: C||
+---------------------||Node 1584	I	none Parent: C||
+------------------------||Node 1583	W	none Parent: I||
+---------------------------||Node 1557	keyword	if Parent: W||
+---------------------------||Node 1558	grouping symbol	( Parent: W||
+---------------------------||Node 1569	B	none Parent: W||
+------------------------------||Node 1559	keyword	eq Parent: B||
+------------------------------||Node 1560	grouping symbol	( Parent: B||
+------------------------------||Node 1563	V	none Parent: B||
+---------------------------------||Node 1562	S	none Parent: V||
+------------------------------------||Node 1561	user-defined name	instruction Parent: S||
+------------------------------||Node 1564	grouping symbol	, Parent: B||
+------------------------------||Node 1567	V	none Parent: B||
+---------------------------------||Node 1566	S	none Parent: V||
+------------------------------------||Node 1565	user-defined name	deposnum Parent: S||
+------------------------------||Node 1568	grouping symbol	) Parent: B||
+---------------------------||Node 1570	grouping symbol	) Parent: W||
+---------------------------||Node 1571	keyword	then Parent: W||
+---------------------------||Node 1572	grouping symbol	{ Parent: W||
+---------------------------||Node 1581	C	none Parent: W||
+------------------------------||Node 1576	C	none Parent: C||
+---------------------------------||Node 1575	I	none Parent: C||
+------------------------------------||Node 1574	Y	none Parent: I||
+---------------------------------------||Node 1573	user-defined name	askpw Parent: Y||
+------------------------------||Node 1577	grouping symbol	; Parent: C||
+------------------------------||Node 1580	I	none Parent: C||
+---------------------------------||Node 1579	Y	none Parent: I||
+------------------------------------||Node 1578	user-defined name	in Parent: Y||
+---------------------------||Node 1582	grouping symbol	} Parent: W||
+------------------||Node 1586	grouping symbol	; Parent: C||
+------------------||Node 1626	I	none Parent: C||
+---------------------||Node 1625	W	none Parent: I||
+------------------------||Node 1587	keyword	if Parent: W||
+------------------------||Node 1588	grouping symbol	( Parent: W||
+------------------------||Node 1599	B	none Parent: W||
+---------------------------||Node 1589	keyword	eq Parent: B||
+---------------------------||Node 1590	grouping symbol	( Parent: B||
+---------------------------||Node 1593	V	none Parent: B||
+------------------------------||Node 1592	S	none Parent: V||
+---------------------------------||Node 1591	user-defined name	instruction Parent: S||
+---------------------------||Node 1594	grouping symbol	, Parent: B||
+---------------------------||Node 1597	V	none Parent: B||
+------------------------------||Node 1596	S	none Parent: V||
+---------------------------------||Node 1595	user-defined name	withdrnum Parent: S||
+---------------------------||Node 1598	grouping symbol	) Parent: B||
+------------------------||Node 1600	grouping symbol	) Parent: W||
+------------------------||Node 1601	keyword	then Parent: W||
+------------------------||Node 1602	grouping symbol	{ Parent: W||
+------------------------||Node 1611	C	none Parent: W||
+---------------------------||Node 1606	C	none Parent: C||
+------------------------------||Node 1605	I	none Parent: C||
+---------------------------------||Node 1604	Y	none Parent: I||
+------------------------------------||Node 1603	user-defined name	askpw Parent: Y||
+---------------------------||Node 1607	grouping symbol	; Parent: C||
+---------------------------||Node 1610	I	none Parent: C||
+------------------------------||Node 1609	Y	none Parent: I||
+---------------------------------||Node 1608	user-defined name	out Parent: Y||
+------------------------||Node 1612	grouping symbol	} Parent: W||
+------------------------||Node 1613	keyword	else Parent: W||
+------------------------||Node 1614	grouping symbol	{ Parent: W||
+------------------------||Node 1623	C	none Parent: W||
+---------------------------||Node 1622	I	none Parent: C||
+------------------------------||Node 1621	O	none Parent: I||
+---------------------------------||Node 1615	keyword	output Parent: O||
+---------------------------------||Node 1616	grouping symbol	( Parent: O||
+---------------------------------||Node 1619	V	none Parent: O||
+------------------------------------||Node 1618	S	none Parent: V||
+---------------------------------------||Node 1617	user-defined name	error Parent: S||
+---------------------------------||Node 1620	grouping symbol	) Parent: O||
+------------------------||Node 1624	grouping symbol	} Parent: W||
+---------------||Node 1628	grouping symbol	} Parent: Z||
+------||Node 1632	grouping symbol	; Parent: P||
+------||Node 2497	D	none Parent: P||
+---------||Node 1750	R	none Parent: D||
+------------||Node 1633	keyword	proc Parent: R||
+------------||Node 1634	user-defined name	create Parent: R||
+------------||Node 1635	grouping symbol	{ Parent: R||
+------------||Node 1748	P	none Parent: R||
+---------------||Node 1747	C	none Parent: P||
+------------------||Node 1746	I	none Parent: C||
+---------------------||Node 1745	W	none Parent: I||
+------------------------||Node 1636	keyword	if Parent: W||
+------------------------||Node 1637	grouping symbol	( Parent: W||
+------------------------||Node 1648	B	none Parent: W||
+---------------------------||Node 1638	keyword	eq Parent: B||
+---------------------------||Node 1639	grouping symbol	( Parent: B||
+---------------------------||Node 1642	V	none Parent: B||
+------------------------------||Node 1641	S	none Parent: V||
+---------------------------------||Node 1640	user-defined name	exists Parent: S||
+---------------------------||Node 1643	grouping symbol	, Parent: B||
+---------------------------||Node 1646	V	none Parent: B||
+------------------------------||Node 1645	S	none Parent: V||
+---------------------------------||Node 1644	user-defined name	null Parent: S||
+---------------------------||Node 1647	grouping symbol	) Parent: B||
+------------------------||Node 1649	grouping symbol	) Parent: W||
+------------------------||Node 1650	keyword	then Parent: W||
+------------------------||Node 1651	grouping symbol	{ Parent: W||
+------------------------||Node 1681	C	none Parent: W||
+---------------------------||Node 1671	C	none Parent: C||
+------------------------------||Node 1661	C	none Parent: C||
+---------------------------------||Node 1660	I	none Parent: C||
+------------------------------------||Node 1659	A	none Parent: I||
+---------------------------------------||Node 1654	T	none Parent: A||
+------------------------------------------||Node 1653	S	none Parent: T||
+---------------------------------------------||Node 1652	user-defined name	exists Parent: S||
+---------------------------------------||Node 1655	assignment operator	= Parent: A||
+---------------------------------------||Node 1658	U	none Parent: A||
+------------------------------------------||Node 1657	S	none Parent: U||
+---------------------------------------------||Node 1656	user-defined name	one Parent: S||
+------------------------------||Node 1662	grouping symbol	; Parent: C||
+------------------------------||Node 1670	I	none Parent: C||
+---------------------------------||Node 1669	A	none Parent: I||
+------------------------------------||Node 1665	T	none Parent: A||
+---------------------------------------||Node 1664	S	none Parent: T||
+------------------------------------------||Node 1663	user-defined name	mes Parent: S||
+------------------------------------||Node 1666	assignment operator	= Parent: A||
+------------------------------------||Node 1668	U	none Parent: A||
+---------------------------------------||Node 1667	short string	"welcome" Parent: U||
+---------------------------||Node 1672	grouping symbol	; Parent: C||
+---------------------------||Node 1680	I	none Parent: C||
+------------------------------||Node 1679	O	none Parent: I||
+---------------------------------||Node 1673	keyword	output Parent: O||
+---------------------------------||Node 1674	grouping symbol	( Parent: O||
+---------------------------------||Node 1677	V	none Parent: O||
+------------------------------------||Node 1676	S	none Parent: V||
+---------------------------------------||Node 1675	user-defined name	mes Parent: S||
+---------------------------------||Node 1678	grouping symbol	) Parent: O||
+------------------------||Node 1682	grouping symbol	} Parent: W||
+------------------------||Node 1683	keyword	else Parent: W||
+------------------------||Node 1684	grouping symbol	{ Parent: W||
+------------------------||Node 1743	C	none Parent: W||
+---------------------------||Node 1733	C	none Parent: C||
+------------------------------||Node 1723	C	none Parent: C||
+---------------------------------||Node 1713	C	none Parent: C||
+------------------------------------||Node 1703	C	none Parent: C||
+---------------------------------------||Node 1693	C	none Parent: C||
+------------------------------------------||Node 1692	I	none Parent: C||
+---------------------------------------------||Node 1691	A	none Parent: I||
+------------------------------------------------||Node 1687	T	none Parent: A||
+---------------------------------------------------||Node 1686	S	none Parent: T||
+------------------------------------------------------||Node 1685	user-defined name	mes Parent: S||
+------------------------------------------------||Node 1688	assignment operator	= Parent: A||
+------------------------------------------------||Node 1690	U	none Parent: A||
+---------------------------------------------------||Node 1689	short string	"account" Parent: U||
+---------------------------------------||Node 1694	grouping symbol	; Parent: C||
+---------------------------------------||Node 1702	I	none Parent: C||
+------------------------------------------||Node 1701	O	none Parent: I||
+---------------------------------------------||Node 1695	keyword	output Parent: O||
+---------------------------------------------||Node 1696	grouping symbol	( Parent: O||
+---------------------------------------------||Node 1699	V	none Parent: O||
+------------------------------------------------||Node 1698	S	none Parent: V||
+---------------------------------------------------||Node 1697	user-defined name	mes Parent: S||
+---------------------------------------------||Node 1700	grouping symbol	) Parent: O||
+------------------------------------||Node 1704	grouping symbol	; Parent: C||
+------------------------------------||Node 1712	I	none Parent: C||
+---------------------------------------||Node 1711	A	none Parent: I||
+------------------------------------------||Node 1707	T	none Parent: A||
+---------------------------------------------||Node 1706	S	none Parent: T||
+------------------------------------------------||Node 1705	user-defined name	mes Parent: S||
+------------------------------------------||Node 1708	assignment operator	= Parent: A||
+------------------------------------------||Node 1710	U	none Parent: A||
+---------------------------------------------||Node 1709	short string	"already" Parent: U||
+---------------------------------||Node 1714	grouping symbol	; Parent: C||
+---------------------------------||Node 1722	I	none Parent: C||
+------------------------------------||Node 1721	O	none Parent: I||
+---------------------------------------||Node 1715	keyword	output Parent: O||
+---------------------------------------||Node 1716	grouping symbol	( Parent: O||
+---------------------------------------||Node 1719	V	none Parent: O||
+------------------------------------------||Node 1718	S	none Parent: V||
+---------------------------------------------||Node 1717	user-defined name	mes Parent: S||
+---------------------------------------||Node 1720	grouping symbol	) Parent: O||
+------------------------------||Node 1724	grouping symbol	; Parent: C||
+------------------------------||Node 1732	I	none Parent: C||
+---------------------------------||Node 1731	A	none Parent: I||
+------------------------------------||Node 1727	T	none Parent: A||
+---------------------------------------||Node 1726	S	none Parent: T||
+------------------------------------------||Node 1725	user-defined name	mes Parent: S||
+------------------------------------||Node 1728	assignment operator	= Parent: A||
+------------------------------------||Node 1730	U	none Parent: A||
+---------------------------------------||Node 1729	short string	"exists" Parent: U||
+---------------------------||Node 1734	grouping symbol	; Parent: C||
+---------------------------||Node 1742	I	none Parent: C||
+------------------------------||Node 1741	O	none Parent: I||
+---------------------------------||Node 1735	keyword	output Parent: O||
+---------------------------------||Node 1736	grouping symbol	( Parent: O||
+---------------------------------||Node 1739	V	none Parent: O||
+------------------------------------||Node 1738	S	none Parent: V||
+---------------------------------------||Node 1737	user-defined name	mes Parent: S||
+---------------------------------||Node 1740	grouping symbol	) Parent: O||
+------------------------||Node 1744	grouping symbol	} Parent: W||
+------------||Node 1749	grouping symbol	} Parent: R||
+---------||Node 2496	D	none Parent: D||
+------------||Node 1849	R	none Parent: D||
+---------------||Node 1751	keyword	proc Parent: R||
+---------------||Node 1752	user-defined name	close Parent: R||
+---------------||Node 1753	grouping symbol	{ Parent: R||
+---------------||Node 1847	P	none Parent: R||
+------------------||Node 1846	C	none Parent: P||
+---------------------||Node 1845	I	none Parent: C||
+------------------------||Node 1844	W	none Parent: I||
+---------------------------||Node 1754	keyword	if Parent: W||
+---------------------------||Node 1755	grouping symbol	( Parent: W||
+---------------------------||Node 1782	B	none Parent: W||
+------------------------------||Node 1756	keyword	and Parent: B||
+------------------------------||Node 1757	grouping symbol	( Parent: B||
+------------------------------||Node 1768	B	none Parent: B||
+---------------------------------||Node 1758	keyword	eq Parent: B||
+---------------------------------||Node 1759	grouping symbol	( Parent: B||
+---------------------------------||Node 1762	V	none Parent: B||
+------------------------------------||Node 1761	S	none Parent: V||
+---------------------------------------||Node 1760	user-defined name	exists Parent: S||
+---------------------------------||Node 1763	grouping symbol	, Parent: B||
+---------------------------------||Node 1766	V	none Parent: B||
+------------------------------------||Node 1765	S	none Parent: V||
+---------------------------------------||Node 1764	user-defined name	one Parent: S||
+---------------------------------||Node 1767	grouping symbol	) Parent: B||
+------------------------------||Node 1769	grouping symbol	, Parent: B||
+------------------------------||Node 1780	B	none Parent: B||
+---------------------------------||Node 1770	keyword	eq Parent: B||
+---------------------------------||Node 1771	grouping symbol	( Parent: B||
+---------------------------------||Node 1774	V	none Parent: B||
+------------------------------------||Node 1773	S	none Parent: V||
+---------------------------------------||Node 1772	user-defined name	amount Parent: S||
+---------------------------------||Node 1775	grouping symbol	, Parent: B||
+---------------------------------||Node 1778	V	none Parent: B||
+------------------------------------||Node 1777	S	none Parent: V||
+---------------------------------------||Node 1776	user-defined name	null Parent: S||
+---------------------------------||Node 1779	grouping symbol	) Parent: B||
+------------------------------||Node 1781	grouping symbol	) Parent: B||
+---------------------------||Node 1783	grouping symbol	) Parent: W||
+---------------------------||Node 1784	keyword	then Parent: W||
+---------------------------||Node 1785	grouping symbol	{ Parent: W||
+---------------------------||Node 1830	C	none Parent: W||
+------------------------------||Node 1826	C	none Parent: C||
+---------------------------------||Node 1816	C	none Parent: C||
+------------------------------------||Node 1806	C	none Parent: C||
+---------------------------------------||Node 1795	C	none Parent: C||
+------------------------------------------||Node 1794	I	none Parent: C||
+---------------------------------------------||Node 1793	A	none Parent: I||
+------------------------------------------------||Node 1788	T	none Parent: A||
+---------------------------------------------------||Node 1787	S	none Parent: T||
+------------------------------------------------------||Node 1786	user-defined name	passwd Parent: S||
+------------------------------------------------||Node 1789	assignment operator	= Parent: A||
+------------------------------------------------||Node 1792	U	none Parent: A||
+---------------------------------------------------||Node 1791	S	none Parent: U||
+------------------------------------------------------||Node 1790	user-defined name	null Parent: S||
+---------------------------------------||Node 1796	grouping symbol	; Parent: C||
+---------------------------------------||Node 1805	I	none Parent: C||
+------------------------------------------||Node 1804	A	none Parent: I||
+---------------------------------------------||Node 1799	T	none Parent: A||
+------------------------------------------------||Node 1798	S	none Parent: T||
+---------------------------------------------------||Node 1797	user-defined name	exists Parent: S||
+---------------------------------------------||Node 1800	assignment operator	= Parent: A||
+---------------------------------------------||Node 1803	U	none Parent: A||
+------------------------------------------------||Node 1802	S	none Parent: U||
+---------------------------------------------------||Node 1801	user-defined name	null Parent: S||
+------------------------------------||Node 1807	grouping symbol	; Parent: C||
+------------------------------------||Node 1815	I	none Parent: C||
+---------------------------------------||Node 1814	A	none Parent: I||
+------------------------------------------||Node 1810	T	none Parent: A||
+---------------------------------------------||Node 1809	S	none Parent: T||
+------------------------------------------------||Node 1808	user-defined name	mes Parent: S||
+------------------------------------------||Node 1811	assignment operator	= Parent: A||
+------------------------------------------||Node 1813	U	none Parent: A||
+---------------------------------------------||Node 1812	short string	"good bye" Parent: U||
+---------------------------------||Node 1817	grouping symbol	; Parent: C||
+---------------------------------||Node 1825	I	none Parent: C||
+------------------------------------||Node 1824	O	none Parent: I||
+---------------------------------------||Node 1818	keyword	output Parent: O||
+---------------------------------------||Node 1819	grouping symbol	( Parent: O||
+---------------------------------------||Node 1822	V	none Parent: O||
+------------------------------------------||Node 1821	S	none Parent: V||
+---------------------------------------------||Node 1820	user-defined name	mes Parent: S||
+---------------------------------------||Node 1823	grouping symbol	) Parent: O||
+------------------------------||Node 1827	grouping symbol	; Parent: C||
+------------------------------||Node 1829	I	none Parent: C||
+---------------------------------||Node 1828	keyword	halt Parent: I||
+---------------------------||Node 1831	grouping symbol	} Parent: W||
+---------------------------||Node 1832	keyword	else Parent: W||
+---------------------------||Node 1833	grouping symbol	{ Parent: W||
+---------------------------||Node 1842	C	none Parent: W||
+------------------------------||Node 1841	I	none Parent: C||
+---------------------------------||Node 1840	O	none Parent: I||
+------------------------------------||Node 1834	keyword	output Parent: O||
+------------------------------------||Node 1835	grouping symbol	( Parent: O||
+------------------------------------||Node 1838	V	none Parent: O||
+---------------------------------------||Node 1837	S	none Parent: V||
+------------------------------------------||Node 1836	user-defined name	error Parent: S||
+------------------------------------||Node 1839	grouping symbol	) Parent: O||
+---------------------------||Node 1843	grouping symbol	} Parent: W||
+---------------||Node 1848	grouping symbol	} Parent: R||
+------------||Node 2495	D	none Parent: D||
+---------------||Node 1896	R	none Parent: D||
+------------------||Node 1850	keyword	proc Parent: R||
+------------------||Node 1851	user-defined name	show Parent: R||
+------------------||Node 1852	grouping symbol	{ Parent: R||
+------------------||Node 1894	P	none Parent: R||
+---------------------||Node 1893	C	none Parent: P||
+------------------------||Node 1892	I	none Parent: C||
+---------------------------||Node 1891	W	none Parent: I||
+------------------------------||Node 1853	keyword	if Parent: W||
+------------------------------||Node 1854	grouping symbol	( Parent: W||
+------------------------------||Node 1865	B	none Parent: W||
+---------------------------------||Node 1855	keyword	eq Parent: B||
+---------------------------------||Node 1856	grouping symbol	( Parent: B||
+---------------------------------||Node 1859	V	none Parent: B||
+------------------------------------||Node 1858	S	none Parent: V||
+---------------------------------------||Node 1857	user-defined name	exists Parent: S||
+---------------------------------||Node 1860	grouping symbol	, Parent: B||
+---------------------------------||Node 1863	V	none Parent: B||
+------------------------------------||Node 1862	S	none Parent: V||
+---------------------------------------||Node 1861	user-defined name	one Parent: S||
+---------------------------------||Node 1864	grouping symbol	) Parent: B||
+------------------------------||Node 1866	grouping symbol	) Parent: W||
+------------------------------||Node 1867	keyword	then Parent: W||
+------------------------------||Node 1868	grouping symbol	{ Parent: W||
+------------------------------||Node 1877	C	none Parent: W||
+---------------------------------||Node 1876	I	none Parent: C||
+------------------------------------||Node 1875	O	none Parent: I||
+---------------------------------------||Node 1869	keyword	output Parent: O||
+---------------------------------------||Node 1870	grouping symbol	( Parent: O||
+---------------------------------------||Node 1873	V	none Parent: O||
+------------------------------------------||Node 1872	S	none Parent: V||
+---------------------------------------------||Node 1871	user-defined name	amount Parent: S||
+---------------------------------------||Node 1874	grouping symbol	) Parent: O||
+------------------------------||Node 1878	grouping symbol	} Parent: W||
+------------------------------||Node 1879	keyword	else Parent: W||
+------------------------------||Node 1880	grouping symbol	{ Parent: W||
+------------------------------||Node 1889	C	none Parent: W||
+---------------------------------||Node 1888	I	none Parent: C||
+------------------------------------||Node 1887	O	none Parent: I||
+---------------------------------------||Node 1881	keyword	output Parent: O||
+---------------------------------------||Node 1882	grouping symbol	( Parent: O||
+---------------------------------------||Node 1885	V	none Parent: O||
+------------------------------------------||Node 1884	S	none Parent: V||
+---------------------------------------------||Node 1883	user-defined name	error Parent: S||
+---------------------------------------||Node 1886	grouping symbol	) Parent: O||
+------------------------------||Node 1890	grouping symbol	} Parent: W||
+------------------||Node 1895	grouping symbol	} Parent: R||
+---------------||Node 2494	D	none Parent: D||
+------------------||Node 1997	R	none Parent: D||
+---------------------||Node 1897	keyword	proc Parent: R||
+---------------------||Node 1898	user-defined name	in Parent: R||
+---------------------||Node 1899	grouping symbol	{ Parent: R||
+---------------------||Node 1995	P	none Parent: R||
+------------------------||Node 1994	C	none Parent: P||
+---------------------------||Node 1908	C	none Parent: C||
+------------------------------||Node 1907	I	none Parent: C||
+---------------------------------||Node 1906	O	none Parent: I||
+------------------------------------||Node 1900	keyword	input Parent: O||
+------------------------------------||Node 1901	grouping symbol	( Parent: O||
+------------------------------------||Node 1904	V	none Parent: O||
+---------------------------------------||Node 1903	S	none Parent: V||
+------------------------------------------||Node 1902	user-defined name	i Parent: S||
+------------------------------------||Node 1905	grouping symbol	) Parent: O||
+---------------------------||Node 1909	grouping symbol	; Parent: C||
+---------------------------||Node 1993	I	none Parent: C||
+------------------------------||Node 1992	W	none Parent: I||
+---------------------------------||Node 1910	keyword	if Parent: W||
+---------------------------------||Node 1911	grouping symbol	( Parent: W||
+---------------------------------||Node 1935	B	none Parent: W||
+------------------------------------||Node 1912	keyword	and Parent: B||
+------------------------------------||Node 1913	grouping symbol	( Parent: B||
+------------------------------------||Node 1924	B	none Parent: B||
+---------------------------------------||Node 1914	keyword	eq Parent: B||
+---------------------------------------||Node 1915	grouping symbol	( Parent: B||
+---------------------------------------||Node 1918	V	none Parent: B||
+------------------------------------------||Node 1917	S	none Parent: V||
+---------------------------------------------||Node 1916	user-defined name	exists Parent: S||
+---------------------------------------||Node 1919	grouping symbol	, Parent: B||
+---------------------------------------||Node 1922	V	none Parent: B||
+------------------------------------------||Node 1921	S	none Parent: V||
+---------------------------------------------||Node 1920	user-defined name	one Parent: S||
+---------------------------------------||Node 1923	grouping symbol	) Parent: B||
+------------------------------------||Node 1925	grouping symbol	, Parent: B||
+------------------------------------||Node 1933	B	none Parent: B||
+---------------------------------------||Node 1926	grouping symbol	( Parent: B||
+---------------------------------------||Node 1928	N	none Parent: B||
+------------------------------------------||Node 1927	user-defined name	i Parent: N||
+---------------------------------------||Node 1929	comparison symbol	> Parent: B||
+---------------------------------------||Node 1931	N	none Parent: B||
+------------------------------------------||Node 1930	user-defined name	null Parent: N||
+---------------------------------------||Node 1932	grouping symbol	) Parent: B||
+------------------------------------||Node 1934	grouping symbol	) Parent: B||
+---------------------------------||Node 1936	grouping symbol	) Parent: W||
+---------------------------------||Node 1937	keyword	then Parent: W||
+---------------------------------||Node 1938	grouping symbol	{ Parent: W||
+---------------------------------||Node 1978	C	none Parent: W||
+------------------------------------||Node 1968	C	none Parent: C||
+---------------------------------------||Node 1958	C	none Parent: C||
+------------------------------------------||Node 1957	I	none Parent: C||
+---------------------------------------------||Node 1956	A	none Parent: I||
+------------------------------------------------||Node 1941	T	none Parent: A||
+---------------------------------------------------||Node 1940	S	none Parent: T||
+------------------------------------------------------||Node 1939	user-defined name	amount Parent: S||
+------------------------------------------------||Node 1942	assignment operator	= Parent: A||
+------------------------------------------------||Node 1955	U	none Parent: A||
+---------------------------------------------------||Node 1954	X	none Parent: U||
+------------------------------------------------------||Node 1953	L	none Parent: X||
+---------------------------------------------------------||Node 1943	keyword	add Parent: L||
+---------------------------------------------------------||Node 1944	grouping symbol	( Parent: L||
+---------------------------------------------------------||Node 1947	X	none Parent: L||
+------------------------------------------------------------||Node 1946	N	none Parent: X||
+---------------------------------------------------------------||Node 1945	user-defined name	amount Parent: N||
+---------------------------------------------------------||Node 1948	grouping symbol	, Parent: L||
+---------------------------------------------------------||Node 1951	X	none Parent: L||
+------------------------------------------------------------||Node 1950	N	none Parent: X||
+---------------------------------------------------------------||Node 1949	user-defined name	i Parent: N||
+---------------------------------------------------------||Node 1952	grouping symbol	) Parent: L||
+---------------------------------------||Node 1959	grouping symbol	; Parent: C||
+---------------------------------------||Node 1967	I	none Parent: C||
+------------------------------------------||Node 1966	A	none Parent: I||
+---------------------------------------------||Node 1962	T	none Parent: A||
+------------------------------------------------||Node 1961	S	none Parent: T||
+---------------------------------------------------||Node 1960	user-defined name	mes Parent: S||
+---------------------------------------------||Node 1963	assignment operator	= Parent: A||
+---------------------------------------------||Node 1965	U	none Parent: A||
+------------------------------------------------||Node 1964	short string	"thanks" Parent: U||
+------------------------------------||Node 1969	grouping symbol	; Parent: C||
+------------------------------------||Node 1977	I	none Parent: C||
+---------------------------------------||Node 1976	O	none Parent: I||
+------------------------------------------||Node 1970	keyword	output Parent: O||
+------------------------------------------||Node 1971	grouping symbol	( Parent: O||
+------------------------------------------||Node 1974	V	none Parent: O||
+---------------------------------------------||Node 1973	S	none Parent: V||
+------------------------------------------------||Node 1972	user-defined name	mes Parent: S||
+------------------------------------------||Node 1975	grouping symbol	) Parent: O||
+---------------------------------||Node 1979	grouping symbol	} Parent: W||
+---------------------------------||Node 1980	keyword	else Parent: W||
+---------------------------------||Node 1981	grouping symbol	{ Parent: W||
+---------------------------------||Node 1990	C	none Parent: W||
+------------------------------------||Node 1989	I	none Parent: C||
+---------------------------------------||Node 1988	O	none Parent: I||
+------------------------------------------||Node 1982	keyword	output Parent: O||
+------------------------------------------||Node 1983	grouping symbol	( Parent: O||
+------------------------------------------||Node 1986	V	none Parent: O||
+---------------------------------------------||Node 1985	S	none Parent: V||
+------------------------------------------------||Node 1984	user-defined name	error Parent: S||
+------------------------------------------||Node 1987	grouping symbol	) Parent: O||
+---------------------------------||Node 1991	grouping symbol	} Parent: W||
+---------------------||Node 1996	grouping symbol	} Parent: R||
+------------------||Node 2493	D	none Parent: D||
+---------------------||Node 2113	R	none Parent: D||
+------------------------||Node 1998	keyword	proc Parent: R||
+------------------------||Node 1999	user-defined name	out Parent: R||
+------------------------||Node 2000	grouping symbol	{ Parent: R||
+------------------------||Node 2111	P	none Parent: R||
+---------------------------||Node 2110	C	none Parent: P||
+------------------------------||Node 2009	C	none Parent: C||
+---------------------------------||Node 2008	I	none Parent: C||
+------------------------------------||Node 2007	O	none Parent: I||
+---------------------------------------||Node 2001	keyword	input Parent: O||
+---------------------------------------||Node 2002	grouping symbol	( Parent: O||
+---------------------------------------||Node 2005	V	none Parent: O||
+------------------------------------------||Node 2004	S	none Parent: V||
+---------------------------------------------||Node 2003	user-defined name	i Parent: S||
+---------------------------------------||Node 2006	grouping symbol	) Parent: O||
+------------------------------||Node 2010	grouping symbol	; Parent: C||
+------------------------------||Node 2109	I	none Parent: C||
+---------------------------------||Node 2108	W	none Parent: I||
+------------------------------------||Node 2011	keyword	if Parent: W||
+------------------------------------||Node 2012	grouping symbol	( Parent: W||
+------------------------------------||Node 2051	B	none Parent: W||
+---------------------------------------||Node 2013	keyword	and Parent: B||
+---------------------------------------||Node 2014	grouping symbol	( Parent: B||
+---------------------------------------||Node 2022	B	none Parent: B||
+------------------------------------------||Node 2015	grouping symbol	( Parent: B||
+------------------------------------------||Node 2017	N	none Parent: B||
+---------------------------------------------||Node 2016	user-defined name	i Parent: N||
+------------------------------------------||Node 2018	comparison symbol	> Parent: B||
+------------------------------------------||Node 2020	N	none Parent: B||
+---------------------------------------------||Node 2019	user-defined name	null Parent: N||
+------------------------------------------||Node 2021	grouping symbol	) Parent: B||
+---------------------------------------||Node 2023	grouping symbol	, Parent: B||
+---------------------------------------||Node 2049	B	none Parent: B||
+------------------------------------------||Node 2024	keyword	and Parent: B||
+------------------------------------------||Node 2025	grouping symbol	( Parent: B||
+------------------------------------------||Node 2036	B	none Parent: B||
+---------------------------------------------||Node 2026	keyword	eq Parent: B||
+---------------------------------------------||Node 2027	grouping symbol	( Parent: B||
+---------------------------------------------||Node 2030	V	none Parent: B||
+------------------------------------------------||Node 2029	S	none Parent: V||
+---------------------------------------------------||Node 2028	user-defined name	exists Parent: S||
+---------------------------------------------||Node 2031	grouping symbol	, Parent: B||
+---------------------------------------------||Node 2034	V	none Parent: B||
+------------------------------------------------||Node 2033	S	none Parent: V||
+---------------------------------------------------||Node 2032	user-defined name	one Parent: S||
+---------------------------------------------||Node 2035	grouping symbol	) Parent: B||
+------------------------------------------||Node 2037	grouping symbol	, Parent: B||
+------------------------------------------||Node 2047	B	none Parent: B||
+---------------------------------------------||Node 2038	keyword	not Parent: B||
+---------------------------------------------||Node 2046	B	none Parent: B||
+------------------------------------------------||Node 2039	grouping symbol	( Parent: B||
+------------------------------------------------||Node 2041	N	none Parent: B||
+---------------------------------------------------||Node 2040	user-defined name	amount Parent: N||
+------------------------------------------------||Node 2042	comparison symbol	< Parent: B||
+------------------------------------------------||Node 2044	N	none Parent: B||
+---------------------------------------------------||Node 2043	user-defined name	i Parent: N||
+------------------------------------------------||Node 2045	grouping symbol	) Parent: B||
+------------------------------------------||Node 2048	grouping symbol	) Parent: B||
+---------------------------------------||Node 2050	grouping symbol	) Parent: B||
+------------------------------------||Node 2052	grouping symbol	) Parent: W||
+------------------------------------||Node 2053	keyword	then Parent: W||
+------------------------------------||Node 2054	grouping symbol	{ Parent: W||
+------------------------------------||Node 2094	C	none Parent: W||
+---------------------------------------||Node 2084	C	none Parent: C||
+------------------------------------------||Node 2074	C	none Parent: C||
+---------------------------------------------||Node 2073	I	none Parent: C||
+------------------------------------------------||Node 2072	A	none Parent: I||
+---------------------------------------------------||Node 2057	T	none Parent: A||
+------------------------------------------------------||Node 2056	S	none Parent: T||
+---------------------------------------------------------||Node 2055	user-defined name	amount Parent: S||
+---------------------------------------------------||Node 2058	assignment operator	= Parent: A||
+---------------------------------------------------||Node 2071	U	none Parent: A||
+------------------------------------------------------||Node 2070	X	none Parent: U||
+---------------------------------------------------------||Node 2069	L	none Parent: X||
+------------------------------------------------------------||Node 2059	keyword	sub Parent: L||
+------------------------------------------------------------||Node 2060	grouping symbol	( Parent: L||
+------------------------------------------------------------||Node 2063	X	none Parent: L||
+---------------------------------------------------------------||Node 2062	N	none Parent: X||
+------------------------------------------------------------------||Node 2061	user-defined name	amount Parent: N||
+------------------------------------------------------------||Node 2064	grouping symbol	, Parent: L||
+------------------------------------------------------------||Node 2067	X	none Parent: L||
+---------------------------------------------------------------||Node 2066	N	none Parent: X||
+------------------------------------------------------------------||Node 2065	user-defined name	i Parent: N||
+------------------------------------------------------------||Node 2068	grouping symbol	) Parent: L||
+------------------------------------------||Node 2075	grouping symbol	; Parent: C||
+------------------------------------------||Node 2083	I	none Parent: C||
+---------------------------------------------||Node 2082	A	none Parent: I||
+------------------------------------------------||Node 2078	T	none Parent: A||
+---------------------------------------------------||Node 2077	S	none Parent: T||
+------------------------------------------------------||Node 2076	user-defined name	mes Parent: S||
+------------------------------------------------||Node 2079	assignment operator	= Parent: A||
+------------------------------------------------||Node 2081	U	none Parent: A||
+---------------------------------------------------||Node 2080	short string	"done" Parent: U||
+---------------------------------------||Node 2085	grouping symbol	; Parent: C||
+---------------------------------------||Node 2093	I	none Parent: C||
+------------------------------------------||Node 2092	O	none Parent: I||
+---------------------------------------------||Node 2086	keyword	output Parent: O||
+---------------------------------------------||Node 2087	grouping symbol	( Parent: O||
+---------------------------------------------||Node 2090	V	none Parent: O||
+------------------------------------------------||Node 2089	S	none Parent: V||
+---------------------------------------------------||Node 2088	user-defined name	mes Parent: S||
+---------------------------------------------||Node 2091	grouping symbol	) Parent: O||
+------------------------------------||Node 2095	grouping symbol	} Parent: W||
+------------------------------------||Node 2096	keyword	else Parent: W||
+------------------------------------||Node 2097	grouping symbol	{ Parent: W||
+------------------------------------||Node 2106	C	none Parent: W||
+---------------------------------------||Node 2105	I	none Parent: C||
+------------------------------------------||Node 2104	O	none Parent: I||
+---------------------------------------------||Node 2098	keyword	output Parent: O||
+---------------------------------------------||Node 2099	grouping symbol	( Parent: O||
+---------------------------------------------||Node 2102	V	none Parent: O||
+------------------------------------------------||Node 2101	S	none Parent: V||
+---------------------------------------------------||Node 2100	user-defined name	error Parent: S||
+---------------------------------------------||Node 2103	grouping symbol	) Parent: O||
+------------------------------------||Node 2107	grouping symbol	} Parent: W||
+------------------------||Node 2112	grouping symbol	} Parent: R||
+---------------------||Node 2492	D	none Parent: D||
+------------------------||Node 2216	R	none Parent: D||
+---------------------------||Node 2114	keyword	proc Parent: R||
+---------------------------||Node 2115	user-defined name	setpw Parent: R||
+---------------------------||Node 2116	grouping symbol	{ Parent: R||
+---------------------------||Node 2214	P	none Parent: R||
+------------------------------||Node 2213	C	none Parent: P||
+---------------------------------||Node 2203	C	none Parent: C||
+------------------------------------||Node 2193	C	none Parent: C||
+---------------------------------------||Node 2182	C	none Parent: C||
+------------------------------------------||Node 2136	C	none Parent: C||
+---------------------------------------------||Node 2126	C	none Parent: C||
+------------------------------------------------||Node 2125	I	none Parent: C||
+---------------------------------------------------||Node 2124	A	none Parent: I||
+------------------------------------------------------||Node 2119	T	none Parent: A||
+---------------------------------------------------------||Node 2118	S	none Parent: T||
+------------------------------------------------------------||Node 2117	user-defined name	kilo Parent: S||
+------------------------------------------------------||Node 2120	assignment operator	= Parent: A||
+------------------------------------------------------||Node 2123	U	none Parent: A||
+---------------------------------------------------------||Node 2122	X	none Parent: U||
+------------------------------------------------------------||Node 2121	integer	1000 Parent: X||
+---------------------------------------------||Node 2127	grouping symbol	; Parent: C||
+---------------------------------------------||Node 2135	I	none Parent: C||
+------------------------------------------------||Node 2134	O	none Parent: I||
+---------------------------------------------------||Node 2128	keyword	input Parent: O||
+---------------------------------------------------||Node 2129	grouping symbol	( Parent: O||
+---------------------------------------------------||Node 2132	V	none Parent: O||
+------------------------------------------------------||Node 2131	S	none Parent: V||
+---------------------------------------------------------||Node 2130	user-defined name	code Parent: S||
+---------------------------------------------------||Node 2133	grouping symbol	) Parent: O||
+------------------------------------------||Node 2137	grouping symbol	; Parent: C||
+------------------------------------------||Node 2181	I	none Parent: C||
+---------------------------------------------||Node 2180	Z	none Parent: I||
+------------------------------------------------||Node 2138	keyword	while Parent: Z||
+------------------------------------------------||Node 2139	grouping symbol	( Parent: Z||
+------------------------------------------------||Node 2147	B	none Parent: Z||
+---------------------------------------------------||Node 2140	grouping symbol	( Parent: B||
+---------------------------------------------------||Node 2142	N	none Parent: B||
+------------------------------------------------------||Node 2141	user-defined name	code Parent: N||
+---------------------------------------------------||Node 2143	comparison symbol	< Parent: B||
+---------------------------------------------------||Node 2145	N	none Parent: B||
+------------------------------------------------------||Node 2144	user-defined name	kilo Parent: N||
+---------------------------------------------------||Node 2146	grouping symbol	) Parent: B||
+------------------------------------------------||Node 2148	grouping symbol	) Parent: Z||
+------------------------------------------------||Node 2149	grouping symbol	{ Parent: Z||
+------------------------------------------------||Node 2178	C	none Parent: Z||
+---------------------------------------------------||Node 2168	C	none Parent: C||
+------------------------------------------------------||Node 2158	C	none Parent: C||
+---------------------------------------------------------||Node 2157	I	none Parent: C||
+------------------------------------------------------------||Node 2156	A	none Parent: I||
+---------------------------------------------------------------||Node 2152	T	none Parent: A||
+------------------------------------------------------------------||Node 2151	S	none Parent: T||
+---------------------------------------------------------------------||Node 2150	user-defined name	mes Parent: S||
+---------------------------------------------------------------||Node 2153	assignment operator	= Parent: A||
+---------------------------------------------------------------||Node 2155	U	none Parent: A||
+------------------------------------------------------------------||Node 2154	short string	"not good" Parent: U||
+------------------------------------------------------||Node 2159	grouping symbol	; Parent: C||
+------------------------------------------------------||Node 2167	I	none Parent: C||
+---------------------------------------------------------||Node 2166	O	none Parent: I||
+------------------------------------------------------------||Node 2160	keyword	output Parent: O||
+------------------------------------------------------------||Node 2161	grouping symbol	( Parent: O||
+------------------------------------------------------------||Node 2164	V	none Parent: O||
+---------------------------------------------------------------||Node 2163	S	none Parent: V||
+------------------------------------------------------------------||Node 2162	user-defined name	mes Parent: S||
+------------------------------------------------------------||Node 2165	grouping symbol	) Parent: O||
+---------------------------------------------------||Node 2169	grouping symbol	; Parent: C||
+---------------------------------------------------||Node 2177	I	none Parent: C||
+------------------------------------------------------||Node 2176	O	none Parent: I||
+---------------------------------------------------------||Node 2170	keyword	input Parent: O||
+---------------------------------------------------------||Node 2171	grouping symbol	( Parent: O||
+---------------------------------------------------------||Node 2174	V	none Parent: O||
+------------------------------------------------------------||Node 2173	S	none Parent: V||
+---------------------------------------------------------------||Node 2172	user-defined name	code Parent: S||
+---------------------------------------------------------||Node 2175	grouping symbol	) Parent: O||
+------------------------------------------------||Node 2179	grouping symbol	} Parent: Z||
+---------------------------------------||Node 2183	grouping symbol	; Parent: C||
+---------------------------------------||Node 2192	I	none Parent: C||
+------------------------------------------||Node 2191	A	none Parent: I||
+---------------------------------------------||Node 2186	T	none Parent: A||
+------------------------------------------------||Node 2185	S	none Parent: T||
+---------------------------------------------------||Node 2184	user-defined name	passwd Parent: S||
+---------------------------------------------||Node 2187	assignment operator	= Parent: A||
+---------------------------------------------||Node 2190	U	none Parent: A||
+------------------------------------------------||Node 2189	S	none Parent: U||
+---------------------------------------------------||Node 2188	user-defined name	code Parent: S||
+------------------------------------||Node 2194	grouping symbol	; Parent: C||
+------------------------------------||Node 2202	I	none Parent: C||
+---------------------------------------||Node 2201	A	none Parent: I||
+------------------------------------------||Node 2197	T	none Parent: A||
+---------------------------------------------||Node 2196	S	none Parent: T||
+------------------------------------------------||Node 2195	user-defined name	mes Parent: S||
+------------------------------------------||Node 2198	assignment operator	= Parent: A||
+------------------------------------------||Node 2200	U	none Parent: A||
+---------------------------------------------||Node 2199	short string	"noted" Parent: U||
+---------------------------------||Node 2204	grouping symbol	; Parent: C||
+---------------------------------||Node 2212	I	none Parent: C||
+------------------------------------||Node 2211	O	none Parent: I||
+---------------------------------------||Node 2205	keyword	output Parent: O||
+---------------------------------------||Node 2206	grouping symbol	( Parent: O||
+---------------------------------------||Node 2209	V	none Parent: O||
+------------------------------------------||Node 2208	S	none Parent: V||
+---------------------------------------------||Node 2207	user-defined name	mes Parent: S||
+---------------------------------------||Node 2210	grouping symbol	) Parent: O||
+---------------------------||Node 2215	grouping symbol	} Parent: R||
+------------------------||Node 2491	D	none Parent: D||
+---------------------------||Node 2490	R	none Parent: D||
+------------------------------||Node 2217	keyword	proc Parent: R||
+------------------------------||Node 2218	user-defined name	askpw Parent: R||
+------------------------------||Node 2219	grouping symbol	{ Parent: R||
+------------------------------||Node 2488	P	none Parent: R||
+---------------------------------||Node 2487	C	none Parent: P||
+------------------------------------||Node 2248	C	none Parent: C||
+---------------------------------------||Node 2238	C	none Parent: C||
+------------------------------------------||Node 2228	C	none Parent: C||
+---------------------------------------------||Node 2227	I	none Parent: C||
+------------------------------------------------||Node 2226	A	none Parent: I||
+---------------------------------------------------||Node 2222	T	none Parent: A||
+------------------------------------------------------||Node 2221	S	none Parent: T||
+---------------------------------------------------------||Node 2220	user-defined name	mes Parent: S||
+---------------------------------------------------||Node 2223	assignment operator	= Parent: A||
+---------------------------------------------------||Node 2225	U	none Parent: A||
+------------------------------------------------------||Node 2224	short string	"1st try" Parent: U||
+------------------------------------------||Node 2229	grouping symbol	; Parent: C||
+------------------------------------------||Node 2237	I	none Parent: C||
+---------------------------------------------||Node 2236	O	none Parent: I||
+------------------------------------------------||Node 2230	keyword	output Parent: O||
+------------------------------------------------||Node 2231	grouping symbol	( Parent: O||
+------------------------------------------------||Node 2234	V	none Parent: O||
+---------------------------------------------------||Node 2233	S	none Parent: V||
+------------------------------------------------------||Node 2232	user-defined name	mes Parent: S||
+------------------------------------------------||Node 2235	grouping symbol	) Parent: O||
+---------------------------------------||Node 2239	grouping symbol	; Parent: C||
+---------------------------------------||Node 2247	I	none Parent: C||
+------------------------------------------||Node 2246	O	none Parent: I||
+---------------------------------------------||Node 2240	keyword	input Parent: O||
+---------------------------------------------||Node 2241	grouping symbol	( Parent: O||
+---------------------------------------------||Node 2244	V	none Parent: O||
+------------------------------------------------||Node 2243	S	none Parent: V||
+---------------------------------------------------||Node 2242	user-defined name	code Parent: S||
+---------------------------------------------||Node 2245	grouping symbol	) Parent: O||
+------------------------------------||Node 2249	grouping symbol	; Parent: C||
+------------------------------------||Node 2486	I	none Parent: C||
+---------------------------------------||Node 2485	W	none Parent: I||
+------------------------------------------||Node 2250	keyword	if Parent: W||
+------------------------------------------||Node 2251	grouping symbol	( Parent: W||
+------------------------------------------||Node 2275	B	none Parent: W||
+---------------------------------------------||Node 2252	keyword	and Parent: B||
+---------------------------------------------||Node 2253	grouping symbol	( Parent: B||
+---------------------------------------------||Node 2261	B	none Parent: B||
+------------------------------------------------||Node 2254	grouping symbol	( Parent: B||
+------------------------------------------------||Node 2256	N	none Parent: B||
+---------------------------------------------------||Node 2255	user-defined name	code Parent: N||
+------------------------------------------------||Node 2257	comparison symbol	> Parent: B||
+------------------------------------------------||Node 2259	N	none Parent: B||
+---------------------------------------------------||Node 2258	user-defined name	null Parent: N||
+------------------------------------------------||Node 2260	grouping symbol	) Parent: B||
+---------------------------------------------||Node 2262	grouping symbol	, Parent: B||
+---------------------------------------------||Node 2273	B	none Parent: B||
+------------------------------------------------||Node 2263	keyword	eq Parent: B||
+------------------------------------------------||Node 2264	grouping symbol	( Parent: B||
+------------------------------------------------||Node 2267	V	none Parent: B||
+---------------------------------------------------||Node 2266	S	none Parent: V||
+------------------------------------------------------||Node 2265	user-defined name	code Parent: S||
+------------------------------------------------||Node 2268	grouping symbol	, Parent: B||
+------------------------------------------------||Node 2271	V	none Parent: B||
+---------------------------------------------------||Node 2270	S	none Parent: V||
+------------------------------------------------------||Node 2269	user-defined name	passwd Parent: S||
+------------------------------------------------||Node 2272	grouping symbol	) Parent: B||
+---------------------------------------------||Node 2274	grouping symbol	) Parent: B||
+------------------------------------------||Node 2276	grouping symbol	) Parent: W||
+------------------------------------------||Node 2277	keyword	then Parent: W||
+------------------------------------------||Node 2278	grouping symbol	{ Parent: W||
+------------------------------------------||Node 2297	C	none Parent: W||
+---------------------------------------------||Node 2287	C	none Parent: C||
+------------------------------------------------||Node 2286	I	none Parent: C||
+---------------------------------------------------||Node 2285	A	none Parent: I||
+------------------------------------------------------||Node 2281	T	none Parent: A||
+---------------------------------------------------------||Node 2280	S	none Parent: T||
+------------------------------------------------------------||Node 2279	user-defined name	mes Parent: S||
+------------------------------------------------------||Node 2282	assignment operator	= Parent: A||
+------------------------------------------------------||Node 2284	U	none Parent: A||
+---------------------------------------------------------||Node 2283	short string	"ok" Parent: U||
+---------------------------------------------||Node 2288	grouping symbol	; Parent: C||
+---------------------------------------------||Node 2296	I	none Parent: C||
+------------------------------------------------||Node 2295	O	none Parent: I||
+---------------------------------------------------||Node 2289	keyword	output Parent: O||
+---------------------------------------------------||Node 2290	grouping symbol	( Parent: O||
+---------------------------------------------------||Node 2293	V	none Parent: O||
+------------------------------------------------------||Node 2292	S	none Parent: V||
+---------------------------------------------------------||Node 2291	user-defined name	mes Parent: S||
+---------------------------------------------------||Node 2294	grouping symbol	) Parent: O||
+------------------------------------------||Node 2298	grouping symbol	} Parent: W||
+------------------------------------------||Node 2299	keyword	else Parent: W||
+------------------------------------------||Node 2300	grouping symbol	{ Parent: W||
+------------------------------------------||Node 2483	C	none Parent: W||
+---------------------------------------------||Node 2329	C	none Parent: C||
+------------------------------------------------||Node 2319	C	none Parent: C||
+---------------------------------------------------||Node 2309	C	none Parent: C||
+------------------------------------------------------||Node 2308	I	none Parent: C||
+---------------------------------------------------------||Node 2307	A	none Parent: I||
+------------------------------------------------------------||Node 2303	T	none Parent: A||
+---------------------------------------------------------------||Node 2302	S	none Parent: T||
+------------------------------------------------------------------||Node 2301	user-defined name	mes Parent: S||
+------------------------------------------------------------||Node 2304	assignment operator	= Parent: A||
+------------------------------------------------------------||Node 2306	U	none Parent: A||
+---------------------------------------------------------------||Node 2305	short string	"2nd try" Parent: U||
+---------------------------------------------------||Node 2310	grouping symbol	; Parent: C||
+---------------------------------------------------||Node 2318	I	none Parent: C||
+------------------------------------------------------||Node 2317	O	none Parent: I||
+---------------------------------------------------------||Node 2311	keyword	output Parent: O||
+---------------------------------------------------------||Node 2312	grouping symbol	( Parent: O||
+---------------------------------------------------------||Node 2315	V	none Parent: O||
+------------------------------------------------------------||Node 2314	S	none Parent: V||
+---------------------------------------------------------------||Node 2313	user-defined name	mes Parent: S||
+---------------------------------------------------------||Node 2316	grouping symbol	) Parent: O||
+------------------------------------------------||Node 2320	grouping symbol	; Parent: C||
+------------------------------------------------||Node 2328	I	none Parent: C||
+---------------------------------------------------||Node 2327	O	none Parent: I||
+------------------------------------------------------||Node 2321	keyword	input Parent: O||
+------------------------------------------------------||Node 2322	grouping symbol	( Parent: O||
+------------------------------------------------------||Node 2325	V	none Parent: O||
+---------------------------------------------------------||Node 2324	S	none Parent: V||
+------------------------------------------------------------||Node 2323	user-defined name	code Parent: S||
+------------------------------------------------------||Node 2326	grouping symbol	) Parent: O||
+---------------------------------------------||Node 2330	grouping symbol	; Parent: C||
+---------------------------------------------||Node 2482	I	none Parent: C||
+------------------------------------------------||Node 2481	W	none Parent: I||
+---------------------------------------------------||Node 2331	keyword	if Parent: W||
+---------------------------------------------------||Node 2332	grouping symbol	( Parent: W||
+---------------------------------------------------||Node 2356	B	none Parent: W||
+------------------------------------------------------||Node 2333	keyword	and Parent: B||
+------------------------------------------------------||Node 2334	grouping symbol	( Parent: B||
+------------------------------------------------------||Node 2342	B	none Parent: B||
+---------------------------------------------------------||Node 2335	grouping symbol	( Parent: B||
+---------------------------------------------------------||Node 2337	N	none Parent: B||
+------------------------------------------------------------||Node 2336	user-defined name	code Parent: N||
+---------------------------------------------------------||Node 2338	comparison symbol	> Parent: B||
+---------------------------------------------------------||Node 2340	N	none Parent: B||
+------------------------------------------------------------||Node 2339	user-defined name	null Parent: N||
+---------------------------------------------------------||Node 2341	grouping symbol	) Parent: B||
+------------------------------------------------------||Node 2343	grouping symbol	, Parent: B||
+------------------------------------------------------||Node 2354	B	none Parent: B||
+---------------------------------------------------------||Node 2344	keyword	eq Parent: B||
+---------------------------------------------------------||Node 2345	grouping symbol	( Parent: B||
+---------------------------------------------------------||Node 2348	V	none Parent: B||
+------------------------------------------------------------||Node 2347	S	none Parent: V||
+---------------------------------------------------------------||Node 2346	user-defined name	code Parent: S||
+---------------------------------------------------------||Node 2349	grouping symbol	, Parent: B||
+---------------------------------------------------------||Node 2352	V	none Parent: B||
+------------------------------------------------------------||Node 2351	S	none Parent: V||
+---------------------------------------------------------------||Node 2350	user-defined name	passwd Parent: S||
+---------------------------------------------------------||Node 2353	grouping symbol	) Parent: B||
+------------------------------------------------------||Node 2355	grouping symbol	) Parent: B||
+---------------------------------------------------||Node 2357	grouping symbol	) Parent: W||
+---------------------------------------------------||Node 2358	keyword	then Parent: W||
+---------------------------------------------------||Node 2359	grouping symbol	{ Parent: W||
+---------------------------------------------------||Node 2378	C	none Parent: W||
+------------------------------------------------------||Node 2368	C	none Parent: C||
+---------------------------------------------------------||Node 2367	I	none Parent: C||
+------------------------------------------------------------||Node 2366	A	none Parent: I||
+---------------------------------------------------------------||Node 2362	T	none Parent: A||
+------------------------------------------------------------------||Node 2361	S	none Parent: T||
+---------------------------------------------------------------------||Node 2360	user-defined name	mes Parent: S||
+---------------------------------------------------------------||Node 2363	assignment operator	= Parent: A||
+---------------------------------------------------------------||Node 2365	U	none Parent: A||
+------------------------------------------------------------------||Node 2364	short string	"ok" Parent: U||
+------------------------------------------------------||Node 2369	grouping symbol	; Parent: C||
+------------------------------------------------------||Node 2377	I	none Parent: C||
+---------------------------------------------------------||Node 2376	O	none Parent: I||
+------------------------------------------------------------||Node 2370	keyword	output Parent: O||
+------------------------------------------------------------||Node 2371	grouping symbol	( Parent: O||
+------------------------------------------------------------||Node 2374	V	none Parent: O||
+---------------------------------------------------------------||Node 2373	S	none Parent: V||
+------------------------------------------------------------------||Node 2372	user-defined name	mes Parent: S||
+------------------------------------------------------------||Node 2375	grouping symbol	) Parent: O||
+---------------------------------------------------||Node 2379	grouping symbol	} Parent: W||
+---------------------------------------------------||Node 2380	keyword	else Parent: W||
+---------------------------------------------------||Node 2381	grouping symbol	{ Parent: W||
+---------------------------------------------------||Node 2479	C	none Parent: W||
+------------------------------------------------------||Node 2410	C	none Parent: C||
+---------------------------------------------------------||Node 2400	C	none Parent: C||
+------------------------------------------------------------||Node 2390	C	none Parent: C||
+---------------------------------------------------------------||Node 2389	I	none Parent: C||
+------------------------------------------------------------------||Node 2388	A	none Parent: I||
+---------------------------------------------------------------------||Node 2384	T	none Parent: A||
+------------------------------------------------------------------------||Node 2383	S	none Parent: T||
+---------------------------------------------------------------------------||Node 2382	user-defined name	mes Parent: S||
+---------------------------------------------------------------------||Node 2385	assignment operator	= Parent: A||
+---------------------------------------------------------------------||Node 2387	U	none Parent: A||
+------------------------------------------------------------------------||Node 2386	short string	"3rd try" Parent: U||
+------------------------------------------------------------||Node 2391	grouping symbol	; Parent: C||
+------------------------------------------------------------||Node 2399	I	none Parent: C||
+---------------------------------------------------------------||Node 2398	O	none Parent: I||
+------------------------------------------------------------------||Node 2392	keyword	output Parent: O||
+------------------------------------------------------------------||Node 2393	grouping symbol	( Parent: O||
+------------------------------------------------------------------||Node 2396	V	none Parent: O||
+---------------------------------------------------------------------||Node 2395	S	none Parent: V||
+------------------------------------------------------------------------||Node 2394	user-defined name	mes Parent: S||
+------------------------------------------------------------------||Node 2397	grouping symbol	) Parent: O||
+---------------------------------------------------------||Node 2401	grouping symbol	; Parent: C||
+---------------------------------------------------------||Node 2409	I	none Parent: C||
+------------------------------------------------------------||Node 2408	O	none Parent: I||
+---------------------------------------------------------------||Node 2402	keyword	input Parent: O||
+---------------------------------------------------------------||Node 2403	grouping symbol	( Parent: O||
+---------------------------------------------------------------||Node 2406	V	none Parent: O||
+------------------------------------------------------------------||Node 2405	S	none Parent: V||
+---------------------------------------------------------------------||Node 2404	user-defined name	code Parent: S||
+---------------------------------------------------------------||Node 2407	grouping symbol	) Parent: O||
+------------------------------------------------------||Node 2411	grouping symbol	; Parent: C||
+------------------------------------------------------||Node 2478	I	none Parent: C||
+---------------------------------------------------------||Node 2477	W	none Parent: I||
+------------------------------------------------------------||Node 2412	keyword	if Parent: W||
+------------------------------------------------------------||Node 2413	grouping symbol	( Parent: W||
+------------------------------------------------------------||Node 2437	B	none Parent: W||
+---------------------------------------------------------------||Node 2414	keyword	and Parent: B||
+---------------------------------------------------------------||Node 2415	grouping symbol	( Parent: B||
+---------------------------------------------------------------||Node 2423	B	none Parent: B||
+------------------------------------------------------------------||Node 2416	grouping symbol	( Parent: B||
+------------------------------------------------------------------||Node 2418	N	none Parent: B||
+---------------------------------------------------------------------||Node 2417	user-defined name	code Parent: N||
+------------------------------------------------------------------||Node 2419	comparison symbol	> Parent: B||
+------------------------------------------------------------------||Node 2421	N	none Parent: B||
+---------------------------------------------------------------------||Node 2420	user-defined name	null Parent: N||
+------------------------------------------------------------------||Node 2422	grouping symbol	) Parent: B||
+---------------------------------------------------------------||Node 2424	grouping symbol	, Parent: B||
+---------------------------------------------------------------||Node 2435	B	none Parent: B||
+------------------------------------------------------------------||Node 2425	keyword	eq Parent: B||
+------------------------------------------------------------------||Node 2426	grouping symbol	( Parent: B||
+------------------------------------------------------------------||Node 2429	V	none Parent: B||
+---------------------------------------------------------------------||Node 2428	S	none Parent: V||
+------------------------------------------------------------------------||Node 2427	user-defined name	code Parent: S||
+------------------------------------------------------------------||Node 2430	grouping symbol	, Parent: B||
+------------------------------------------------------------------||Node 2433	V	none Parent: B||
+---------------------------------------------------------------------||Node 2432	S	none Parent: V||
+------------------------------------------------------------------------||Node 2431	user-defined name	passwd Parent: S||
+------------------------------------------------------------------||Node 2434	grouping symbol	) Parent: B||
+---------------------------------------------------------------||Node 2436	grouping symbol	) Parent: B||
+------------------------------------------------------------||Node 2438	grouping symbol	) Parent: W||
+------------------------------------------------------------||Node 2439	keyword	then Parent: W||
+------------------------------------------------------------||Node 2440	grouping symbol	{ Parent: W||
+------------------------------------------------------------||Node 2459	C	none Parent: W||
+---------------------------------------------------------------||Node 2449	C	none Parent: C||
+------------------------------------------------------------------||Node 2448	I	none Parent: C||
+---------------------------------------------------------------------||Node 2447	A	none Parent: I||
+------------------------------------------------------------------------||Node 2443	T	none Parent: A||
+---------------------------------------------------------------------------||Node 2442	S	none Parent: T||
+------------------------------------------------------------------------------||Node 2441	user-defined name	mes Parent: S||
+------------------------------------------------------------------------||Node 2444	assignment operator	= Parent: A||
+------------------------------------------------------------------------||Node 2446	U	none Parent: A||
+---------------------------------------------------------------------------||Node 2445	short string	"ok" Parent: U||
+---------------------------------------------------------------||Node 2450	grouping symbol	; Parent: C||
+---------------------------------------------------------------||Node 2458	I	none Parent: C||
+------------------------------------------------------------------||Node 2457	O	none Parent: I||
+---------------------------------------------------------------------||Node 2451	keyword	output Parent: O||
+---------------------------------------------------------------------||Node 2452	grouping symbol	( Parent: O||
+---------------------------------------------------------------------||Node 2455	V	none Parent: O||
+------------------------------------------------------------------------||Node 2454	S	none Parent: V||
+---------------------------------------------------------------------------||Node 2453	user-defined name	mes Parent: S||
+---------------------------------------------------------------------||Node 2456	grouping symbol	) Parent: O||
+------------------------------------------------------------||Node 2460	grouping symbol	} Parent: W||
+------------------------------------------------------------||Node 2461	keyword	else Parent: W||
+------------------------------------------------------------||Node 2462	grouping symbol	{ Parent: W||
+------------------------------------------------------------||Node 2475	C	none Parent: W||
+---------------------------------------------------------------||Node 2471	C	none Parent: C||
+------------------------------------------------------------------||Node 2470	I	none Parent: C||
+---------------------------------------------------------------------||Node 2469	O	none Parent: I||
+------------------------------------------------------------------------||Node 2463	keyword	output Parent: O||
+------------------------------------------------------------------------||Node 2464	grouping symbol	( Parent: O||
+------------------------------------------------------------------------||Node 2467	V	none Parent: O||
+---------------------------------------------------------------------------||Node 2466	S	none Parent: V||
+------------------------------------------------------------------------------||Node 2465	user-defined name	error Parent: S||
+------------------------------------------------------------------------||Node 2468	grouping symbol	) Parent: O||
+---------------------------------------------------------------||Node 2472	grouping symbol	; Parent: C||
+---------------------------------------------------------------||Node 2474	I	none Parent: C||
+------------------------------------------------------------------||Node 2473	keyword	halt Parent: I||
+------------------------------------------------------------||Node 2476	grouping symbol	} Parent: W||
+---------------------------------------------------||Node 2480	grouping symbol	} Parent: W||
+------------------------------------------||Node 2484	grouping symbol	} Parent: W||
+------------------------------||Node 2489	grouping symbol	} Parent: R||

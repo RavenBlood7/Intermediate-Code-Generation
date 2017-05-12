@@ -35,6 +35,9 @@ n10 = 5
 /'loop'/
 while0:
 On (1 - ((1 - ((n2 = n2) + 1)))) Goto endwhile0
+	Dim s6 As String
+	s6 = "instr"
+	Print s6
 	Input "Input: ", n11
 	/'if statement'/
 	On 1 - ((1 - ((n11 = n7) + 1))) Goto endif0
@@ -73,17 +76,17 @@ p1:
 	/'if statement'/
 	On 1 - ((1 - ((n3 = n1) + 1))) Goto notCondition5
 		n3 = n0
-		Dim s6 As String
-		s6 = "welcome"
-		Print s6
+		Dim s7 As String
+		s7 = "welcome"
+		Print s7
 	Goto endif5
 	notCondition5:
-		s6 = "account"
-		Print s6
-		s6 = "already"
-		Print s6
-		s6 = "exists"
-		Print s6
+		s7 = "account"
+		Print s7
+		s7 = "already"
+		Print s7
+		s7 = "exists"
+		Print s7
 	endif5:
 Return
 
@@ -93,9 +96,9 @@ p3:
 	On 1 - (((1 - ((n3 = n0) + 1)) AND (1 - ((n4 = n1) + 1)))) Goto notCondition6
 		n5 = n1
 		n3 = n1
-		Dim s7 As String
-		s7 = "good bye"
-		Print s7
+		Dim s8 As String
+		s8 = "good bye"
+		Print s8
 		End
 	Goto endif6
 	notCondition6:
@@ -120,9 +123,9 @@ p5:
 	/'if statement'/
 	On 1 - (((1 - ((n3 = n0) + 1)) AND (1 - ((n12 > n1) + 1)))) Goto notCondition8
 		n4 = (n4 + n12)
-		Dim s8 As String
-		s8 = "thanks"
-		Print s8
+		Dim s9 As String
+		s9 = "thanks"
+		Print s9
 	Goto endif8
 	notCondition8:
 		Print s1
@@ -135,9 +138,9 @@ p6:
 	/'if statement'/
 	On 1 - (((1 - ((n13 > n1) + 1)) AND ((1 - ((n3 = n0) + 1)) AND 1 - (1 - ((n4 < n13) + 1))))) Goto notCondition9
 		n4 = (n4 - n13)
-		Dim s9 As String
-		s9 = "done"
-		Print s9
+		Dim s10 As String
+		s10 = "done"
+		Print s10
 	Goto endif9
 	notCondition9:
 		Print s1
@@ -152,45 +155,45 @@ p0:
 	/'loop'/
 	while1:
 On (1 - ((1 - ((n15 < n14) + 1))	)) Goto endwhile1
-		Dim s10 As String
-		s10 = "not good"
-		Print s10
+		Dim s11 As String
+		s11 = "not good"
+		Print s11
 		Input "Input: ", n15
 	Goto while1
 	endwhile1:
 	n5 = n15
-	s10 = "noted"
-	Print s10
+	s11 = "noted"
+	Print s11
 Return
 
 /'proc def for p2 aka askpw'/
 p2:
-	Dim s11 As String
-	s11 = "1st try"
-	Print s11
+	Dim s12 As String
+	s12 = "1st try"
+	Print s12
 	Input "Input: ", n16
 	/'if statement'/
 	On 1 - (((1 - ((n16 > n1) + 1)) AND (1 - ((n16 = n5) + 1)))) Goto notCondition10
-		s11 = "ok"
-		Print s11
+		s12 = "ok"
+		Print s12
 	Goto endif10
 	notCondition10:
-		s11 = "2nd try"
-		Print s11
+		s12 = "2nd try"
+		Print s12
 		Input "Input: ", n16
 		/'if statement'/
 		On 1 - (((1 - ((n16 > n1) + 1)) AND (1 - ((n16 = n5) + 1)))) Goto notCondition11
-			s11 = "ok"
-			Print s11
+			s12 = "ok"
+			Print s12
 		Goto endif11
 		notCondition11:
-			s11 = "3rd try"
-			Print s11
+			s12 = "3rd try"
+			Print s12
 			Input "Input: ", n16
 			/'if statement'/
 			On 1 - (((1 - ((n16 > n1) + 1)) AND (1 - ((n16 = n5) + 1)))) Goto notCondition12
-				s11 = "ok"
-				Print s11
+				s12 = "ok"
+				Print s12
 			Goto endif12
 			notCondition12:
 				Print s1

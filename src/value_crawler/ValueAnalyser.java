@@ -3,6 +3,7 @@ package value_crawler;
 import parser.InfoTable;
 import parser.TableItem;
 import parser.TreeNode;
+import scope_crawler.ScopeAnalyser;
 import sun.reflect.generics.tree.Tree;
 
 import java.io.FileWriter;
@@ -54,7 +55,7 @@ public class ValueAnalyser {
         }
     }
 
-    public void doValueAnalysis(TreeNode node, InfoTable table)
+    public void doValueAnalysis(TreeNode node, InfoTable table) throws ScopeAnalyser.StringException
     {
         myTable = table;
         convertAllNames(myTable);
@@ -76,6 +77,7 @@ public class ValueAnalyser {
         {
             System.out.println("Value Analysis Error: " + e.e);
             System.out.println("Exiting value checker...\n");
+            throw new ScopeAnalyser.StringException(e.e);
         }
 
     }
