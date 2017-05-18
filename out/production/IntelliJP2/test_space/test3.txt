@@ -1,0 +1,7 @@
+proc g {
+	num = 5;
+	output(yes);
+	for(x = 0; x < y ; n = add(n,1)){
+		output(hi);
+	}
+}

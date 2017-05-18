@@ -1,0 +1,4 @@
+while((x<y)){
+	output(b);
+}
+output(n

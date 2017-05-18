@@ -1,0 +1,20 @@
+output(x)
+output(w)
+output(pp)
+var = "people"
+if( (x<y))
+then
+{
+	if(not and( eq(w,c) , (k<l)))
+	then{
+		output(x);
+	}
+	else {
+		for( c = 0 ; v<k ; x = add(x,1)){
+			output(v);
+		}
+	}
+}
+
+
+

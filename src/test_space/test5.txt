@@ -1,0 +1,16 @@
+x = 1;
+y="hello";
+z = y;
+z;
+input (x);
+output(x);
+if(eq(x,z))
+	then { x = mult(y,1);}
+
+if((x<z))
+	then { t  = sub(y,1);}
+	else{ f = add(i,8);}
+
+if(not and((q>c),not(f<v)))
+	then {f = add(i,8);}
+halt;

@@ -1,5 +1,6 @@
 
 
+import basic_optimizer.BasicOptimizer;
 import imc_generator.BasicGenerator;
 import parser.InfoTable;
 import scope_crawler.ScopeAnalyser;
@@ -62,6 +63,10 @@ public class Main
 					//intermediate code generation
 					BasicGenerator bg = new BasicGenerator();
 					bg.generateBasicCode(prsr.getRoot(), prsr.getTable());
+
+					//optimizing of basic code
+					BasicOptimizer bo = new BasicOptimizer();
+					bo.optimize();
 				}
 
 				//System.out.println("\n\nThe symbol table after scope analysis: \n" + prsr.getTable());

@@ -152,6 +152,7 @@ public class BasicGenerator {
                         + table.getNewName(node.getChild(1).getChild(0).getChild(0).tokenNo) + "\n");
                 System.out.print(getSetTabs(numTabs) + "Input \"Input: \", "
                         + table.getNewName(node.getChild(1).getChild(0).getChild(0).tokenNo) + "\n");
+                table.setDefined(table.getNewName(node.getChild(1).getChild(0).getChild(0).tokenNo));
             }
             else //is output
             {
